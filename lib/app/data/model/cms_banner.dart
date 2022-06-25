@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final cmsBanner = cmsBannerFromJson(jsonString);
-
 import 'dart:convert';
 
 List<CmsBanner> cmsBannerFromJson(String str) =>

@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final hinoPointIncluded = hinoPointIncludedFromJson(jsonString);
-
 import 'dart:convert';
 
 List<HinoPointIncluded> hinoPointIncludedFromJson(String str) =>

@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final profileConfiguration = profileConfigurationFromJson(jsonString);
-
 import 'dart:convert';
 
 List<ProfileConfiguration> profileConfigurationFromJson(String str) =>
