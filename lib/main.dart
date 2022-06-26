@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 
 import 'app/routes/app_pages.dart';
 import 'app/widgets/splash.dart';
-import 'app/providers/auth_custom.dart';
+import 'app/providers/auth.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,9 +20,7 @@ class MyApp extends StatelessWidget {
             return SplashScreen();
           } else {
             return MultiProvider(
-              providers: [
-                ChangeNotifierProvider(create: (ctx) => AuthCustom())
-              ],
+              providers: [ChangeNotifierProvider(create: (ctx) => Auth())],
               builder: (context, child) => GetMaterialApp(
                 title: "Application",
                 //initialRoute: AppPages.INITIAL,

@@ -3,7 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class AuthCustom with ChangeNotifier {
+class Auth with ChangeNotifier {
   Future<void> signup(String email, String password) async {
     Uri url = Uri.parse(dotenv.env['DEVELOPMENT_AUTH_HOST'] ?? "");
 
