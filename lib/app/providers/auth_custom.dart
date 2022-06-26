@@ -1,12 +1,11 @@
 import 'dart:convert';
-
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class Auth with ChangeNotifier {
+class AuthCustom with ChangeNotifier {
   Future<void> signup(String email, String password) async {
-    Uri url = Uri.parse(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyD1dZ4JCXE-v9rxCe0JuY1XwiBbLzFOI2E");
+    Uri url = Uri.parse(dotenv.env['DEVELOPMENT_AUTH_HOST'] ?? "");
 
     try {
       var response = await http.post(
@@ -14,7 +13,6 @@ class Auth with ChangeNotifier {
         body: json.encode({
           "email": email,
           "password": password,
-          "returnSecureToken": true,
         }),
       );
 
@@ -29,8 +27,12 @@ class Auth with ChangeNotifier {
   }
 
   Future<void> login(String email, String password) async {
-    Uri url = Uri.parse(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyD1dZ4JCXE-v9rxCe0JuY1XwiBbLzFOI2E");
+    Uri url = Uri.parse(dotenv.env['DEVELOPMENT_AUTH_HOST'] ?? "");
+    if (url == "") {
+      print("url is null " + url.toString());
+    } else {
+      print("url is not null " + url.toString());
+    }
 
     try {
       var response = await http.post(
@@ -38,7 +40,6 @@ class Auth with ChangeNotifier {
         body: json.encode({
           "email": email,
           "password": password,
-          "returnSecureToken": true,
         }),
       );
 

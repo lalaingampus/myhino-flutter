@@ -1,29 +1,29 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:flutter_login/flutter_login.dart';
 import 'package:get/get.dart';
 
+import '../../../providers/auth_custom.dart';
 import '../../home/views/home_view.dart';
-
 
 const users = const {
   'dribbble@gmail.com': '12345',
   'hunter@gmail.com': 'hunter',
 };
 
+class LoginView extends StatefulWidget {
+  @override
+  State<LoginView> createState() => _LoginViewState();
+}
 
-class LoginScreen extends StatelessWidget {
+class _LoginViewState extends State<LoginView> {
   Duration get loginTime => Duration(milliseconds: 2250);
 
   Future<String?> _authUser(LoginData data) {
-    debugPrint('Name: ${data.name}, Password: ${data.password}');
+    debugPrint('Phone: ${data.name}, Password: ${data.password}');
     return Future.delayed(loginTime).then((_) {
-      if (!users.containsKey(data.name)) {
-        return 'User not exists';
-      }
-      if (users[data.name] != data.password) {
-        return 'Password does not match';
-      }
+      Provider.of<AuthCustom>(context, listen: false)
+          .login(data.name, data.password);
       return null;
     });
   }
@@ -35,7 +35,7 @@ class LoginScreen extends StatelessWidget {
     });
   }
 
-  Future<String> _recoverPassword(String name) {
+  Future<String?> _recoverPassword(String name) {
     debugPrint('Name: $name');
     return Future.delayed(loginTime).then((_) {
       if (!users.containsKey(name)) {
@@ -48,8 +48,8 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FlutterLogin(
-      title: 'ECORP',
-      logo: AssetImage('assets/images/ecorp-lightblue.png'),
+      title: 'MyHino',
+      logo: AssetImage('assets/images/logo-hino-vertical.png'),
       onLogin: _authUser,
       onSignup: _signupUser,
       onSubmitAnimationCompleted: () {
@@ -58,6 +58,16 @@ class LoginScreen extends StatelessWidget {
         ));
       },
       onRecoverPassword: _recoverPassword,
+      theme: LoginTheme(
+          primaryColor: Colors.red,
+          accentColor: Colors.white,
+          cardTheme: CardTheme(
+            color: Colors.white,
+            elevation: 0,
+          ),
+          inputTheme: InputDecorationTheme(
+            contentPadding: EdgeInsets.zero,
+          )),
     );
   }
 }
