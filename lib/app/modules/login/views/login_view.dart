@@ -1,6 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:http/http.dart' as http;
 import 'package:get/get.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import '../../../providers/auth.dart';
 import '../../home/views/home_view.dart';
@@ -24,14 +28,43 @@ class _LoginViewState extends State<LoginView> {
   TextEditingController passwordController = TextEditingController();
   bool _passwordVisible = false;
 
-  // Future<String?> _authUser(LoginData data) {
-  //   debugPrint('Phone: ${data.name}, Password: ${data.password}');
-  //   return Future.delayed(loginTime).then((_) {
-  //     Provider.of<Auth>(context, listen: false)
-  //         .login(data.name, data.password);
-  //     return null;
-  //   });
-  // }
+  _authUser(String username, String password) async {
+    final GlobalKey<State> _keyLoader = GlobalKey<State>();
+
+    try {
+      final response =
+          await http.post(Uri.parse("dotenv.env['DEVELOPMENT_AUTH_HOST'] ?? "),
+              headers: {'Content-Type': 'application/json; charset=UTF-8'},
+              body: jsonEncode({
+                "username": username,
+                "password": password,
+              }));
+
+      final output = jsonDecode(response.body);
+      if (response.statusCode == 200) {
+        Navigator.of(_keyLoader.currentContext!, rootNavigator: false).pop();
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+              content: Text(
+            output['message'],
+            style: const TextStyle(fontSize: 16),
+          )),
+        );
+      } else {
+        Navigator.of(_keyLoader.currentContext!, rootNavigator: false).pop();
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+              content: Text(
+            output.toString(),
+            style: const TextStyle(fontSize: 16),
+          )),
+        );
+      }
+    } catch (e) {
+      Navigator.of(_keyLoader.currentContext!, rootNavigator: false).pop();
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -93,6 +126,7 @@ class _LoginViewState extends State<LoginView> {
                     padding: const EdgeInsets.all(10),
                     child: TextField(
                       controller: nameController,
+                      style: TextStyle(color: Colors.white),
                       decoration: const InputDecoration(
                           prefixIcon: Align(
                             widthFactor: 1.0,
@@ -111,7 +145,7 @@ class _LoginViewState extends State<LoginView> {
                                 BorderSide(color: Colors.white, width: 2.0),
                             borderRadius: BorderRadius.all(Radius.circular(20)),
                           ),
-                          labelText: 'User Name',
+                          labelText: 'Email/No.HP',
                           labelStyle: TextStyle(color: Colors.white)),
                     ),
                   ),
@@ -168,8 +202,8 @@ class _LoginViewState extends State<LoginView> {
                       child: ElevatedButton(
                         child: const Text('Log In'),
                         onPressed: () {
-                          print(nameController.text);
-                          print(passwordController.text);
+                          _authUser(
+                              nameController.text, passwordController.text);
                         },
                         style: ElevatedButton.styleFrom(
                             primary: Colors.red,

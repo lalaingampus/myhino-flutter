@@ -26,7 +26,7 @@ class Auth with ChangeNotifier {
     }
   }
 
-  Future<void> login(String email, String password) async {
+  doLogin(String email, String password) async {
     Uri url = Uri.parse(dotenv.env['DEVELOPMENT_AUTH_HOST'] ?? "");
     if (url == "") {
       print("url is null " + url.toString());
@@ -38,7 +38,7 @@ class Auth with ChangeNotifier {
       var response = await http.post(
         url,
         body: json.encode({
-          "email": email,
+          "username": email,
           "password": password,
         }),
       );
