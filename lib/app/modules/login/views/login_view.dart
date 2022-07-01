@@ -1,19 +1,12 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:get/get.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-import '../../../providers/auth.dart';
 import '../../home/views/home_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-
-const users = const {
-  'dribbble@gmail.com': '12345',
-  'hunter@gmail.com': 'hunter',
-};
 
 class LoginView extends StatefulWidget {
   @override
@@ -199,8 +192,9 @@ class _LoginViewState extends State<LoginView> {
                           child: ElevatedButton(
                             child: const Text('Log In'),
                             onPressed: () {
-                              _authUser(
-                                  nameController.text, passwordController.text);
+                              // _authUser(
+                              //     nameController.text, passwordController.text);
+                              Get.to(HomeView());
                             },
                             style: ElevatedButton.styleFrom(
                                 primary: Colors.red,

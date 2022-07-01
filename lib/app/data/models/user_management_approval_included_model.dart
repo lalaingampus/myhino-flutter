@@ -1,11 +1,11 @@
-class UserManagementApproval {
+class UserManagementApprovalIncluded {
   String? type;
   String? id;
   Class? attributes;
 
-  UserManagementApproval({this.type, this.id, this.attributes});
+  UserManagementApprovalIncluded({this.type, this.id, this.attributes});
 
-  UserManagementApproval.fromJson(Map<String, dynamic> json) {
+  UserManagementApprovalIncluded.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =
