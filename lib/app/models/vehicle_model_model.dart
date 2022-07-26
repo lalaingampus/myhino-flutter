@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class VehicleModel {
   String? type;
   String? id;
@@ -23,6 +26,7 @@ class VehicleModel {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? name;
   dynamic description;

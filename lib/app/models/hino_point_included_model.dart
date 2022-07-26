@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class HinoPointIncluded {
   String? type;
   String? id;
@@ -23,6 +26,7 @@ class HinoPointIncluded {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? email;
   String? nomorHandphone;

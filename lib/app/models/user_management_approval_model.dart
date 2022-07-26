@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class UserManagementApproval {
   String? type;
   String? id;
@@ -31,6 +34,7 @@ class UserManagementApproval {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? email;
   String? nomorHandphone;
@@ -212,6 +216,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class Relationships {
   Class? businessSegment;
   Class? jabatan;
@@ -251,6 +256,7 @@ class Relationships {
   }
 }
 
+@JsonSerializable()
 class BusinessSegment {
   Class? data;
 
@@ -288,6 +294,7 @@ class Data {
   }
 }
 
+@JsonSerializable()
 class ProfilePicture {
   dynamic data;
 

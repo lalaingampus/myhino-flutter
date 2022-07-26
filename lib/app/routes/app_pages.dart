@@ -16,6 +16,7 @@ import 'package:myhino/app/modules/signup/bindings/signup_binding.dart';
 import 'package:myhino/app/modules/signup/views/signup_view.dart';
 import 'package:myhino/app/modules/vehicle_management/bindings/vehicle_management_binding.dart';
 import 'package:myhino/app/modules/vehicle_management/views/vehicle_management_view.dart';
+import 'package:myhino/app/widgets/splash.dart';
 
 part 'app_routes.dart';
 
@@ -64,6 +65,10 @@ class AppPages {
       name: _Paths.VEHICLE_MANAGEMENT,
       page: () => VehicleManagementView(),
       binding: VehicleManagementBinding(),
+    ),
+    GetPage(
+      name: _Paths.VEHICLE_MANAGEMENT,
+      page: () => SplashScreen(),
     ),
   ];
 }

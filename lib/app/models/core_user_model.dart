@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class CoreUser {
   String? type;
   String? id;
@@ -30,6 +33,7 @@ class CoreUser {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? userId;
   String? name;

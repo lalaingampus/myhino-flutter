@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class CMSBanner {
   String? type;
   String? id;
@@ -30,6 +33,7 @@ class CMSBanner {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? sourceSystemNo;
   String? image;
@@ -79,6 +83,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class Relationships {
   Class? cmsStatus;
 
@@ -98,6 +103,7 @@ class Relationships {
   }
 }
 
+@JsonSerializable()
 class CmsStatus {
   dynamic data;
 

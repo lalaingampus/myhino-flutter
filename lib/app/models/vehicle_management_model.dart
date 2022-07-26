@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class VehicleManagement {
   String? type;
   String? id;
@@ -30,6 +33,7 @@ class VehicleManagement {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? inputOption;
   String? plateOrCabinNo;
@@ -139,6 +143,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class Relationships {
   Class? model;
 
@@ -157,6 +162,7 @@ class Relationships {
   }
 }
 
+@JsonSerializable()
 class Model {
   Class? data;
 
@@ -175,6 +181,7 @@ class Model {
   }
 }
 
+@JsonSerializable()
 class Data {
   String? type;
   String? id;

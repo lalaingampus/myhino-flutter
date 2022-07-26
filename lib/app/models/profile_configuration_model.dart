@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class ProfileConfiguration {
   String? type;
   String? id;
@@ -23,6 +26,7 @@ class ProfileConfiguration {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? aboutUsImagesId;
   String? aboutUsImagesOriginalFileName;
@@ -102,6 +106,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class AboutUsAttachment {
   int? id;
   String? uploadedFilename;

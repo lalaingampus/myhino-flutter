@@ -12,6 +12,7 @@ abstract class Routes {
   static const BOOKING_SERVICE = _Paths.BOOKING_SERVICE;
   static const CONTACT_US = _Paths.CONTACT_US;
   static const VEHICLE_MANAGEMENT = _Paths.VEHICLE_MANAGEMENT;
+  static const SPLASH_SCREEN = _Paths.SPLASH_SCREEN;
 }
 
 abstract class _Paths {
@@ -23,4 +24,5 @@ abstract class _Paths {
   static const BOOKING_SERVICE = '/booking-service';
   static const CONTACT_US = '/contact-us';
   static const VEHICLE_MANAGEMENT = '/vehicle-management';
+  static const SPLASH_SCREEN = '/splash';
 }

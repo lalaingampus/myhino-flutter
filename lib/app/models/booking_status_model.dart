@@ -1,11 +1,14 @@
-class VehicleManagementIncluded {
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
+class BookingStatus {
   String? type;
   String? id;
   Class? attributes;
 
-  VehicleManagementIncluded({this.type, this.id, this.attributes});
+  BookingStatus({this.type, this.id, this.attributes});
 
-  VehicleManagementIncluded.fromJson(Map<String, dynamic> json) {
+  BookingStatus.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =
@@ -23,43 +26,28 @@ class VehicleManagementIncluded {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? name;
-  String? description;
-  int? seriesId;
-  String? seriesName;
-  String? imageModel;
   dynamic createdBy;
-  String? updatedBy;
+  dynamic updatedBy;
+  String? description;
 
-  Attributes(
-      {this.name,
-      this.description,
-      this.seriesId,
-      this.seriesName,
-      this.imageModel,
-      this.createdBy,
-      this.updatedBy});
+  Attributes({this.name, this.createdBy, this.updatedBy, this.description});
 
   Attributes.fromJson(Map<String, dynamic> json) {
     name = json['name'];
-    description = json['description'];
-    seriesId = json['series-id'];
-    seriesName = json['series-name'];
-    imageModel = json['image-model'];
     createdBy = json['created-by'];
     updatedBy = json['updated-by'];
+    description = json['description'];
   }
 
   Map<String, dynamic> toJson() {
     final data = <String, dynamic>{};
     data['name'] = name;
-    data['description'] = description;
-    data['series-id'] = seriesId;
-    data['series-name'] = seriesName;
-    data['image-model'] = imageModel;
     data['created-by'] = createdBy;
     data['updated-by'] = updatedBy;
+    data['description'] = description;
     return data;
   }
 }

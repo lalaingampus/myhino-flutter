@@ -1,3 +1,7 @@
+import 'package:json_serializable/json_serializable.dart';
+import 'core_user_model.dart' as CoreUser;
+
+@JsonSerializable()
 class HinoPoint {
   String? type;
   String? id;
@@ -30,6 +34,7 @@ class HinoPoint {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? userNamesId;
   String? userNamesName;
@@ -83,6 +88,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class Relationships {
   Class? coreUser;
 
@@ -102,24 +108,7 @@ class Relationships {
   }
 }
 
-class CoreUser {
-  Class? data;
-
-  CoreUser({this.data});
-
-  CoreUser.fromJson(Map<String, dynamic> json) {
-    data = json['data'] != null ? Class?.fromJson(json['data']) : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    if (data != null) {
-      data['data'] = data.toJson();
-    }
-    return data;
-  }
-}
-
+@JsonSerializable()
 class Data {
   String? type;
   String? id;

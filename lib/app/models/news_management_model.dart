@@ -1,3 +1,6 @@
+import 'package:json_serializable/json_serializable.dart';
+
+@JsonSerializable()
 class NewsManagement {
   String? type;
   String? id;
@@ -30,6 +33,7 @@ class NewsManagement {
   }
 }
 
+@JsonSerializable()
 class Attributes {
   String? tittle;
   String? startTime;
@@ -141,6 +145,7 @@ class Attributes {
   }
 }
 
+@JsonSerializable()
 class Relationships {
   Class? status;
   Class? image;
