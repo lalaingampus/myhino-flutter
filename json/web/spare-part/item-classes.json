@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "type": "item-classes",
+            "id": "AC",
+            "attributes": {
+                "name": "Accessories",
+                "background-hex": "#E3E3E3",
+                "font-hex": "#666666",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "CM",
+            "attributes": {
+                "name": "Consumable Material",
+                "background-hex": "#FFF2B2",
+                "font-hex": "#796916",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "EQ",
+            "attributes": {
+                "name": "Equipment",
+                "background-hex": "#BFFFB2",
+                "font-hex": "#4C6647",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "MT",
+            "attributes": {
+                "name": "Material",
+                "background-hex": "#FFDB99",
+                "font-hex": "#664200",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "OL",
+            "attributes": {
+                "name": "Oil",
+                "background-hex": "#FFCCCC",
+                "font-hex": "#CC6666",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "SP",
+            "attributes": {
+                "name": "Sparepart",
+                "background-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "item-classes",
+            "id": "SV",
+            "attributes": {
+                "name": "Souvenir",
+                "background-hex": "#E5CCFF",
+                "font-hex": "#472966",
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ]
+}

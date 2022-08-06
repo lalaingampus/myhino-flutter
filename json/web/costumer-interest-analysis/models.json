@@ -1,0 +1,1850 @@
+{
+    "data": [
+        {
+            "type": "models",
+            "id": "9402",
+            "attributes": {
+                "name": "110 SDL New",
+                "description": "110 SDL New",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/dutro-110-sdl7.png",
+                "created-by": null,
+                "updated-by": "12683"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9995",
+            "attributes": {
+                "name": "115HD - Euro4",
+                "description": "115HD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HD-Dump_Caro_HIRES3.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9978",
+            "attributes": {
+                "name": "115 LD STD - Euro4",
+                "description": "115 LD STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HD-Mixer-min1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9990",
+            "attributes": {
+                "name": "115 SDBL STD - Euro4",
+                "description": "115 SDBL STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/115SDBL_Travel.jpg",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9988",
+            "attributes": {
+                "name": "115 SDB STD - Euro4",
+                "description": "115 SDB STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/115SDBL_Travel3.jpg",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9970",
+            "attributes": {
+                "name": "115 SDL STD - Euro4",
+                "description": "115 SDL STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/115SDL.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9969",
+            "attributes": {
+                "name": "115 SDR STD - Euro4",
+                "description": "115 SDR STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/115SDR-Box_(1).png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9973",
+            "attributes": {
+                "name": "115 SD STD - Euro4",
+                "description": "115 SD STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/115SDR-Box_(1)1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9392",
+            "attributes": {
+                "name": "130 HD New",
+                "description": "130 HD New",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_HD_Dump_LSD_024.png",
+                "created-by": null,
+                "updated-by": "12683"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9996",
+            "attributes": {
+                "name": "136HD - Euro4",
+                "description": "136HD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HD-Dump_Caro_HIRES-min.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9964",
+            "attributes": {
+                "name": "136 HDL - Euro4",
+                "description": "136 HDL - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HDL_cargo_Low.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9994",
+            "attributes": {
+                "name": "136 HDX - Euro4",
+                "description": "136 HDX - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HD-Mixer_low1.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9997",
+            "attributes": {
+                "name": "136HDX LSD - Euro4",
+                "description": "136HDX LSD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Hino_Dutro_136HD-LSD.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9963",
+            "attributes": {
+                "name": "136 HDX MIXER - Euro4",
+                "description": "136 HDX MIXER - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136HD-Mixer_Caro_FINAL.jpg",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9981",
+            "attributes": {
+                "name": "136 MDBL STD - Euro4",
+                "description": "136 MDBL STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_GB_rev2.jpg",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9972",
+            "attributes": {
+                "name": "136 MDL STD - Euro4",
+                "description": "136 MDL STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136MDL-Box_.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9971",
+            "attributes": {
+                "name": "136 MD STD - Euro4",
+                "description": "136 MD STD - Euro4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/136MDL-Box_1.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9406",
+            "attributes": {
+                "name": "A 215 - Euro2",
+                "description": "A 215 - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/r2601.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9948",
+            "attributes": {
+                "name": "AK240 STD - Euro4",
+                "description": "AK240 STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_AK_rev2.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9383",
+            "attributes": {
+                "name": "DUTRO 110 HD - Euro2",
+                "description": "DUTRO 110 HD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_HD_Dump_Stic_Emblem21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9391",
+            "attributes": {
+                "name": "DUTRO 110 HD New",
+                "description": "DUTRO 110 HD New",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_HD_Dump_LSD_021.png",
+                "created-by": null,
+                "updated-by": "5846"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9381",
+            "attributes": {
+                "name": "DUTRO 110 LD - Euro2",
+                "description": "DUTRO 110 LD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/110_LD21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9384",
+            "attributes": {
+                "name": "DUTRO 110 LDL - Euro2",
+                "description": "DUTRO 110 LDL - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_MDL_Box_Besi_Stic_Emblem_2021210.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9398",
+            "attributes": {
+                "name": "Dutro 110 SD - Euro2",
+                "description": "Dutro 110 SD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/downsize44.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9379",
+            "attributes": {
+                "name": "DUTRO 110 SDL - Euro2",
+                "description": "DUTRO 110 SDL - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_110_SDL_Stic_Emblem_202121.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9403",
+            "attributes": {
+                "name": "DUTRO 110 SDR - Euro2",
+                "description": "DUTRO 110 SDR - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/downsize41.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9387",
+            "attributes": {
+                "name": "DUTRO 130 HD 4 x 4 - Euro2",
+                "description": "DUTRO 130 HD 4 x 4 - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_130_HD_4x4_Stic_Emblem21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9395",
+            "attributes": {
+                "name": "DUTRO 130 HD Cargo - Euro2",
+                "description": "DUTRO 130 HD Cargo - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_130HDL_Revisi_Box_Alumunium_Stic_emblem21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9388",
+            "attributes": {
+                "name": "DUTRO 130 HD - Euro2",
+                "description": "DUTRO 130 HD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_HD_Dump_Stic_Emblem24.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9935",
+            "attributes": {
+                "name": "Dutro 130 HDL 4x4",
+                "description": "Dutro 130 HDL 4x4",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_130_HD_4x4_Stic_Emblem2.png",
+                "created-by": null,
+                "updated-by": "11"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9397",
+            "attributes": {
+                "name": "DUTRO 130 HDL Cargo - Euro2",
+                "description": "DUTRO 130 HDL Cargo - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_130_HDL_Bak_Besi_Stic_Emblem2.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9393",
+            "attributes": {
+                "name": "DUTRO 130 HD LSD - Euro2",
+                "description": "DUTRO 130 HD LSD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_HD_Dump_LSD_Stic_Emblem21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9382",
+            "attributes": {
+                "name": "DUTRO 130 HD MIXER - Euro2",
+                "description": "DUTRO 130 HD MIXER - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_130_HD_Mixer_02_Stic_Emblem24.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9449",
+            "attributes": {
+                "name": "Dutro 130 HD Plantation - Euro2",
+                "description": "Dutro 130 HD Plantation - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/with_body_copy2.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9394",
+            "attributes": {
+                "name": "DUTRO 130 HD X-Power - Euro2",
+                "description": "DUTRO 130 HD X-Power - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/New_Dutro_X_Power_HD_Dump__Stic_Emblem21.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9390",
+            "attributes": {
+                "name": "DUTRO 130 MD - Euro2",
+                "description": "DUTRO 130 MD - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_MDL_Box_Besi_Stic_Emblem_202124.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9389",
+            "attributes": {
+                "name": "DUTRO 130 MDL - Euro2",
+                "description": "DUTRO 130 MDL - Euro2",
+                "series-id": 5,
+                "series-name": "Dutro",
+                "image-model": "\/assets\/uploads\/products\/Dutro_MDL_Box_Besi_Stic_Emblem_202127.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9377",
+            "attributes": {
+                "name": "DUTRO BUS 110 SDB - Euro2",
+                "description": "DUTRO BUS 110 SDB - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/sdb2.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9378",
+            "attributes": {
+                "name": "DUTRO BUS 110 SDBL - Euro2",
+                "description": "DUTRO BUS 110 SDBL - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/sdb211.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9365",
+            "attributes": {
+                "name": "DUTRO BUS 130 MDBL - Euro2",
+                "description": "DUTRO BUS 130 MDBL - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/sdb7.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9409",
+            "attributes": {
+                "name": "FB 130 - Euro2",
+                "description": "FB 130 - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/fb1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9404",
+            "attributes": {
+                "name": "FC 190 J - Euro2",
+                "description": "FC 190 J - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/DSC_7100b1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9408",
+            "attributes": {
+                "name": "FC Bus - Euro2",
+                "description": "FC Bus - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/fc-bus-no-back1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "10007",
+            "attributes": {
+                "name": "FF 172 MA",
+                "description": "FF 172 MA",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": null,
+                "created-by": "1",
+                "updated-by": null
+            }
+        },
+        {
+            "type": "models",
+            "id": "10008",
+            "attributes": {
+                "name": "FF 172 NA",
+                "description": "FF 172 NA",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": null,
+                "created-by": "1",
+                "updated-by": null
+            }
+        },
+        {
+            "type": "models",
+            "id": "10009",
+            "attributes": {
+                "name": "FF 173 MA",
+                "description": "FF 173 MA",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": null,
+                "created-by": "1",
+                "updated-by": null
+            }
+        },
+        {
+            "type": "models",
+            "id": "10010",
+            "attributes": {
+                "name": "FF 173 NA",
+                "description": "FF 173 NA",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": null,
+                "created-by": "1",
+                "updated-by": null
+            }
+        },
+        {
+            "type": "models",
+            "id": "9432",
+            "attributes": {
+                "name": "FG 235 JJ - Euro2",
+                "description": "FG 235 JJ - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_dump_Revisi_514LFRIDN001D1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9430",
+            "attributes": {
+                "name": "FG 235 JK - Euro2",
+                "description": "FG 235 JK - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture61.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9412",
+            "attributes": {
+                "name": "FG 235 JL - Euro2",
+                "description": "FG 235 JL - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture610.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9414",
+            "attributes": {
+                "name": "FG 235 JP - Euro2",
+                "description": "FG 235 JP - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture615.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9415",
+            "attributes": {
+                "name": "FG 235 JS - Euro2",
+                "description": "FG 235 JS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture628.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9374",
+            "attributes": {
+                "name": "FG 235 JU - Euro2",
+                "description": "FG 235 JU - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG235JU1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9351",
+            "attributes": {
+                "name": "FG 235 T\/H - Euro2",
+                "description": "FG 235 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9947",
+            "attributes": {
+                "name": "FG 240 JP - Euro4",
+                "description": "FG 240 JP - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ25.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9367",
+            "attributes": {
+                "name": "FG 245 JK ABS - Euro2",
+                "description": "FG 245 JK ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture67.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9411",
+            "attributes": {
+                "name": "FG 245 JK - Euro2",
+                "description": "FG 245 JK - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture64.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9413",
+            "attributes": {
+                "name": "FG 245 JL - Euro2",
+                "description": "FG 245 JL - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture613.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9429",
+            "attributes": {
+                "name": "FG 245 JP",
+                "description": "FG 245 JP",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture619.png",
+                "created-by": null,
+                "updated-by": "11"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9991",
+            "attributes": {
+                "name": "FG 245 JP - Euro2",
+                "description": "FG 245 JP - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture634.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9416",
+            "attributes": {
+                "name": "FG 245 JS - Euro2",
+                "description": "FG 245 JS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture622.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9352",
+            "attributes": {
+                "name": "FG 245 T\/H - Euro2",
+                "description": "FG 245 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def3.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9952",
+            "attributes": {
+                "name": "FG 260 JJ - Euro4",
+                "description": "FG 260 JJ - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ18.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9975",
+            "attributes": {
+                "name": "FG 260 JK - Euro4",
+                "description": "FG 260 JK - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ24.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9976",
+            "attributes": {
+                "name": "FG 260 JL - Euro4",
+                "description": "FG 260 JL - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ23.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9417",
+            "attributes": {
+                "name": "FG 260 JM - Euro2",
+                "description": "FG 260 JM - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture630.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9979",
+            "attributes": {
+                "name": "FG 260 JM - Euro4",
+                "description": "FG 260 JM - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ22.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9974",
+            "attributes": {
+                "name": "FG 260 JP - Euro4",
+                "description": "FG 260 JP - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ26.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9977",
+            "attributes": {
+                "name": "FG 260 JS - Euro4",
+                "description": "FG 260 JS - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JJ21.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "10014",
+            "attributes": {
+                "name": "FG 260 JU - Euro4",
+                "description": "FG 260 JU - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260JU_Chassis-min.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9960",
+            "attributes": {
+                "name": "FG 260 TH - Euro4",
+                "description": "FG 260 TH - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FG260TH_(1).png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9428",
+            "attributes": {
+                "name": "FG 265 JM - Euro2",
+                "description": "FG 265 JM - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture625.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9427",
+            "attributes": {
+                "name": "FL 235 JN - Euro2",
+                "description": "FL 235 JN - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture87.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9419",
+            "attributes": {
+                "name": "FL 235 JW - Euro2",
+                "description": "FL 235 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture716.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9418",
+            "attributes": {
+                "name": "FL 245 JN ABS - Euro2",
+                "description": "FL 245 JN ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture815.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9934",
+            "attributes": {
+                "name": "FL 245 JN - Euro2",
+                "description": "FL 245 JN - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture819.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9368",
+            "attributes": {
+                "name": "FL 245 JW ABS - Euro2",
+                "description": "FL 245 JW ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture710.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9423",
+            "attributes": {
+                "name": "FL 245 JW - Euro2",
+                "description": "FL 245 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture713.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9982",
+            "attributes": {
+                "name": "FL 260 JN - Euro4",
+                "description": "FL 260 JN - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Ranger_FL2.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9426",
+            "attributes": {
+                "name": "FL 260 JT - Euro2",
+                "description": "FL 260 JT - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture91.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9424",
+            "attributes": {
+                "name": "FL 260 JW - Euro2",
+                "description": "FL 260 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture71.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9949",
+            "attributes": {
+                "name": "FL 260 JW - Euro4",
+                "description": "FL 260 JW - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Ranger_FL1.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9420",
+            "attributes": {
+                "name": "FL 265 JW - Euro2",
+                "description": "FL 265 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture74.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9983",
+            "attributes": {
+                "name": "FL 280 JT - Euro4",
+                "description": "FL 280 JT - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Ranger_FL.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9984",
+            "attributes": {
+                "name": "FL 280 JW - Euro4",
+                "description": "FL 280 JW - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FL280JW_med.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "10013",
+            "attributes": {
+                "name": "FLE 260 JW - Euro4",
+                "description": "FLE 260 JW - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FLE_260_JW.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9376",
+            "attributes": {
+                "name": "FLX 260 JW (8x2) - Euro2",
+                "description": "FLX 260 JW (8x2) - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/flx260jw_8x2_jpg1.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "10016",
+            "attributes": {
+                "name": "FLX 280 JW - Euro4",
+                "description": "FLX 280 JW - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FLX280JW-min.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9433",
+            "attributes": {
+                "name": "FM 235 JD - Euro2",
+                "description": "FM 235 JD - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_rigid_Revisi_514LFRIDN001D1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9341",
+            "attributes": {
+                "name": "FM 260 JD - Euro2",
+                "description": "FM 260 JD - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_rigid_Revisi_514LFRIDN001D7.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9985",
+            "attributes": {
+                "name": "FM 260 JD - Euro4",
+                "description": "FM 260 JD - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JD_L_Final-022.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9345",
+            "attributes": {
+                "name": "FM 260 JD (Mining) - Euro2",
+                "description": "FM 260 JD (Mining) - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_rigid_Revisi_514LFRIDN001D13.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9348",
+            "attributes": {
+                "name": "FM 260 JM - Euro2",
+                "description": "FM 260 JM - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_mixer_514LFRIDN001M1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9422",
+            "attributes": {
+                "name": "FM 260 JW - Euro2",
+                "description": "FM 260 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture81.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9355",
+            "attributes": {
+                "name": "FM 265 T\/H ABS - Euro2",
+                "description": "FM 265 T\/H ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_highblow_Revisi-514LFRIDN001T.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9371",
+            "attributes": {
+                "name": "FM 265 T\/H - Euro2",
+                "description": "FM 265 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_LPGtank_514LNRIDN001T_-Revisi-Win-def491925.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9955",
+            "attributes": {
+                "name": "FM 280 JD ABS - Euro4",
+                "description": "FM 280 JD ABS - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JD_L_Final-02.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9954",
+            "attributes": {
+                "name": "FM 280 JD - Euro4",
+                "description": "FM 280 JD - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JD_L_Final-021.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9956",
+            "attributes": {
+                "name": "FM 280 JD (Mining Spec) - Euro4",
+                "description": "FM 280 JD (Mining Spec) - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JD-mining_spek-dump-white.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9986",
+            "attributes": {
+                "name": "FM 280 JL - Euro4",
+                "description": "FM 280 JL - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JM-Cement_HIRES.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9959",
+            "attributes": {
+                "name": "FM 280 JM - Euro4",
+                "description": "FM 280 JM - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JM-Cement_HIRES_copy.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9951",
+            "attributes": {
+                "name": "FM 280 JW - Euro4",
+                "description": "FM 280 JW - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280JW_HIRES_copy.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9989",
+            "attributes": {
+                "name": "FM 280 TH - Euro4",
+                "description": "FM 280 TH - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM280TH.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9344",
+            "attributes": {
+                "name": "FM 285 JD - Euro2",
+                "description": "FM 285 JD - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_rigid_Revisi_514LFRIDN001D10.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9349",
+            "attributes": {
+                "name": "FM 285 JM - Euro2",
+                "description": "FM 285 JM - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_mixer_514LFRIDN001M3.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9421",
+            "attributes": {
+                "name": "FM 285 JW - Euro2",
+                "description": "FM 285 JW - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/Picture84.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9356",
+            "attributes": {
+                "name": "FM 285 T\/H ABS - Euro2",
+                "description": "FM 285 T\/H ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_highblow_Revisi-514LFRIDN001T3.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9372",
+            "attributes": {
+                "name": "FM 285 T\/H - Euro2",
+                "description": "FM 285 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_LPGtank_514LNRIDN001T_-Revisi-Win-def491927.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9958",
+            "attributes": {
+                "name": "FM 340 PD - Euro4",
+                "description": "FM 340 PD - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM340PD_(1).png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9957",
+            "attributes": {
+                "name": "FM 340 PL - Euro4",
+                "description": "FM 340 PL - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM340PD_(1)1.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9980",
+            "attributes": {
+                "name": "FM 340 TH - Euro4",
+                "description": "FM 340 TH - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FM340TH_HIRES.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9340",
+            "attributes": {
+                "name": "FM 350 PD (Mining) - Euro2",
+                "description": "FM 350 PD (Mining) - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_scooper_Revisi_514HFRIDN001D4.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9339",
+            "attributes": {
+                "name": "FM 350 PL (Mining) - Euro2",
+                "description": "FM 350 PL (Mining) - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_scooper_Revisi_514HFRIDN001D1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9357",
+            "attributes": {
+                "name": "FM 350 T\/H ABS - Euro2",
+                "description": "FM 350 T\/H ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_container_514HNRIDN001T.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9373",
+            "attributes": {
+                "name": "FM 350 T\/H - Euro2",
+                "description": "FM 350 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_container_514HNRIDN001T4.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "10015",
+            "attributes": {
+                "name": "FMX 280 TH - Euro4",
+                "description": "FMX 280 TH - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/FMX_280_TH-min.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9967",
+            "attributes": {
+                "name": "GB150 AT - Euro4",
+                "description": "GB150 AT - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_GB_rev2-min6.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9965",
+            "attributes": {
+                "name": "GB150 - Euro4",
+                "description": "GB150 - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_GB_rev2-min.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9968",
+            "attributes": {
+                "name": "GB150 L AT - Euro4",
+                "description": "GB150 L AT - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_GB_rev2-min9.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9966",
+            "attributes": {
+                "name": "GB150 L - Euro4",
+                "description": "GB150 L - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_GB_rev2-min3.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9350",
+            "attributes": {
+                "name": "GY 350 PU - Euro2",
+                "description": "GY 350 PU - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/GY1.jpg",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9375",
+            "attributes": {
+                "name": "R 260 AS - Euro2",
+                "description": "R 260 AS - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/R_260_Air_susr1.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9410",
+            "attributes": {
+                "name": "R 260 - Euro2",
+                "description": "R 260 - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/r2604.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9953",
+            "attributes": {
+                "name": "RK280 ABS - Euro4",
+                "description": "RK280 ABS - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_RK_rev23.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9950",
+            "attributes": {
+                "name": "RK280 STD - Euro4",
+                "description": "RK280 STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_RK_rev2.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9962",
+            "attributes": {
+                "name": "RM280 ABS - Euro4",
+                "description": "RM280 ABS - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_RK_rev29.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9961",
+            "attributes": {
+                "name": "RM280 STD - Euro4",
+                "description": "RM280 STD - Euro4",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/HINO_RK_rev26.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9405",
+            "attributes": {
+                "name": "RN 285 AT - Euro2",
+                "description": "RN 285 AT - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/rn2851.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9407",
+            "attributes": {
+                "name": "RN 285 - Euro2",
+                "description": "RN 285 - Euro2",
+                "series-id": 8,
+                "series-name": "Bus",
+                "image-model": "\/assets\/uploads\/products\/rn2854.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9358",
+            "attributes": {
+                "name": "SG 260 T\/H ABS - Euro2",
+                "description": "SG 260 T\/H ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def12.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9353",
+            "attributes": {
+                "name": "SG 260 T\/H - Euro2",
+                "description": "SG 260 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def7.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9987",
+            "attributes": {
+                "name": "SG 280 TH - Euro4",
+                "description": "SG 280 TH - Euro4",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/SG260TH.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9354",
+            "attributes": {
+                "name": "SG 285 T\/H ABS - Euro2",
+                "description": "SG 285 T\/H ABS - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def9.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9370",
+            "attributes": {
+                "name": "SG 285 T\/H - Euro2",
+                "description": "SG 285 T\/H - Euro2",
+                "series-id": 6,
+                "series-name": "Ranger",
+                "image-model": "\/assets\/uploads\/products\/EX_carrier_514LNRIDN001T_Revisi-Win-Def16.png",
+                "created-by": null,
+                "updated-by": "12"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9359",
+            "attributes": {
+                "name": "SS1E TH - Euro2",
+                "description": "SS1E TH - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/SS1E-01.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9360",
+            "attributes": {
+                "name": "SV 4145 - Euro2",
+                "description": "SV 4145 - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/SV.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9362",
+            "attributes": {
+                "name": "ZS 4141 A\/T - Euro2",
+                "description": "ZS 4141 A\/T - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZS4141_FINAL6.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9361",
+            "attributes": {
+                "name": "ZS 4141 - Euro2",
+                "description": "ZS 4141 - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZS4141_FINAL3.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9993",
+            "attributes": {
+                "name": "ZS4141 - Euro4",
+                "description": "ZS4141 - Euro4",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZS4141_FINAL-min.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9364",
+            "attributes": {
+                "name": "ZY 5041 A\/T - Euro2",
+                "description": "ZY 5041 A\/T - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZY5041-A_FINAL.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9363",
+            "attributes": {
+                "name": "ZY 5041 - Euro2",
+                "description": "ZY 5041 - Euro2",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZS4141_FINAL.jpg",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        },
+        {
+            "type": "models",
+            "id": "9992",
+            "attributes": {
+                "name": "ZY5041 - Euro4",
+                "description": "ZY5041 - Euro4",
+                "series-id": 7,
+                "series-name": "Profia",
+                "image-model": "\/assets\/uploads\/products\/ZY5041-A_FINAL-min.png",
+                "created-by": null,
+                "updated-by": "10"
+            }
+        }
+    ]
+}

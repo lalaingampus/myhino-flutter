@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "type": "business-segments",
+            "id": "AGRICULTURE",
+            "attributes": {
+                "name": "Agriculture",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "BUS",
+            "attributes": {
+                "name": "Bus",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "CONSTRUCTION",
+            "attributes": {
+                "name": "Construction",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "GOVERNMENT",
+            "attributes": {
+                "name": "Government",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "MANUFACTURE",
+            "attributes": {
+                "name": "Manufacture",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "MINING",
+            "attributes": {
+                "name": "Mining",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "PARTSHOP",
+            "attributes": {
+                "name": "Partshop",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "EKSPEDISI",
+            "attributes": {
+                "name": "Ekspedisi",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "TRANSPORTASI",
+            "attributes": {
+                "name": "Transportasi",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "TAMBANG",
+            "attributes": {
+                "name": "Tambang",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "business-segments",
+            "id": "GENERAL_TRANSPORT",
+            "attributes": {
+                "name": "General Transport",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        }
+    ]
+}

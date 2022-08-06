@@ -1,0 +1,42 @@
+[
+    {
+        "category": "Vehicle Management",
+        "value": 15
+    },
+    {
+        "category": "Hino Training Centre",
+        "value": 10
+    },
+    {
+        "category": "Booking Service",
+        "value": 9
+    },
+    {
+        "category": "Jaringan Dealer",
+        "value": 3
+    },
+    {
+        "category": "Contact Us",
+        "value": 3
+    },
+    {
+        "category": "Euro 4",
+        "value": 2
+    },
+    {
+        "category": "Telematics",
+        "value": 1
+    },
+    {
+        "category": "Berita dan Promosi",
+        "value": 1
+    },
+    {
+        "category": "Suku Cadang",
+        "value": 1
+    },
+    {
+        "category": "Produk",
+        "value": 1
+    }
+]

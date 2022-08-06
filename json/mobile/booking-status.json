@@ -1,0 +1,54 @@
+{
+    "data": [
+      {
+        "type": "booking-statuses",
+        "id": "4",
+        "attributes": {
+          "name": "CANCELLED_BY_CUSTOMER",
+          "created-by": null,
+          "updated-by": null,
+          "description": "Cancelled By Customer"
+        }
+      },
+      {
+        "type": "booking-statuses",
+        "id": "1",
+        "attributes": {
+          "name": "ACCEPTED",
+          "created-by": null,
+          "updated-by": null,
+          "description": "Accepted"
+        }
+      },
+      {
+        "type": "booking-statuses",
+        "id": "2",
+        "attributes": {
+          "name": "SENT",
+          "created-by": null,
+          "updated-by": null,
+          "description": "Sent"
+        }
+      },
+      {
+        "type": "booking-statuses",
+        "id": "3",
+        "attributes": {
+          "name": "CANCELLED",
+          "created-by": null,
+          "updated-by": null,
+          "description": "Cancelled"
+        }
+      },
+      {
+        "type": "booking-statuses",
+        "id": "5",
+        "attributes": {
+          "name": "DRAFT",
+          "created-by": null,
+          "updated-by": null,
+          "description": "Draft"
+        }
+      }
+    ]
+  }

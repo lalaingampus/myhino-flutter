@@ -1,0 +1,189 @@
+{
+    "data": [
+        {
+            "type": "voucher-allocations",
+            "id": "1139",
+            "attributes": {
+                "voucher-id": "VT964024",
+                "kode-voucher": "8435 1220 3435 1265",
+                "nama-lengkap": "Jibanto Hartanto",
+                "alamat-email": "jibanto.hartanto@ambersof.com",
+                "nomor-handphone": "087889362888",
+                "referral-code": "VHMSI1",
+                "email-validation": true,
+                "account-verified": true,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "1142",
+            "attributes": {
+                "voucher-id": "VT966010",
+                "kode-voucher": "8565 0620 3847 4883",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "1141",
+            "attributes": {
+                "voucher-id": "VT965126",
+                "kode-voucher": "8851 2420 3851 2409",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "1140",
+            "attributes": {
+                "voucher-id": "VT965115",
+                "kode-voucher": "8430 4520 3702 8755",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "18",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/10",
+                "kode-voucher": "TEST-VOUCHER-0010",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "8",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/08",
+                "kode-voucher": "TEST-VOUCHER-0008",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "3",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/03",
+                "kode-voucher": "TEST-VOUCHER-0003",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "5",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/05",
+                "kode-voucher": "TEST-VOUCHER-0005",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "9",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/09",
+                "kode-voucher": "TEST-VOUCHER-0009",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "voucher-allocations",
+            "id": "6",
+            "attributes": {
+                "voucher-id": "TEST\/VOUCHER\/06",
+                "kode-voucher": "TEST-VOUCHER-0006",
+                "nama-lengkap": null,
+                "alamat-email": null,
+                "nomor-handphone": null,
+                "referral-code": null,
+                "email-validation": null,
+                "account-verified": null,
+                "nama-perusahaan": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 12,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 2
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/voucher-allocations?filter=&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/voucher-allocations?filter=&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/voucher-allocations?filter=&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/voucher-allocations?filter=&per_page=10&page=2"
+    }
+}

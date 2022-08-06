@@ -1,0 +1,165 @@
+{
+    "general": [
+        {
+            "dealer_name": "PT Trans Indo Utama - Tebing Tinggi",
+            "cms_dealer_id": "7530",
+            "ACCEPTED": 0,
+            "DRAFT": 1,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Indomobil Prima Niaga-Surabaya (PT Indosurya Perkasa Gemilang) - Jember (Indosurya Perkasa Gemilang)",
+            "cms_dealer_id": "7532",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Indomobil Cahaya Prima (PT Timor Transindo Pratama) - Ruteng",
+            "cms_dealer_id": "7533",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 1,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Catur Kokoh Mobil Nasional - Tulungagung",
+            "cms_dealer_id": "7534",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Persada Palembang Raya - PUSRI",
+            "cms_dealer_id": "7535",
+            "ACCEPTED": 0,
+            "DRAFT": 1,
+            "CANCELLED_BY_CUSTOMER": 1,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Bypassindo Jaya Indah - Jakarta",
+            "cms_dealer_id": "7543",
+            "ACCEPTED": 0,
+            "DRAFT": 1,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Hibaindo Armada Motor Cakung - Jakarta Timur",
+            "cms_dealer_id": "7544",
+            "ACCEPTED": 0,
+            "DRAFT": 1,
+            "CANCELLED_BY_CUSTOMER": 2,
+            "CANCELLED": 5,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Persada Palembang Raya - Baturaja",
+            "cms_dealer_id": "7562",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Hino Motors Sales Indonesia - Tangerang",
+            "cms_dealer_id": "7654",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 2,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Hudaya Maju Mandiri - Nanggewer",
+            "cms_dealer_id": "7655",
+            "ACCEPTED": 3,
+            "DRAFT": 8,
+            "CANCELLED_BY_CUSTOMER": 25,
+            "CANCELLED": 24,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Hudaya Maju Mandiri - Cibitung",
+            "cms_dealer_id": "7656",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 2,
+            "CANCELLED": 1,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Hibaindo Armada Motor - Cakung",
+            "cms_dealer_id": "7660",
+            "ACCEPTED": 5,
+            "DRAFT": 1,
+            "CANCELLED_BY_CUSTOMER": 2,
+            "CANCELLED": 12,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Daya Guna Motor Indonesia - Jakarta - Kelapa Gading",
+            "cms_dealer_id": "7663",
+            "ACCEPTED": 0,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 2,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Bypassindo Jaya Indah - Narogong",
+            "cms_dealer_id": "7666",
+            "ACCEPTED": 14,
+            "DRAFT": 8,
+            "CANCELLED_BY_CUSTOMER": 11,
+            "CANCELLED": 10,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Armindo Perkasa - Cirebon",
+            "cms_dealer_id": "7669",
+            "ACCEPTED": 1,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 1,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Armindo Perkasa - Ciputat",
+            "cms_dealer_id": "7670",
+            "ACCEPTED": 1,
+            "DRAFT": 0,
+            "CANCELLED_BY_CUSTOMER": 0,
+            "CANCELLED": 0,
+            "SENT": 0
+        },
+        {
+            "dealer_name": "PT Armindo Perkasa - Ciawi",
+            "cms_dealer_id": "7672",
+            "ACCEPTED": 1,
+            "DRAFT": 7,
+            "CANCELLED_BY_CUSTOMER": 4,
+            "CANCELLED": 3,
+            "SENT": 0
+        }
+    ],
+    "filter": [],
+    "info_page": {
+        "per_page": 4,
+        "curr_page": 1,
+        "max_page": 0,
+        "list_page": []
+    },
+    "chart": []
+}

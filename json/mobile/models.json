@@ -1,0 +1,56 @@
+{
+    "data": [
+      {
+        "type": "models",
+        "id": "5",
+        "attributes": {
+          "name": "Dutro",
+          "description": null,
+          "series-id": null,
+          "series-name": null,
+          "image-model": null,
+          "created-by": null,
+          "updated-by": null
+        }
+      },
+      {
+        "type": "models",
+        "id": "6",
+        "attributes": {
+          "name": "Ranger",
+          "description": null,
+          "series-id": null,
+          "series-name": null,
+          "image-model": null,
+          "created-by": null,
+          "updated-by": null
+        }
+      },
+      {
+        "type": "models",
+        "id": "7",
+        "attributes": {
+          "name": "Profia",
+          "description": null,
+          "series-id": null,
+          "series-name": null,
+          "image-model": null,
+          "created-by": null,
+          "updated-by": null
+        }
+      },
+      {
+        "type": "models",
+        "id": "8",
+        "attributes": {
+          "name": "Bus",
+          "description": null,
+          "series-id": null,
+          "series-name": null,
+          "image-model": null,
+          "created-by": null,
+          "updated-by": null
+        }
+      }
+    ]
+  }

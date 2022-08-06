@@ -1,0 +1,164 @@
+{
+    "data": [
+      {
+        "type": "cms-banners",
+        "id": "174",
+        "attributes": {
+          "source-system-no": "25",
+          "image": "/assets/uploads/banner/web-banner-fix-01.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 1,
+          "created-by": "12",
+          "updated-by": "10"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "167",
+        "attributes": {
+          "source-system-no": "19",
+          "image": "/assets/uploads/banner/truck_euro4-homepage-02_hino_dutro_truk.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/product-list/euro4/1",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 2,
+          "created-by": "12",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "173",
+        "attributes": {
+          "source-system-no": "20",
+          "image": "/assets/uploads/banner/truck_euro4-homepage-03_hino_ranger_truk.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/product-list/euro4/2",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 3,
+          "created-by": "12",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "168",
+        "attributes": {
+          "source-system-no": "21",
+          "image": "/assets/uploads/banner/truck_euro4-homepage-hino_profia_truk_r1.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/product-list/euro4/3/",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 4,
+          "created-by": "12",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "171",
+        "attributes": {
+          "source-system-no": "22",
+          "image": "/assets/uploads/banner/bus_euro4-homepage-_hino_bus.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/product-list/euro4/4",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 5,
+          "created-by": "12",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "165",
+        "attributes": {
+          "source-system-no": "18",
+          "image": "/assets/uploads/banner/HTSCC_Banner_home_page_web_hino_2.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/activities-detail/352/hino-total-support-customer-center",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 6,
+          "created-by": "12",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "170",
+        "attributes": {
+          "source-system-no": "23",
+          "image": "/assets/uploads/banner/Web_Banner_Emergency_support.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/activities-detail/350/layanan-darurat",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 7,
+          "created-by": "10",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "cms-banners",
+        "id": "172",
+        "attributes": {
+          "source-system-no": "24",
+          "image": "/assets/uploads/banner/Banner_Service_Campaign_Web.jpg",
+          "image-mobile": null,
+          "link": "https://www.hino.co.id/activities-detail/351/service-campaign",
+          "cms-status-ids-id": 1,
+          "cms-status-ids-lookup-code": "",
+          "sort": 8,
+          "created-by": "10",
+          "updated-by": "12"
+        },
+        "relationships": {
+          "cms-status": {
+            "data": null
+          }
+        }
+      }
+    ]
+  }

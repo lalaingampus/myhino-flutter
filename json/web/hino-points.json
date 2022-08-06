@@ -1,0 +1,731 @@
+{
+    "data": [
+        {
+            "type": "hino-points",
+            "id": "25",
+            "attributes": {
+                "user-names-id": "381",
+                "user-names-name": "Hamamik Liyana Dewi",
+                "point": 0,
+                "phone-number-detail": "082328255568",
+                "alamat-email-detail": "liya.hamamik@gmail.com",
+                "phone-number": "082328255568",
+                "alamat-email": "liya.hamamik@gmail.com",
+                "nama-lengkap": "Hamamik Liyana Dewi",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "381"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "26",
+            "attributes": {
+                "user-names-id": "382",
+                "user-names-name": "Taryok",
+                "point": 0,
+                "phone-number-detail": "087796166779",
+                "alamat-email-detail": "taryok6@gmail.com",
+                "phone-number": "087796166779",
+                "alamat-email": "taryok6@gmail.com",
+                "nama-lengkap": "Taryok",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "382"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "31",
+            "attributes": {
+                "user-names-id": "389",
+                "user-names-name": "nugroho",
+                "point": 0,
+                "phone-number-detail": "085157662635",
+                "alamat-email-detail": "nugroho@mail.com",
+                "phone-number": "085157662635",
+                "alamat-email": "nugroho@mail.com",
+                "nama-lengkap": "nugroho",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "389"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "29",
+            "attributes": {
+                "user-names-id": "387",
+                "user-names-name": "ridwan mulia",
+                "point": 0,
+                "phone-number-detail": "085795348770",
+                "alamat-email-detail": "ridwan@mail.com",
+                "phone-number": "085795348770",
+                "alamat-email": "ridwan@mail.com",
+                "nama-lengkap": "ridwan mulia",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "387"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "10",
+            "attributes": {
+                "user-names-id": "364",
+                "user-names-name": "Imam Wahyudi",
+                "point": 0,
+                "phone-number-detail": "082112030345",
+                "alamat-email-detail": "i.wahyudi17@gmail.com",
+                "phone-number": "082112030345",
+                "alamat-email": "i.wahyudi17@gmail.com",
+                "nama-lengkap": "Imam Wahyudi",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "364"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "27",
+            "attributes": {
+                "user-names-id": "383",
+                "user-names-name": "Oka Kuswandi",
+                "point": 0,
+                "phone-number-detail": "08118586086",
+                "alamat-email-detail": "okakuswandi@gmail.com",
+                "phone-number": "08118586086",
+                "alamat-email": "okakuswandi@gmail.com",
+                "nama-lengkap": "Oka Kuswandi",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "383"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "12",
+            "attributes": {
+                "user-names-id": "366",
+                "user-names-name": "Indra Radian",
+                "point": 100,
+                "phone-number-detail": "081288265057",
+                "alamat-email-detail": "indratasiek@gmail.com",
+                "phone-number": "081288265057",
+                "alamat-email": "indratasiek@gmail.com",
+                "nama-lengkap": "Indra Radian",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "366"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "40",
+            "attributes": {
+                "user-names-id": "1692",
+                "user-names-name": "reza",
+                "point": 0,
+                "phone-number-detail": "089630960822",
+                "alamat-email-detail": "m.fahlevireza90@gmail.com",
+                "phone-number": "089630960822",
+                "alamat-email": "m.fahlevireza90@gmail.com",
+                "nama-lengkap": "reza",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "1692"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "5",
+            "attributes": {
+                "user-names-id": "359",
+                "user-names-name": "Riri",
+                "point": 0,
+                "phone-number-detail": "085156657627",
+                "alamat-email-detail": "riri@gmail.com",
+                "phone-number": "085156657627",
+                "alamat-email": "riri@gmail.com",
+                "nama-lengkap": "Riri",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "359"
+                    }
+                }
+            }
+        },
+        {
+            "type": "hino-points",
+            "id": "6",
+            "attributes": {
+                "user-names-id": "360",
+                "user-names-name": "Salim Shammakh",
+                "point": 0,
+                "phone-number-detail": "0857767159851",
+                "alamat-email-detail": "pa.salim.shammakh@gmail.com",
+                "phone-number": "0857767159851",
+                "alamat-email": "pa.salim.shammakh@gmail.com",
+                "nama-lengkap": "Salim Shammakh",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user": {
+                    "data": {
+                        "type": "core-user",
+                        "id": "360"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "core-user",
+            "id": "381",
+            "attributes": {
+                "email": "liya.hamamik@gmail.com",
+                "nomor-handphone": "082328255568",
+                "nama-lengkap": "Hamamik Liyana Dewi",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-02-28 20:39:13",
+                "login-count": 1,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "204",
+                "core-users-name": "Hamamik Liyana Dewi",
+                "created-by": null,
+                "updated-by": "204",
+                "nama-perusahaan": null,
+                "password": "$2y$10$P2xkVYNs2XYhtR0tXu3L\/OrSKZNTMJbvhOmTyxnqLWUjMYKB.8M7u",
+                "confirm-password": "$2y$10$P2xkVYNs2XYhtR0tXu3L\/OrSKZNTMJbvhOmTyxnqLWUjMYKB.8M7u",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "382",
+            "attributes": {
+                "email": "taryok6@gmail.com",
+                "nomor-handphone": "087796166779",
+                "nama-lengkap": "Taryok",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-03-02 07:14:23",
+                "login-count": 1,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "205",
+                "core-users-name": "Taryok",
+                "created-by": null,
+                "updated-by": "205",
+                "nama-perusahaan": null,
+                "password": "$2y$10$qAFK87LRzvH0OLpzA5\/djuYCly\/x6GLDze0MOjEsidXv8vmiFhIc.",
+                "confirm-password": "$2y$10$qAFK87LRzvH0OLpzA5\/djuYCly\/x6GLDze0MOjEsidXv8vmiFhIc.",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "389",
+            "attributes": {
+                "email": "nugroho@mail.com",
+                "nomor-handphone": "085157662635",
+                "nama-lengkap": "nugroho",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-03-07 10:31:50",
+                "login-count": 1,
+                "is-new-user": true,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "212",
+                "core-users-name": "nugroho",
+                "created-by": null,
+                "updated-by": null,
+                "nama-perusahaan": null,
+                "password": "$2y$10$PXL.Z9KdjvMOjOAR.Hp\/7.6OUpnQe\/z6EXEXDgREUSx7Dxep9EuVu",
+                "confirm-password": "$2y$10$PXL.Z9KdjvMOjOAR.Hp\/7.6OUpnQe\/z6EXEXDgREUSx7Dxep9EuVu",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": "VGIPM1",
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "387",
+            "attributes": {
+                "email": "ridwan@mail.com",
+                "nomor-handphone": "085795348770",
+                "nama-lengkap": "ridwan mulia",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-03-04 17:57:43",
+                "login-count": 1,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "210",
+                "core-users-name": "ridwan mulia",
+                "created-by": null,
+                "updated-by": "210",
+                "nama-perusahaan": null,
+                "password": "$2y$10$hYgjvyd9gomA.KIrUqV0COJFfiUqbRf\/b4tMCE.jD6pvoJHrMGC7W",
+                "confirm-password": "$2y$10$hYgjvyd9gomA.KIrUqV0COJFfiUqbRf\/b4tMCE.jD6pvoJHrMGC7W",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": "VGIPM1",
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "364",
+            "attributes": {
+                "email": "i.wahyudi17@gmail.com",
+                "nomor-handphone": "082112030345",
+                "nama-lengkap": "Imam Wahyudi",
+                "business-segments-id": "TAMBANG",
+                "business-segments-name": "Tambang",
+                "jabatan-id": "1",
+                "jabatan-name": "DRIVER",
+                "nomor-tlp": "564312",
+                "tanggal-lahir": "1984-10-09",
+                "alamat": "Testing",
+                "long": "123.0353299531509",
+                "lat": "-2.1785488075936854",
+                "provinsi": "Jawa Barat",
+                "kota-kabupaten": "Bekasi",
+                "kecamatan": "Jatiasih",
+                "kelurahan": "Jatiluhur",
+                "jumlah-unit-dutro": 8,
+                "jumlah-unit-ranger": 50,
+                "jumlah-unit-profia": 0,
+                "jumlah-unit-bus": 0,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-02-11 16:47:14",
+                "login-count": 3,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "187",
+                "core-users-name": "Imam Wahyudi",
+                "created-by": null,
+                "updated-by": "system",
+                "nama-perusahaan": "PT. MAJU KENA MUNDUR KENA",
+                "password": "$2y$10$fpKurWct6JEnvC10D9T1qe1jnZmug3ImDGkMFnj0.drlc8zJkgeI2",
+                "confirm-password": "$2y$10$fpKurWct6JEnvC10D9T1qe1jnZmug3ImDGkMFnj0.drlc8zJkgeI2",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "383",
+            "attributes": {
+                "email": "okakuswandi@gmail.com",
+                "nomor-handphone": "08118586086",
+                "nama-lengkap": "Oka Kuswandi",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-05-18 09:56:18",
+                "login-count": 3,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "206",
+                "core-users-name": "Oka Kuswandi",
+                "created-by": null,
+                "updated-by": "206",
+                "nama-perusahaan": null,
+                "password": "$2y$10$6E2ydaV5o8RJHC1HTowgge4jHodaThIcZV85atu2wILzI\/PeAcsYK",
+                "confirm-password": "$2y$10$6E2ydaV5o8RJHC1HTowgge4jHodaThIcZV85atu2wILzI\/PeAcsYK",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "366",
+            "attributes": {
+                "email": "indratasiek@gmail.com",
+                "nomor-handphone": "081288265057",
+                "nama-lengkap": "Indra Radian",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": "4",
+                "jabatan-name": "STAFF",
+                "nomor-tlp": "",
+                "tanggal-lahir": "1986-09-02",
+                "alamat": "Jl. Gading XIII, Karangsatria, Kec. Tambun Utara, Kabupaten Bekasi, Jawa Barat 17510, Indonesia",
+                "long": "107.0379327",
+                "lat": "-6.2154445",
+                "provinsi": "Jawa Barat",
+                "kota-kabupaten": "Kabupaten Bekasi",
+                "kecamatan": "Kecamatan Tambun Utara",
+                "kelurahan": "Karangsatria",
+                "jumlah-unit-dutro": 1,
+                "jumlah-unit-ranger": 1,
+                "jumlah-unit-profia": 0,
+                "jumlah-unit-bus": 0,
+                "profile-pictures": "222",
+                "profile-pictures-id": 222,
+                "profile-pictures-original-file-name": "IMG-20220222-WA0012.jpg",
+                "profile-pictures-uploaded-file-name": "621dc2ca59eec_IMG-20220222-WA0012.jpg",
+                "last-login": "2022-03-22 17:36:40",
+                "login-count": 4,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "189",
+                "core-users-name": "Indra Radian",
+                "created-by": null,
+                "updated-by": "189",
+                "nama-perusahaan": "PT. HINO MOTORS SALES INDONESIA",
+                "password": "$2y$10$pB1H0a0WQgwZdVNUt3nyzOdiMbLOUM6EiMdZh8yrgmAm9bEKam3va",
+                "confirm-password": "$2y$10$pB1H0a0WQgwZdVNUt3nyzOdiMbLOUM6EiMdZh8yrgmAm9bEKam3va",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "1692",
+            "attributes": {
+                "email": "m.fahlevireza90@gmail.com",
+                "nomor-handphone": "089630960822",
+                "nama-lengkap": "reza",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": null,
+                "login-count": null,
+                "is-new-user": true,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "1515",
+                "core-users-name": "reza",
+                "created-by": null,
+                "updated-by": null,
+                "nama-perusahaan": null,
+                "password": "$2y$10$Nxb6Gjnfh9V\/kRDyFDSNrexj4nrCvkEzoPj9oEdJmJcMhymP\/njMy",
+                "confirm-password": "$2y$10$Nxb6Gjnfh9V\/kRDyFDSNrexj4nrCvkEzoPj9oEdJmJcMhymP\/njMy",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": "undefined",
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "359",
+            "attributes": {
+                "email": "riri@gmail.com",
+                "nomor-handphone": "085156657627",
+                "nama-lengkap": "Riri",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": null,
+                "login-count": null,
+                "is-new-user": true,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "182",
+                "core-users-name": "Riri",
+                "created-by": null,
+                "updated-by": null,
+                "nama-perusahaan": null,
+                "password": "$2y$10$0ZYy249NtYCUFHKhXeB3Ye4AJn3kDF.3VR0vDWWwy1g4o7hFzVx.K",
+                "confirm-password": "$2y$10$0ZYy249NtYCUFHKhXeB3Ye4AJn3kDF.3VR0vDWWwy1g4o7hFzVx.K",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        },
+        {
+            "type": "core-user",
+            "id": "360",
+            "attributes": {
+                "email": "pa.salim.shammakh@gmail.com",
+                "nomor-handphone": "0857767159851",
+                "nama-lengkap": "Salim Shammakh",
+                "business-segments-id": null,
+                "business-segments-name": "",
+                "jabatan-id": null,
+                "jabatan-name": "",
+                "nomor-tlp": null,
+                "tanggal-lahir": null,
+                "alamat": null,
+                "long": null,
+                "lat": null,
+                "provinsi": null,
+                "kota-kabupaten": null,
+                "kecamatan": null,
+                "kelurahan": null,
+                "jumlah-unit-dutro": null,
+                "jumlah-unit-ranger": null,
+                "jumlah-unit-profia": null,
+                "jumlah-unit-bus": null,
+                "profile-pictures": null,
+                "profile-pictures-id": "",
+                "profile-pictures-original-file-name": "",
+                "profile-pictures-uploaded-file-name": "",
+                "last-login": "2022-02-09 20:43:11",
+                "login-count": 5,
+                "is-new-user": false,
+                "is-account-verified": true,
+                "is-email-valid": false,
+                "employee-no": null,
+                "core-users-id": "183",
+                "core-users-name": "Salim Shammakh",
+                "created-by": null,
+                "updated-by": "183",
+                "nama-perusahaan": null,
+                "password": "$2y$10$0sf7cpXbWitY8ynQ6AIIMOoun21BVaWsr2ZUe58JxpTBALbeceF7.",
+                "confirm-password": "$2y$10$0sf7cpXbWitY8ynQ6AIIMOoun21BVaWsr2ZUe58JxpTBALbeceF7.",
+                "token": null,
+                "is-hearts": false,
+                "referral-code": null,
+                "is-sso": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 33,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 4
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/hino-points?filter=&include=core-user&isFromWeb=true&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/hino-points?filter=&include=core-user&isFromWeb=true&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/hino-points?filter=&include=core-user&isFromWeb=true&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/hino-points?filter=&include=core-user&isFromWeb=true&per_page=10&page=4"
+    }
+}

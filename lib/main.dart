@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
+import 'app/routes/app_pages.dart';
 import 'app/widgets/splash.dart';
 
 void main() async {
@@ -18,18 +18,19 @@ class MyApp extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return SplashScreen();
           } else {
-            // return GetMaterialApp(
-            //   title: "Application",
-            //   //initialRoute: AppPages.INITIAL,
-            //   initialRoute: Routes.LOGIN,
-            //   getPages: AppPages.routes,
-            // );
             return GetMaterialApp(
-                title: 'Authentication Manager',
-                theme: ThemeData(
-                  primarySwatch: Colors.purple,
-                ),
-                home: SplashScreen());
+              title: "Application",
+              //initialRoute: AppPages.INITIAL,
+              initialRoute: Routes.LOGIN,
+              getPages: AppPages.routes,
+            );
+            // return GetMaterialApp(
+            //   title: 'Authentication Manager',
+            //   theme: ThemeData(
+            //     primarySwatch: Colors.purple,
+            //   ),
+            //   home: SplashScreen(),
+            // );
           }
         });
   }

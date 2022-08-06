@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "type": "cms-htc-banners",
+            "id": "38",
+            "attributes": {
+                "banner-name": "Euro4 Homepage",
+                "url": "https:\/\/www.hino.co.id\/euro4\/2022",
+                "image-ids-id": "447",
+                "image-ids-original-filename": "euro4-homepage-02-resize.jpg",
+                "urutan": 6,
+                "created-by": "198",
+                "updated-by": "198"
+            }
+        },
+        {
+            "type": "cms-htc-banners",
+            "id": "27",
+            "attributes": {
+                "banner-name": "HINO Bus Euro 4",
+                "url": "https:\/\/www.hino.co.id\/product-list\/euro4\/4",
+                "image-ids-id": "357",
+                "image-ids-original-filename": "banner_2_bus_euro4.jpg",
+                "urutan": 2,
+                "created-by": "125",
+                "updated-by": "17"
+            }
+        },
+        {
+            "type": "cms-htc-banners",
+            "id": "28",
+            "attributes": {
+                "banner-name": "HINO Truck Euro 4",
+                "url": "https:\/\/www.hino.co.id\/product-list\/euro4\/1",
+                "image-ids-id": "358",
+                "image-ids-original-filename": "banner_3_truck_euro4.jpg",
+                "urutan": 3,
+                "created-by": "125",
+                "updated-by": "17"
+            }
+        },
+        {
+            "type": "cms-htc-banners",
+            "id": "35",
+            "attributes": {
+                "banner-name": "Ranger Euro 4",
+                "url": "https:\/\/www.hino.co.id\/product-list\/euro4\/2",
+                "image-ids-id": "364",
+                "image-ids-original-filename": "banner_4_ranger_euro4.jpg",
+                "urutan": 4,
+                "created-by": "17",
+                "updated-by": "17"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 4,
+            "count": 4,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htc-banners?filter=&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htc-banners?filter=&per_page=10&page=1",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htc-banners?filter=&per_page=10&page=1"
+    }
+}

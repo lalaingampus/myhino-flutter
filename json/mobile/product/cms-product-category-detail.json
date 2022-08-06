@@ -1,0 +1,21 @@
+{
+    "data": {
+        "type": "cms-product-category-childs",
+        "id": "8",
+        "attributes": {
+            "source-system-no": "4",
+            "cms-product-categories-id": null,
+            "cms-product-categories-title": "",
+            "title": "Bus",
+            "sub-title": "HINO Bus",
+            "icon": "assets\/uploads\/categories_child\/ak.png",
+            "sort": 1,
+            "brosurs-id": null,
+            "brosurs-original-filename": "",
+            "logos-id": null,
+            "logos-original-filename": "",
+            "created-by": "1",
+            "updated-by": "12"
+        }
+    }
+}

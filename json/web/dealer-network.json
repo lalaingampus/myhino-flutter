@@ -1,0 +1,275 @@
+{
+    "data": [
+        {
+            "type": "cms-dealers",
+            "id": "7528",
+            "attributes": {
+                "dealer-id": "19163",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Trans Indo Utama",
+                "attachments-id": "231",
+                "attachments-original-filename": "Image Hino News Article.jpg",
+                "phone": "081288801463",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": "198",
+                "dealer-city-name": "HINO Pematang Siantar - PT Trans Indo Utama",
+                "email": "testing@gmail.com",
+                "combo-dealer-name": ""
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": {
+                        "type": "core-attachment",
+                        "id": "231"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7529",
+            "attributes": {
+                "dealer-id": "22547",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Trans Indo Utama",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "082336555719",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Pematang Siantar - PT Trans Indo Utama",
+                "email": null,
+                "combo-dealer-name": ""
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7530",
+            "attributes": {
+                "dealer-id": "19107",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Trans Indo Utama",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Tebing Tinggi - PT Trans Indo Utama",
+                "email": null,
+                "combo-dealer-name": "PT Trans Indo Utama - Tebing Tinggi"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7531",
+            "attributes": {
+                "dealer-id": "19119",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Duta Cemerlang Motor",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Boyolali - PT Duta Cemerlang Motor",
+                "email": null,
+                "combo-dealer-name": "PT Duta Cemerlang Motor - Boyolali"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7532",
+            "attributes": {
+                "dealer-id": "19145",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Indomobil Prima Niaga-Surabaya (PT Indosurya Perkasa Gemilang)",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Jember (Indosurya Perkasa Gemilang) - PT Indomobil Prima Niaga-Surabaya (PT Indosurya Perkasa Gemilang)",
+                "email": null,
+                "combo-dealer-name": "PT Indomobil Prima Niaga-Surabaya (PT Indosurya Perkasa Gemilang) - Jember (Indosurya Perkasa Gemilang)"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7533",
+            "attributes": {
+                "dealer-id": "19154",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Indomobil Cahaya Prima (PT Timor Transindo Pratama)",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Ruteng - PT Indomobil Cahaya Prima (PT Timor Transindo Pratama)",
+                "email": null,
+                "combo-dealer-name": "PT Indomobil Cahaya Prima (PT Timor Transindo Pratama) - Ruteng"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7534",
+            "attributes": {
+                "dealer-id": "19156",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Catur Kokoh Mobil Nasional",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Tulungagung - PT Catur Kokoh Mobil Nasional",
+                "email": null,
+                "combo-dealer-name": "PT Catur Kokoh Mobil Nasional - Tulungagung"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7535",
+            "attributes": {
+                "dealer-id": "19161",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Persada Palembang Raya",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO PUSRI - PT Persada Palembang Raya",
+                "email": null,
+                "combo-dealer-name": "PT Persada Palembang Raya - PUSRI"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7536",
+            "attributes": {
+                "dealer-id": "19167",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Mitra Pratama Mobilindo",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Klaten - PT Mitra Pratama Mobilindo",
+                "email": null,
+                "combo-dealer-name": "PT Mitra Pratama Mobilindo - Klaten"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "cms-dealers",
+            "id": "7537",
+            "attributes": {
+                "dealer-id": "19174",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PT Duta Cemerlang Motor",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Tirtonadi - PT Duta Cemerlang Motor",
+                "email": null,
+                "combo-dealer-name": "PT Duta Cemerlang Motor - Tirtonadi"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "core-attachment",
+            "id": "231",
+            "attributes": {
+                "uploaded-filename": "628764deed478_Image Hino News Article.jpg",
+                "original-filename": "Image Hino News Article.jpg",
+                "file-extension": "jpg",
+                "file-size": 66679,
+                "entity-id": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 3450,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 345
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-dealers?filter=&include=core-attachment&isFromWeb=true&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-dealers?filter=&include=core-attachment&isFromWeb=true&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-dealers?filter=&include=core-attachment&isFromWeb=true&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-dealers?filter=&include=core-attachment&isFromWeb=true&per_page=10&page=345"
+    }
+}

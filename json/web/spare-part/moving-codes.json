@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "type": "moving-codes",
+            "id": "YD1234",
+            "attributes": {
+                "name": "YD1234",
+                "description": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "moving-codes",
+            "id": "AR1234",
+            "attributes": {
+                "name": "AR1234",
+                "description": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "moving-codes",
+            "id": "HI1234",
+            "attributes": {
+                "name": "HI1234",
+                "description": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "moving-codes",
+            "id": "NA1234",
+            "attributes": {
+                "name": "NA1234",
+                "description": null,
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ]
+}
