@@ -1,10 +1,13 @@
 import 'package:flutter/src/foundation/key.dart';
 import 'package:get/get.dart';
-import 'package:flutter/cupertino.dart';
+import './bottom_controller.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigation extends GetView {
+  final bottom_nav_controller = Get.find<BottomController>();
+
   void _onTap(int index) {
+    bottom_nav_controller.activeIndex.value = index;
     if (index == 0) {
       Get.toNamed('home');
     } else if (index == 1) {
@@ -23,6 +26,7 @@ class BottomNavigation extends GetView {
     return BottomNavigationBar(
       selectedItemColor: Colors.red,
       unselectedItemColor: Colors.black,
+      currentIndex: bottom_nav_controller.activeIndex.value,
       onTap: _onTap,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(

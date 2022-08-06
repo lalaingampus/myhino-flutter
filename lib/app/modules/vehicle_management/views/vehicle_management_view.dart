@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:myhino/app/modules/vehicle_management/views/option_input_view.dart';
 import 'package:myhino/app/widgets/bottom_navigation.dart';
-
 import '../controllers/vehicle_management_controller.dart';
 
 class VehicleManagementView extends GetView<VehicleManagementController> {
