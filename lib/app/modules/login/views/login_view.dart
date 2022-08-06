@@ -15,9 +15,7 @@ class LoginView extends StatefulWidget {
 
 class _LoginViewState extends State<LoginView> {
   TextEditingController nameController = TextEditingController();
-
   TextEditingController passwordController = TextEditingController();
-
   bool _passwordVisible = false;
 
   @override
@@ -119,6 +117,7 @@ class _LoginViewState extends State<LoginView> {
                       GestureDetector(
                         onTap: () {
                           //Forgot Password
+                          Get.toNamed("forgot-password");
                         },
                         child: new Text(
                           "Forgot Password",
@@ -168,7 +167,9 @@ class _LoginViewState extends State<LoginView> {
                   margin: const EdgeInsets.only(top: 20.0, bottom: 20),
                   padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed("home");
+                    },
                     child: const Text(
                       'Log In',
                       style: TextStyle(
@@ -238,7 +239,10 @@ class _LoginViewState extends State<LoginView> {
                       ),
                     ),
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        //SignUp
+                        Get.toNamed("signup");
+                      },
                       child: new Text(
                         "Sign Up",
                         style: TextStyle(
