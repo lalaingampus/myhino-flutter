@@ -12,24 +12,14 @@ import 'package:myhino/app/modules/forgot_password/bindings/forgot_password_bind
 import 'package:myhino/app/modules/forgot_password/views/forgot_password_view.dart';
 import 'package:myhino/app/modules/home/bindings/home_binding.dart';
 import 'package:myhino/app/modules/home/views/home_view.dart';
-import 'package:myhino/app/modules/htc/bindings/htc_binding.dart';
-import 'package:myhino/app/modules/htc/views/htc_view.dart';
-import 'package:myhino/app/modules/komparasi/bindings/komparasi_binding.dart';
-import 'package:myhino/app/modules/komparasi/views/komparasi_view.dart';
-import 'package:myhino/app/modules/kredit/bindings/kredit_binding.dart';
-import 'package:myhino/app/modules/kredit/views/kredit_view.dart';
+
 import 'package:myhino/app/modules/login/bindings/login_binding.dart';
 import 'package:myhino/app/modules/login/views/login_view.dart';
 import 'package:myhino/app/modules/product/bindings/product_binding.dart';
 import 'package:myhino/app/modules/product/views/product_view.dart';
-import 'package:myhino/app/modules/service/bindings/service_binding.dart';
-import 'package:myhino/app/modules/service/views/service_view.dart';
 import 'package:myhino/app/modules/signup/bindings/signup_binding.dart';
 import 'package:myhino/app/modules/signup/views/signup_view.dart';
-import 'package:myhino/app/modules/suku_cadang/bindings/suku_cadang_binding.dart';
-import 'package:myhino/app/modules/suku_cadang/views/suku_cadang_view.dart';
-import 'package:myhino/app/modules/telematics/bindings/telematics_binding.dart';
-import 'package:myhino/app/modules/telematics/views/telematics_view.dart';
+
 import 'package:myhino/app/modules/vehicle_management/bindings/vehicle_management_binding.dart';
 import 'package:myhino/app/modules/vehicle_management/views/vehicle_management_view.dart';
 import 'package:myhino/app/widgets/splash.dart';
