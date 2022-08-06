@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 
 class BottomNavigation extends GetView {
   void _onTap(int index) {
-    Get.snackbar("index", index.toString());
     if (index == 0) {
       Get.toNamed('home');
     } else if (index == 1) {

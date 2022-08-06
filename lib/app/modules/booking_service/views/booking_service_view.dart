@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:myhino/app/modules/booking_service/views/input_booking_view.dart';
+import './input_booking_view.dart';
+import 'package:myhino/app/widgets/bottom_navigation.dart';
 
 import '../controllers/booking_service_controller.dart';
 
@@ -135,6 +136,7 @@ class BookingServiceView extends GetView<BookingServiceController> {
           ),
         ),
       ),
+      bottomNavigationBar: BottomNavigation(),
     );
   }
 }
