@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-class TelematicsView extends GetView {
+import '../controllers/komparasi_controller.dart';
+
+class KomparasiView extends GetView<KomparasiController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Telematics"),
+        title: Text("Komparasi Produk"),
         leading: IconButton(
           onPressed: () {
             Get.toNamed('booking-service');
@@ -18,7 +20,9 @@ class TelematicsView extends GetView {
         actions: [
           IconButton(
             icon: Icon(Icons.history),
-            onPressed: () {},
+            onPressed: () {
+              Get.back();
+            },
           ),
         ],
       ),

@@ -35,7 +35,7 @@ class SliderView extends GetView {
                     enlargeCenterPage: true,
                     scrollDirection: Axis.horizontal,
                     onPageChanged: (index, reason) =>
-                        setState(() => activeIndex = index),
+                        (() => activeIndex = index),
                   ),
                   itemCount: urlImages.length,
                   itemBuilder: (context, index, realIndex) {

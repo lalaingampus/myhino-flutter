@@ -17,6 +17,13 @@ abstract class Routes {
 
   static const ABOUT = _Paths.ABOUT;
   static const SERVICE = _Paths.SERVICE;
+  static const KOMPARASI = _Paths.KOMPARASI;
+  static const SUKU_CADANG = _Paths.SUKU_CADANG;
+  static const DEALER = _Paths.DEALER;
+  static const HTC = _Paths.HTC;
+  static const TELEMATICS = _Paths.TELEMATICS;
+  static const SIMULASI_KREDIT = _Paths.SIMULASI_KREDIT;
+  static const HINO_INDONESIA = _Paths.HINO_INDONESIA;
 }
 
 abstract class _Paths {
@@ -31,4 +38,11 @@ abstract class _Paths {
   static const PRODUCT = '/product';
   static const ABOUT = '/about';
   static const SERVICE = '/service';
+  static const KOMPARASI = '/komparasi';
+  static const SUKU_CADANG = '/suku-cadang';
+  static const DEALER = '/dealer';
+  static const HTC = '/htc';
+  static const TELEMATICS = '/telematics';
+  static const SIMULASI_KREDIT = '/simulasi-kredit';
+  static const HINO_INDONESIA = '/hino-indonesia';
 }

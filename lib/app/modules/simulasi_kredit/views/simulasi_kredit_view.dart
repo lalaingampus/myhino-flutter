@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-class HtcView extends GetView {
+import '../controllers/simulasi_kredit_controller.dart';
+
+class SimulasiKreditView extends GetView<SimulasiKreditController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Hino Training Center (HTC)"),
+        title: Text("Simulasi Kredit"),
         leading: IconButton(
           onPressed: () {
             Get.toNamed('booking-service');
@@ -18,7 +20,9 @@ class HtcView extends GetView {
         actions: [
           IconButton(
             icon: Icon(Icons.history),
-            onPressed: () {},
+            onPressed: () {
+              Get.back();
+            },
           ),
         ],
       ),

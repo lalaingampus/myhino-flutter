@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-class SukuCadangView extends GetView {
+import '../controllers/telematics_controller.dart';
+
+class TelematicsView extends GetView<TelematicsController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Spare Parts"),
+        title: Text("Telematics"),
         leading: IconButton(
           onPressed: () {
             Get.toNamed('booking-service');
@@ -18,7 +20,9 @@ class SukuCadangView extends GetView {
         actions: [
           IconButton(
             icon: Icon(Icons.history),
-            onPressed: () {},
+            onPressed: () {
+              Get.back();
+            },
           ),
         ],
       ),

@@ -161,23 +161,24 @@ class MenuView extends GetView {
                                     ),
                                     SizedBox(height: 5),
                                     Align(
-                                        child: Container(
-                                      child: Padding(
-                                        padding: EdgeInsets.only(
-                                            left: 0,
-                                            bottom: 0,
-                                            right: 0,
-                                            top: 5),
-                                        //apply padding to some sides only
-                                        child: Text(
-                                          'Suku Cadang',
-                                          textAlign: TextAlign.center,
-                                          style: TextStyle(
-                                              color: Colors.black,
-                                              fontWeight: FontWeight.bold),
+                                      child: Container(
+                                        child: Padding(
+                                          padding: EdgeInsets.only(
+                                              left: 0,
+                                              bottom: 0,
+                                              right: 0,
+                                              top: 5),
+                                          //apply padding to some sides only
+                                          child: Text(
+                                            'Suku Cadang',
+                                            textAlign: TextAlign.center,
+                                            style: TextStyle(
+                                                color: Colors.black,
+                                                fontWeight: FontWeight.bold),
+                                          ),
                                         ),
                                       ),
-                                    )),
+                                    ),
                                   ],
                                 ),
                               ),
@@ -356,7 +357,7 @@ class MenuView extends GetView {
                       SizedBox(width: 10),
                       GestureDetector(
                         onTap: () {
-                          Get.toNamed("kredit");
+                          Get.toNamed("simulasi-kredit");
                         },
                         child: Container(
                           padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -412,7 +413,7 @@ class MenuView extends GetView {
                       SizedBox(width: 10),
                       GestureDetector(
                         onTap: () {
-                          Get.toNamed("about");
+                          Get.toNamed("hino-indonesia");
                         },
                         child: Container(
                           padding: EdgeInsets.fromLTRB(0, 0, 0, 0),

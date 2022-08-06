@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-class KreditView extends GetView {
+import '../controllers/hino_indonesia_controller.dart';
+
+class HinoIndonesiaView extends GetView<HinoIndonesiaController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Simulasi Kredit"),
+        title: Text("About"),
         leading: IconButton(
           onPressed: () {
             Get.toNamed('booking-service');
@@ -18,7 +20,9 @@ class KreditView extends GetView {
         actions: [
           IconButton(
             icon: Icon(Icons.history),
-            onPressed: () {},
+            onPressed: () {
+              Get.back();
+            },
           ),
         ],
       ),

@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
-class KomparasiView extends GetView {
+import '../controllers/htc_controller.dart';
+
+class HtcView extends GetView<HtcController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Komparasi Produk"),
+        title: Text("Hino Training Center (HTC)"),
         leading: IconButton(
           onPressed: () {
             Get.toNamed('booking-service');
@@ -18,7 +20,9 @@ class KomparasiView extends GetView {
         actions: [
           IconButton(
             icon: Icon(Icons.history),
-            onPressed: () {},
+            onPressed: () {
+              Get.back();
+            },
           ),
         ],
       ),

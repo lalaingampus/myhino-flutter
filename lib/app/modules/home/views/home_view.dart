@@ -7,6 +7,10 @@ import '../controllers/home_controller.dart';
 import 'package:myhino/app/widgets/bottom_navigation.dart';
 import './header_view.dart';
 import './menu_view.dart';
+import './slider_view.dart';
+import './berita_promosi_view.dart';
+import './information_view.dart';
+import './social_media_view.dart';
 
 class HomeView extends GetView<HomeController> {
   List news = [];
@@ -54,7 +58,7 @@ class HomeView extends GetView<HomeController> {
                     Stack(
                       children: <Widget>[
                         HeaderView(),
-                        SliderPage(),
+                        SliderView(),
                       ],
                     ),
                     MenuView(),
@@ -65,7 +69,7 @@ class HomeView extends GetView<HomeController> {
                       color: Colors.grey,
                     ),
                     SizedBox(height: 13),
-                    BeritaPromosiSection(),
+                    BeritaPromosiView(),
                     SizedBox(height: 13),
                     Container(
                       height: 0.5,
@@ -73,7 +77,7 @@ class HomeView extends GetView<HomeController> {
                       color: Colors.grey,
                     ),
                     SizedBox(height: 5),
-                    InformasiSection(),
+                    InformationView(),
                     SizedBox(height: 5),
                     Container(
                       height: 0.5,
@@ -81,7 +85,7 @@ class HomeView extends GetView<HomeController> {
                       color: Colors.grey,
                     ),
                     SizedBox(height: 10),
-                    SosialMediaSection(),
+                    SocialMediaView(),
                   ],
                 ),
               ),
@@ -89,42 +93,7 @@ class HomeView extends GetView<HomeController> {
           ),
         ),
       ),
-      BottomNavigation(),
+      bottomNavigationBar: BottomNavigation(),
     );
   }
-
-  Widget beritaCard({
-    required BeritaItem itemBerita,
-  }) =>
-      Container(
-        width: 140,
-        child: Column(
-          children: [
-            Expanded(
-              child: AspectRatio(
-                aspectRatio: 3.0,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Image.asset(
-                    itemBerita.urlImage,
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 5),
-            Text(
-              itemBerita.subTitle,
-              textAlign: TextAlign.left,
-              style: TextStyle(fontSize: 10),
-            ),
-            const SizedBox(height: 5),
-            Text(
-              itemBerita.title,
-              textAlign: TextAlign.left,
-              style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold),
-            ),
-          ],
-        ),
-      );
 }
