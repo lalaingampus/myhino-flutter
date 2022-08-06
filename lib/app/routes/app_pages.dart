@@ -8,10 +8,6 @@ import 'package:myhino/app/modules/booking_service/bindings/booking_service_bind
 import 'package:myhino/app/modules/booking_service/views/booking_service_view.dart';
 import 'package:myhino/app/modules/contact_us/bindings/contact_us_binding.dart';
 import 'package:myhino/app/modules/contact_us/views/contact_us_view.dart';
-import 'package:myhino/app/modules/dealer/bindings/dealer_binding.dart';
-import 'package:myhino/app/modules/dealer/views/dealer_view.dart';
-import 'package:myhino/app/modules/euro4/bindings/euro4_binding.dart';
-import 'package:myhino/app/modules/euro4/views/euro4_view.dart';
 import 'package:myhino/app/modules/forgot_password/bindings/forgot_password_binding.dart';
 import 'package:myhino/app/modules/forgot_password/views/forgot_password_view.dart';
 import 'package:myhino/app/modules/home/bindings/home_binding.dart';
@@ -96,49 +92,9 @@ class AppPages {
       binding: ProductBinding(),
     ),
     GetPage(
-      name: _Paths.KOMPARASI,
-      page: () => KomparasiView(),
-      binding: KomparasiBinding(),
-    ),
-    GetPage(
-      name: _Paths.SUKU_CADANG,
-      page: () => SukuCadangView(),
-      binding: SukuCadangBinding(),
-    ),
-    GetPage(
-      name: _Paths.DEALER,
-      page: () => DealerView(),
-      binding: DealerBinding(),
-    ),
-    GetPage(
-      name: _Paths.HTC,
-      page: () => HtcView(),
-      binding: HtcBinding(),
-    ),
-    GetPage(
-      name: _Paths.TELEMATICS,
-      page: () => TelematicsView(),
-      binding: TelematicsBinding(),
-    ),
-    GetPage(
-      name: _Paths.KREDIT,
-      page: () => KreditView(),
-      binding: KreditBinding(),
-    ),
-    GetPage(
       name: _Paths.ABOUT,
       page: () => AboutView(),
       binding: AboutBinding(),
-    ),
-    GetPage(
-      name: _Paths.EURO4,
-      page: () => Euro4View(),
-      binding: Euro4Binding(),
-    ),
-    GetPage(
-      name: _Paths.SERVICE,
-      page: () => ServiceView(),
-      binding: ServiceBinding(),
-    ),
+    )
   ];
 }

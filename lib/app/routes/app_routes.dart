@@ -16,12 +16,10 @@ abstract class Routes {
   static const PRODUCT = _Paths.PRODUCT;
   static const KOMPARASI = _Paths.KOMPARASI;
   static const SUKU_CADANG = _Paths.SUKU_CADANG;
-  static const DEALER = _Paths.DEALER;
   static const HTC = _Paths.HTC;
   static const TELEMATICS = _Paths.TELEMATICS;
   static const KREDIT = _Paths.KREDIT;
   static const ABOUT = _Paths.ABOUT;
-  static const EURO4 = _Paths.EURO4;
   static const SERVICE = _Paths.SERVICE;
 }
 
@@ -36,13 +34,7 @@ abstract class _Paths {
   static const VEHICLE_MANAGEMENT = '/vehicle-management';
   static const SPLASH_SCREEN = '/splash';
   static const PRODUCT = '/product';
-  static const KOMPARASI = '/komparasi';
-  static const SUKU_CADANG = '/suku-cadang';
-  static const DEALER = '/dealer';
-  static const HTC = '/htc';
-  static const TELEMATICS = '/telematics';
-  static const KREDIT = '/kredit';
   static const ABOUT = '/about';
-  static const EURO4 = '/euro4';
+
   static const SERVICE = '/service';
 }

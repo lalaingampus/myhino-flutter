@@ -7,14 +7,18 @@ class HinoRangerView extends GetView {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('HinoRangerView'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Text(
-          'HinoRangerView is working',
-          style: TextStyle(fontSize: 20),
+        title: Text("HINO500 Ranger"),
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.arrow_back_rounded, color: Colors.white, size: 25),
         ),
+        backgroundColor: Colors.red,
+        actions: [
+          IconButton(
+            icon: Icon(Icons.history),
+            onPressed: () {},
+          ),
+        ],
       ),
     );
   }

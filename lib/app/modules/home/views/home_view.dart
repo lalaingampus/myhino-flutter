@@ -3,12 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter/services.dart';
 import '../controllers/home_controller.dart';
-import 'package:myhino/app/widgets/home/informasi.dart';
-import 'package:myhino/app/widgets/home/slider.dart';
-import 'package:myhino/app/widgets/home/header.dart';
-import 'package:myhino/app/widgets/home/sosialMedia.dart';
-import 'package:myhino/app/widgets/home/beritaPromosi.dart';
-import 'package:myhino/app/widgets/home/menu.dart';
+
+import 'package:myhino/app/widgets/bottom_navigation.dart';
+import './header_view.dart';
+import './menu_view.dart';
 
 class HomeView extends GetView<HomeController> {
   List news = [];
@@ -55,11 +53,11 @@ class HomeView extends GetView<HomeController> {
                   children: [
                     Stack(
                       children: <Widget>[
-                        HeaderSection(),
+                        HeaderView(),
                         SliderPage(),
                       ],
                     ),
-                    MenuSection(),
+                    MenuView(),
                     SizedBox(height: 13),
                     Container(
                       height: 0.5,
@@ -91,6 +89,7 @@ class HomeView extends GetView<HomeController> {
           ),
         ),
       ),
+      BottomNavigation(),
     );
   }
 
