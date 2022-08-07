@@ -167,6 +167,52 @@ class VehicleManagementView extends GetView<VehicleManagementController> {
                                             child: IconButton(
                                               onPressed: () {
                                                 //action coe when button is pressed
+                                                // Show Modal Bottom
+                                                Get.bottomSheet(
+                                                  Container(
+                                                    height: 200,
+                                                    color: Colors.white,
+                                                    child: Center(
+                                                      child: Column(
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .center,
+                                                        mainAxisSize:
+                                                            MainAxisSize.min,
+                                                        children: <Widget>[
+                                                          ElevatedButton(
+                                                            child: const Text(
+                                                                'Owner Manual Book'),
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                    context),
+                                                          ),
+                                                          ElevatedButton(
+                                                            child: const Text(
+                                                                'Booking Service'),
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                    context),
+                                                          ),
+                                                          ElevatedButton(
+                                                            child: const Text(
+                                                                'Edit Vehicle'),
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                    context),
+                                                          ),
+                                                          ElevatedButton(
+                                                            child: const Text(
+                                                                'Delete'),
+                                                            onPressed: () =>
+                                                                Navigator.pop(
+                                                                    context),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                );
                                               },
                                               icon: Icon(Icons.more_vert),
                                             ),
