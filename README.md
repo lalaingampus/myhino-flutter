@@ -17,3 +17,12 @@ samples, guidance on mobile development, and a full API reference.
 
 
 https://stackoverflow.com/questions/65912295/how-to-retrieve-a-texteditingcontroller-inside-a-controller-layer-with-getx
+
+https://stackoverflow.com/questions/63924491/how-to-build-a-tabview-using-flutter-getx
+
+show dialog
+https://www.codegrepper.com/code-examples/dart/close+dialog+when+button+is+pressed+flutter
+
+
+dialog with getx
+https://medium.flutterdevs.com/dialog-using-getx-in-flutter-248601043311

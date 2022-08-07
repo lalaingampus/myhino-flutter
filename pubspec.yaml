@@ -9,6 +9,7 @@ dependencies:
   get: ^4.6.5
   dio: ^4.0.6
   html: ^0.15.0
+  intl: ^0.17.0 
 
   get_storage: ^2.0.3
   cupertino_icons: ^1.0.2
@@ -27,6 +28,7 @@ dependencies:
   dropdown_search: ^5.0.2
   datetime_picker_formfield: ^2.0.1
   smart_select: ^4.3.2
+  file_picker: ^5.0.1
 
   flutter: 
     sdk: flutter

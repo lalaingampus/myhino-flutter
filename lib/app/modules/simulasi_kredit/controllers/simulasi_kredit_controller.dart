@@ -5,19 +5,21 @@ class SimulasiKreditController extends GetxController {
   //TODO: Implement SimulasiKreditController
   final GlobalKey<FormState> key = GlobalKey<FormState>();
 
-  var vehicle_model = "".obs;
-  var variant = "".obs;
-  var harga_unit = 0.obs;
-  var harga_karoseri = 0.obs;
-  var jumlah_unit = "".obs;
-  var dp = "".obs;
-  var insurance_type = "".obs;
-  var biaya_assuransi = 0.obs;
-  var biaya_administrasi = 0.obs;
-  var biaya_provisi = 0.obs;
-  var tenor = 0.obs;
-  var bunga = 0.obs;
-  var metod_angsuran = "".obs;
+  var vehicleModel = "".obs;
+
+  TextEditingController variant = TextEditingController();
+  TextEditingController hargaUnit = TextEditingController();
+  TextEditingController hargaKaroseri = TextEditingController();
+
+  TextEditingController jumlahUnit = TextEditingController();
+  TextEditingController dp = TextEditingController();
+  TextEditingController insuranceType = TextEditingController();
+  TextEditingController biayaAssuransi = TextEditingController();
+  TextEditingController biayaAdministrasi = TextEditingController();
+  TextEditingController biayaProvisi = TextEditingController();
+  TextEditingController tenor = TextEditingController();
+  TextEditingController bunga = TextEditingController();
+  TextEditingController metodeAngsuran = TextEditingController();
 
   @override
   void onInit() {

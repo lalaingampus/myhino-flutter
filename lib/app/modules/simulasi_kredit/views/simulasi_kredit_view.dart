@@ -3,18 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:myhino/app/widgets/bottom_navigation.dart';
 import '../controllers/simulasi_kredit_controller.dart';
 import 'package:dropdown_search/dropdown_search.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SimulasiKreditView extends GetView<SimulasiKreditController> {
   final simulai_kredit_controller = Get.find<SimulasiKreditController>();
-  List<Map<String, String>> days = [
-    {'value': 'mon', 'title': 'Brazil'},
-    {'value': 'tue', 'title': 'Tuesday'},
-    {'value': 'wed', 'title': 'Wednesday'},
-    {'value': 'thu', 'title': 'Thursday'},
-    {'value': 'fri', 'title': 'Friday'},
-    {'value': 'sat', 'title': 'Saturday'},
-    {'value': 'sun', 'title': 'Sunday'},
-  ];
 
   @override
   Widget build(BuildContext context) {
@@ -51,16 +43,377 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
                 ),
               ),
               // Add TextFormFields and ElevatedButton here.
-              DropdownSearch(
-                items: ["Brazil", "France", "Tunisia", "Canada"],
-                onChanged: simulai_kredit_controller.changeModel,
-                selectedItem: "Tunisia",
-                validator: (String? item) {
-                  if (item == null)
-                    return "Required field";
-                  else
-                    return null;
-                },
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 8),
+                child: DropdownSearch(
+                  items: ["Brazil", "France", "Tunisia", "Canada"],
+                  onChanged: simulai_kredit_controller.changeModel,
+                  selectedItem: "Tunisia",
+                  validator: (String? item) {
+                    if (item == null)
+                      return "Required field";
+                    else
+                      return null;
+                  },
+                ),
+              ),
+
+              Text(
+                "Variant*",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.variant,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              Text(
+                "Harga Unit*",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.hargaUnit,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              Text(
+                "Harga Karoseri*",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.hargaKaroseri,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Text(
+                "Jumlah Unit*",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.jumlahUnit,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              Text(
+                "DP",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.dp,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              Text(
+                "Insurance Type",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 8),
+                child: DropdownSearch(
+                  items: ["All Risk", "TLO"],
+                  onChanged: simulai_kredit_controller.changeModel,
+                  selectedItem: "All Risk",
+                  validator: (String? item) {
+                    if (item == null)
+                      return "Required field";
+                    else
+                      return null;
+                  },
+                ),
+              ),
+
+              Text(
+                "Biaya Asuransi",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.dp,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Text(
+                "Biaya Provisi",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.dp,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              Text(
+                "Tenor(Bulan)*",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+
+              Text(
+                "Bunga",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.dp,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Text(
+                "Metode Angsuran",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  controller: simulai_kredit_controller.dp,
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.grey,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Container(
+                height: 50,
+                width: 410,
+                margin: const EdgeInsets.only(top: 20.0, bottom: 20),
+                padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: const Text(
+                    'Hitung',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                    ),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                      fixedSize: const Size(240, 80),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(15),
+                      )),
+                ),
               ),
             ],
           ),

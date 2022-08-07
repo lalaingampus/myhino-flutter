@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
+import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
+import '../controllers/input_booking_controller.dart';
+import 'package:dropdown_search/dropdown_search.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class InputBookingView extends GetView {
-  TextEditingController nameController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
+  final input_booking_controller = Get.find<InputBookingController>();
+  final dateFormat = DateFormat("yyyy-MM-dd");
+  final timeFormat = DateFormat("HH:mm");
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +61,7 @@ class InputBookingView extends GetView {
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: nameController,
+                  controller: input_booking_controller.vehicle,
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
@@ -95,28 +102,16 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
-                    suffixIcon: Align(
-                      widthFactor: 1.0,
-                      heightFactor: 1.0,
-                      child: FaIcon(
-                        FontAwesomeIcons.calendar,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.red, width: 2.0),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(20),
-                      ),
-                    ),
-                    labelStyle: TextStyle(color: Colors.white),
-                  ),
+                child: DateTimeField(
+                  format: dateFormat,
+                  onShowPicker: (context, currentValue) {
+                    return showDatePicker(
+                      context: context,
+                      firstDate: DateTime(1900),
+                      initialDate: currentValue ?? DateTime.now(),
+                      lastDate: DateTime(2100),
+                    );
+                  },
                 ),
               ),
               Align(
@@ -137,28 +132,17 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
-                    suffixIcon: Align(
-                      widthFactor: 1.0,
-                      heightFactor: 1.0,
-                      child: FaIcon(
-                        FontAwesomeIcons.calendar,
-                        color: Colors.grey,
+                child: DateTimeField(
+                  format: timeFormat,
+                  onShowPicker: (context, currentValue) async {
+                    final time = await showTimePicker(
+                      context: context,
+                      initialTime: TimeOfDay.fromDateTime(
+                        currentValue ?? DateTime.now(),
                       ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.red, width: 2.0),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(20),
-                      ),
-                    ),
-                    labelStyle: TextStyle(color: Colors.white),
-                  ),
+                    );
+                    return DateTimeField.convert(time);
+                  },
                 ),
               ),
               Align(
@@ -179,28 +163,16 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
-                    suffixIcon: Align(
-                      widthFactor: 1.0,
-                      heightFactor: 1.0,
-                      child: Icon(
-                        Icons.arrow_drop_down_sharp,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.red, width: 2.0),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(20),
-                      ),
-                    ),
-                    labelStyle: TextStyle(color: Colors.white),
-                  ),
+                child: DropdownSearch(
+                  items: ["Brazil", "France", "Tunisia", "Canada"],
+                  onChanged: input_booking_controller.changeModel,
+                  selectedItem: "Tunisia",
+                  validator: (String? item) {
+                    if (item == null)
+                      return "Required field";
+                    else
+                      return null;
+                  },
                 ),
               ),
               Align(
@@ -223,7 +195,7 @@ class InputBookingView extends GetView {
                 padding: const EdgeInsets.all(10),
                 child: SizedBox(
                   child: TextField(
-                    controller: nameController,
+                    controller: input_booking_controller.alasanBooking,
                     decoration: const InputDecoration(
                       contentPadding: EdgeInsets.symmetric(vertical: 30.0),
                       suffixIcon: Align(
@@ -262,30 +234,7 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
-                    suffixIcon: Align(
-                      widthFactor: 1.0,
-                      heightFactor: 1.0,
-                      child: Icon(
-                        Icons.folder_outlined,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.red, width: 2.0),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(20),
-                      ),
-                    ),
-                    labelText: 'No file to upload',
-                    labelStyle: TextStyle(color: Colors.grey),
-                  ),
-                ),
+                child: Text('file_picker'),
               ),
               Align(
                 alignment: Alignment.centerLeft,
@@ -305,28 +254,16 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
-                    suffixIcon: Align(
-                      widthFactor: 1.0,
-                      heightFactor: 1.0,
-                      child: Icon(
-                        Icons.arrow_drop_down_sharp,
-                        color: Colors.grey,
-                      ),
-                    ),
-                    focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.red, width: 2.0),
-                    ),
-                    enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
-                      borderRadius: BorderRadius.all(
-                        Radius.circular(20),
-                      ),
-                    ),
-                    labelStyle: TextStyle(color: Colors.grey),
-                  ),
+                child: DropdownSearch(
+                  items: ["Brazil", "France", "Tunisia", "Canada"],
+                  onChanged: input_booking_controller.changeModel,
+                  selectedItem: "Tunisia",
+                  validator: (String? item) {
+                    if (item == null)
+                      return "Required field";
+                    else
+                      return null;
+                  },
                 ),
               ),
               Container(
@@ -344,13 +281,13 @@ class InputBookingView extends GetView {
                     ),
                   ),
                   style: ElevatedButton.styleFrom(
-                      primary: Colors.black,
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                      fixedSize: const Size(240, 80),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15),
-                      )),
+                    primary: Colors.black,
+                    padding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                    fixedSize: const Size(240, 80),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                  ),
                 ),
               ),
             ],
