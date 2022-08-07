@@ -1,9 +1,12 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class LoginController extends GetxController {
   //TODO: Implement LoginController
+  var username = TextEditingController();
+  var password = TextEditingController();
+  RxBool passwordVisible = false.obs;
 
-  final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
@@ -16,5 +19,8 @@ class LoginController extends GetxController {
 
   @override
   void onClose() {}
-  void increment() => count.value++;
+
+  void changePasswordToggle() {
+    passwordVisible.toggle();
+  }
 }

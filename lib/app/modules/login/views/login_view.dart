@@ -7,6 +7,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 import '../../home/views/home_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import '../controllers/login_controller.dart';
 
 class LoginView extends StatefulWidget {
   @override
@@ -14,9 +15,7 @@ class LoginView extends StatefulWidget {
 }
 
 class _LoginViewState extends State<LoginView> {
-  TextEditingController nameController = TextEditingController();
-  TextEditingController passwordController = TextEditingController();
-  bool _passwordVisible = false;
+  final login_controller = Get.find<LoginController>();
 
   @override
   Widget build(BuildContext context) {
@@ -32,55 +31,57 @@ class _LoginViewState extends State<LoginView> {
               fit: BoxFit.cover,
             ),
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
+          child: Obx(
+            () => Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
                   alignment: Alignment.center,
                   padding: const EdgeInsets.all(10),
                   child: Image.asset(
-                      'assets/mobile/images/logo-hino-vertical.png')),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Container(
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                        left: 15,
-                        bottom: 20,
-                        right: 20,
-                        top: 10), //apply padding to some sides only
-                    child: Text(
-                      "Hallo! \nSelamat Datang",
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 30.0,
-                          fontWeight: FontWeight.bold),
+                      'assets/mobile/images/logo-hino-vertical.png'),
+                ),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    child: Padding(
+                      padding: EdgeInsets.only(
+                          left: 15,
+                          bottom: 20,
+                          right: 20,
+                          top: 10), //apply padding to some sides only
+                      child: Text(
+                        "Hallo! \nSelamat Datang",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30.0,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ),
                 ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Container(
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                        left: 15,
-                        bottom: 0,
-                        right: 0,
-                        top: 10), //apply padding to some sides only
-                    child: Text(
-                      'Email/No. HP',
-                      style: TextStyle(color: Colors.white),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    child: Padding(
+                      padding: EdgeInsets.only(
+                          left: 15,
+                          bottom: 0,
+                          right: 0,
+                          top: 10), //apply padding to some sides only
+                      child: Text(
+                        'Email/No. HP',
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
                 ),
-              ),
-              Container(
-                padding: const EdgeInsets.all(10),
-                child: TextField(
-                  controller: nameController,
-                  decoration: const InputDecoration(
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextField(
+                    controller: login_controller.username,
+                    decoration: const InputDecoration(
                       prefixIcon: Align(
                         widthFactor: 1.0,
                         heightFactor: 1.0,
@@ -94,50 +95,53 @@ class _LoginViewState extends State<LoginView> {
                       ),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(color: Colors.white, width: 2.0),
-                        borderRadius: BorderRadius.all(Radius.circular(20)),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(20),
+                        ),
                       ),
                       labelText: 'User Name',
-                      labelStyle: TextStyle(color: Colors.white)),
-                ),
-              ),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Container(
-                  padding: EdgeInsets.symmetric(vertical: 0, horizontal: 15),
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Password",
-                        style: TextStyle(
-                          color: Colors.white,
-                        ),
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          //Forgot Password
-                          Get.toNamed("forgot-password");
-                        },
-                        child: new Text(
-                          "Forgot Password",
-                          style: TextStyle(
-                            color: Colors.red,
-                            decoration: TextDecoration.underline,
-                          ),
-                        ),
-                      ),
-                    ],
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
-                child: TextField(
-                  style: TextStyle(color: Colors.white),
-                  obscureText: !_passwordVisible,
-                  controller: passwordController,
-                  decoration: const InputDecoration(
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: Container(
+                    padding: EdgeInsets.symmetric(vertical: 0, horizontal: 15),
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Password",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                        GestureDetector(
+                          onTap: () {
+                            //Forgot Password
+                            Get.toNamed("forgot-password");
+                          },
+                          child: new Text(
+                            "Forgot Password",
+                            style: TextStyle(
+                              color: Colors.red,
+                              decoration: TextDecoration.underline,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+                  child: TextField(
+                    style: TextStyle(color: Colors.white),
+                    obscureText: login_controller.passwordVisible.value,
+                    controller: login_controller.password,
+                    decoration: const InputDecoration(
                       prefixIcon: Align(
                         widthFactor: 1.0,
                         heightFactor: 1.0,
@@ -154,14 +158,17 @@ class _LoginViewState extends State<LoginView> {
                         borderSide: BorderSide(color: Colors.red, width: 3),
                       ),
                       enabledBorder: OutlineInputBorder(
-                          borderSide:
-                              BorderSide(color: Colors.white, width: 2.0),
-                          borderRadius: BorderRadius.all(Radius.circular(20))),
+                        borderSide: BorderSide(color: Colors.white, width: 2.0),
+                        borderRadius: BorderRadius.all(
+                          Radius.circular(20),
+                        ),
+                      ),
                       labelText: 'Password',
-                      labelStyle: TextStyle(color: Colors.white)),
+                      labelStyle: TextStyle(color: Colors.white),
+                    ),
+                  ),
                 ),
-              ),
-              Container(
+                Container(
                   height: 50,
                   width: 410,
                   margin: const EdgeInsets.only(top: 20.0, bottom: 20),
@@ -178,14 +185,17 @@ class _LoginViewState extends State<LoginView> {
                       ),
                     ),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.red,
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                        fixedSize: const Size(240, 80),
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20))),
-                  )),
-              Container(
+                      primary: Colors.red,
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                      fixedSize: const Size(240, 80),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
                   height: 50,
                   width: 410,
                   margin: const EdgeInsets.only(top: 0.0, bottom: 20),
@@ -220,14 +230,17 @@ class _LoginViewState extends State<LoginView> {
                       ],
                     ),
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.white,
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 0, vertical: 10),
-                        fixedSize: const Size(240, 80),
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(20))),
-                  )),
-              Row(
+                      primary: Colors.white,
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                      fixedSize: const Size(240, 80),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                  ),
+                ),
+                Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Text(
@@ -251,8 +264,10 @@ class _LoginViewState extends State<LoginView> {
                         ),
                       ),
                     ),
-                  ]),
-            ],
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),
