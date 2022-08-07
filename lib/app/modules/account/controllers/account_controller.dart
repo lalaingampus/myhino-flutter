@@ -9,7 +9,7 @@ class AccountController extends GetxController
     Tab(text: 'Vehicle'),
   ];
 
-  TabController? controller;
+  late TabController? controller;
 
   final count = 0.obs;
   @override

@@ -37,7 +37,6 @@ class AccountView extends GetView<AccountController> {
               //Start::Header
               ProfileHeaderView(),
               //End::Header
-              SizedBox(height: 10),
               PersonalView(),
             ],
           ),
