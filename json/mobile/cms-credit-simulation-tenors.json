@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "15",
+            "attributes": {
+                "user-id": null,
+                "tenor": "0",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "20",
+            "attributes": {
+                "user-id": null,
+                "tenor": "48",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "29",
+            "attributes": {
+                "user-id": null,
+                "tenor": "70",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "30",
+            "attributes": {
+                "user-id": null,
+                "tenor": "35",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "31",
+            "attributes": {
+                "user-id": null,
+                "tenor": "47",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-tenors",
+            "id": "40",
+            "attributes": {
+                "user-id": null,
+                "tenor": "36",
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ]
+}

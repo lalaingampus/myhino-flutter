@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "type": "cms-product-categories",
+            "id": "8",
+            "attributes": {
+                "source-system-no": "2",
+                "title": null,
+                "sub-title": "Fuso",
+                "info": null,
+                "description": "<p>-<\/p>",
+                "images-id": null,
+                "images-original-filename": "",
+                "image-details-id": null,
+                "image-details-original-filename": "",
+                "beban-muatan": "1 ton",
+                "infromation": "",
+                "lookup-code": "BUS",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        },
+        {
+            "type": "cms-product-categories",
+            "id": "9",
+            "attributes": {
+                "source-system-no": "3",
+                "title": null,
+                "sub-title": "Tractor Head",
+                "info": null,
+                "description": "Truk",
+                "images-id": null,
+                "images-original-filename": "",
+                "image-details-id": null,
+                "image-details-original-filename": "",
+                "beban-muatan": "4 Ton",
+                "infromation": "",
+                "lookup-code": "TRUK",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        }
+    ]
+}

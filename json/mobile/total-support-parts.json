@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "type": "total-support-parts",
+            "id": "1",
+            "attributes": {
+                "title": "HINO SUKU CADANG",
+                "content": "<h2 class=\"widgettitle\" xss=removed>HINO SUKU CADANG<\/h2><div class=\"textwidget\" xss=removed><p xss=removed>PT. HMSI selaku Distributor utama Spare Parts untuk kendaraan HINO, selalu memberikan solusi terpercaya bagi bisnis anda.<\/p><p xss=removed>Sebagai bukti bahwa PT. HMSI berkomitmen kuat untuk menjamin ketersediaan Spare Parts bagi pelanggan HINO di seluruh Indonesia, kami memilki Spare Parts Center di Tangerang serta beberapa Depo Spare Parts di Banjarmasin, Balikpapan, Surabaya, dan Medan yang akan mengakomodir seluruh permintaan pelanggan.<\/p><p xss=removed>PT. HMSI juga memiliki jaringan penyedia Spare Parts lebih dari 1800 Partshop yang tesebar diseluruh Indoensia sehingga jaminan akan mendapatkan Spare Parts HINO semakin besar.<\/p><p xss=removed>Agar kendaraan HINO anda semakin panjang umurnya, GUNAKAN SELALU SPARE PARTS ASLI HINO yang sudah terbukti jaminan kualitasnya.<\/p><p xss=removed>SPARE PART HOP<\/p><\/div>",
+                "sequence": 1,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "total-support-parts",
+            "id": "2",
+            "attributes": {
+                "title": "LAYANAN PELANGGAN (SUKU CADANG)",
+                "content": "<h2 class=\"widgettitle\" xss=removed>LAYANAN PELANGGAN<\/h2><div class=\"textwidget\" xss=removed><p xss=removed>Untuk mempermudah mendapatkan Spare Parts dengan Jaminan Ketersediaan dan Harga yang bersaing, PT. HMSI memberikan program Layanan Purna Jual kepada pelanggan diantaranya :<\/p><p xss=removed>Konsinyasi<br xss=removed>Adalah program dimana Dealer menempatkan Spare Parts (sesuai list yang telah disetujui) di gudang pelanggan dengan tujuan memenuhi kebutuhan Spare Parts dalam jangka waktu tertentu.<\/p><p xss=removed>National Parts Price Contract<br xss=removed>Adalah Kontrak harga Spare Parts (Discount yang sama) dari pelanggan yang mempunyai beberapa cabang di daerah dengan Dealer HINO di seluruh Indonesia.<\/p><p xss=removed>Parts Price Contract<br xss=removed>Adalah Kontrak Harga Spare Parts dalam jangka waktu tertentu (Forecast) dengan salah satu Dealer HINO di selurih Indonesia.<\/p><p xss=removed>Keuntungan mengikuti program Layanan Purna Jual HINO :<br xss=removed>a. Mendapatkan Jaminan Spare Parts HINO Asli.<br xss=removed>b. Mendapatkan Jaminan ketersediaan kebutuhan Spare Parts.<br xss=removed>c. Mendapatkan harga yang mengikat selama kontrak.<\/p><p xss=removed>Customer Warehouse Management System &#40;CWMS&#41;<br xss=removed>Adalah training mengenai sistem transaksi Spare Parts menggunakan komputerisasi. Sistem CWMS juga terintegrasi dengan sistem Server, sehingga data transaksi akan selalu terupdate.<\/p><p xss=removed>Manfaat yang didapat oleh pelanggan :<br xss=removed>a. Memudahkan dalam mengelola stock Spare Parts terkai dengan keluar masuknya barang.<br xss=removed>b. Memudahkan dalam membuat laporan Stock (Control BIO Stock) termasuk Stock Opname.<br xss=removed>c. Dapat memberikan analisa pergerakan dan pemakaian Spare Parts tiap kendaraan.<\/p><\/div>",
+                "sequence": 2,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "total-support-parts",
+            "id": "3",
+            "attributes": {
+                "title": "PUSAT PELATIHAN (suku cadang)",
+                "content": "<h2 class=\"widgettitle\" xss=removed>PUSAT PELATIHAN<\/h2><div class=\"textwidget\" xss=removed><p xss=removed>Untuk meningkatkan kemampuan pelayanan di Spare Parts, PT. HMSI memberikan training kepada para pelanggan, diantaranya : Operational Part Fleet Customer, Customer Warehouse Management System &#40;CWMS&#41;, Product Knowledge untuk Electronic Parts Catalog (EPC) dan lain - lain.<\/p><p xss=removed>Operational Part Fleet Customer<br xss=removed>Adalah training mengenai pembuatan Lay-out gudang Spare Parts yang baik, pengaturan Invetory Spare Parts, maupun Manajemen Logistikk dan gudang.<\/p><p xss=removed>Manfaat yang didapat oleh pelanggan :<br xss=removed>1. Memudahkan kontrol logistik barang.<br xss=removed>2. Memudahkan dalam mengelola Stock Spare Parts.<br xss=removed>3. Efisiensi Pekerjaan.<\/p><p xss=removed>Product Knowlaedge Electronic Parts Catalog (EPC)<br xss=removed>Adalah training mengenai pembacaan dan penggunaan Part Catalog menggunakan sistem Electronic, tujuannya adalah agar tidak terjadi kesalahan Parts satt dialkukan pengorderan.<\/p><p xss=removed>Manfaat yang dapat didapat oleh pelanggan :<br xss=removed>1. Memudahkan dalam pencarian Part dan posisi pemasangannya.<br xss=removed>2. Lebih efisien, karena tidak memerlukan pencarian Part dengan waktu yang lama.<\/p><\/div>",
+                "sequence": 3,
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "total-support-parts",
+            "id": "4",
+            "attributes": {
+                "title": "GARANSI (SUKU CADANG)",
+                "content": "<h2 class=\"widgettitle\" xss=\"removed\">GARANSI<\/h2><div class=\"textwidget\" xss=\"removed\"><p xss=\"removed\">PT. HMSI memberikan Garansi terhadap Spare parts dengan tujuan untuk memberikan pelayanan yang maksimal dak rasa aman akan Spare Parts yang dibeli oleh pelangan.<br xss=\"removed\">Garansi yang diberikan adalah 3 Bulan.<\/p><p xss=\"removed\">Rincian Spare Parts yang mendapatkan Garansi 3 bulan adalah :<br xss=\"removed\">1. Pembelian Spare Part di Outlet resmi HINO (Dealer 3S, Cabang Dealer HINO).<br xss=\"removed\">2. Pemasangan Spare Part dilakukan di Bengkel Dealer 3S, Cabang atau Authorized Workshop yang ditunjuk oleh Dealer HINO.<br xss=\"removed\">3. Faktur\/Invoice dari part yang dibeli tidak lebih dari 30 hari sejak diterbitkan Faktur\/Invoice tersebut.<br xss=\"removed\">4. Setiap Klaim Parts harus melampirkan Laporan Teknik yang dikeluarkan oleh Workshop Dealer.<\/p><\/div>",
+                "sequence": 4,
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 4,
+            "count": 4,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/total-support-parts?filter=&isFromHome=true&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/total-support-parts?filter=&isFromHome=true&per_page=10&page=1",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/total-support-parts?filter=&isFromHome=true&per_page=10&page=1"
+    }
+}

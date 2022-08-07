@@ -4,7 +4,7 @@ import './bottom_controller.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigation extends GetView {
-  final bottom_nav_controller = Get.find<BottomController>();
+  final bottom_nav_controller = Get.put(BottomController());
 
   void _onTap(int index) {
     bottom_nav_controller.activeIndex.value = index;

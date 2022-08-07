@@ -1,0 +1,1013 @@
+{
+    "data": [
+        {
+            "type": "cms-products",
+            "id": "9378",
+            "attributes": {
+                "source-system-no": "41",
+                "image": "\/assets\/uploads\/products\/sdbl31.png",
+                "image-small": "\/assets\/uploads\/products\/sdb211.png",
+                "image-detail": "\/assets\/uploads\/products\/Dutro_SDB21.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 2,
+                "slug": "dutro-bus-110-ldb",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 177,
+                "cms-product-sub-category-childs-title": "BUS MIKRO",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "DUTRO BUS 110 SDBL - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "177"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9375",
+            "attributes": {
+                "source-system-no": "137",
+                "image": "\/assets\/uploads\/products\/Edit_MG_0885r2.png",
+                "image-small": "\/assets\/uploads\/products\/R_260_Air_susr1.png",
+                "image-detail": "\/assets\/uploads\/products\/R_260_Air_susr11.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 11,
+                "slug": "r-260-as",
+                "cms-product-categories-id": null,
+                "cms-product-categories-lookup-code": "",
+                "cms-product-categories-meaning": "",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "R 260 AS - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9950",
+            "attributes": {
+                "source-system-no": "157",
+                "image": "\/assets\/uploads\/products\/HINO_RK_rev2.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_RK_rev2.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_RK_rev2.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview10.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 2,
+                "slug": "rk280-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RK280 STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9967",
+            "attributes": {
+                "source-system-no": "183",
+                "image": "\/assets\/uploads\/products\/HINO_GB_rev2-min6.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_GB_rev2-min6.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_GB_rev2-min6.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview1.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 8,
+                "slug": "gb150-at",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "GB150 AT - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9965",
+            "attributes": {
+                "source-system-no": "181",
+                "image": "\/assets\/uploads\/products\/HINO_GB_rev2-min.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_GB_rev2-min.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_GB_rev2-min.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview3.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 6,
+                "slug": "gb150",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "GB150 - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9990",
+            "attributes": {
+                "source-system-no": "178",
+                "image": "\/assets\/uploads\/products\/115SDBL_Travel.jpg",
+                "image-small": "\/assets\/uploads\/products\/115SDBL_Travel.jpg",
+                "image-detail": "\/assets\/uploads\/products\/115SDBL_Travel.jpg",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview5.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 4,
+                "slug": "115-sdbl-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 177,
+                "cms-product-sub-category-childs-title": "BUS MIKRO",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "115 SDBL STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "177"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9961",
+            "attributes": {
+                "source-system-no": "171",
+                "image": "\/assets\/uploads\/products\/HINO_RK_rev26.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_RK_rev26.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_RK_rev26.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview8.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 4,
+                "slug": "rm280-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RM280 STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9981",
+            "attributes": {
+                "source-system-no": "179",
+                "image": "\/assets\/uploads\/products\/HINO_GB_rev2.jpg",
+                "image-small": "\/assets\/uploads\/products\/HINO_GB_rev2.jpg",
+                "image-detail": "\/assets\/uploads\/products\/HINO_GB_rev2.jpg",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview4.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 5,
+                "slug": "136-mdbl-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "136 MDBL STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9962",
+            "attributes": {
+                "source-system-no": "172",
+                "image": "\/assets\/uploads\/products\/HINO_RK_rev29.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_RK_rev29.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_RK_rev29.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview7.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 5,
+                "slug": "rm280-abs",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RM280 ABS - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9365",
+            "attributes": {
+                "source-system-no": "126",
+                "image": "\/assets\/uploads\/products\/sdb6.png",
+                "image-small": "\/assets\/uploads\/products\/sdb7.png",
+                "image-detail": "\/assets\/uploads\/products\/sdb8.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 3,
+                "slug": "dutro-bus-130-mdbl",
+                "cms-product-categories-id": null,
+                "cms-product-categories-lookup-code": "",
+                "cms-product-categories-meaning": "",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "DUTRO BUS 130 MDBL - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9988",
+            "attributes": {
+                "source-system-no": "177",
+                "image": "\/assets\/uploads\/products\/115SDBL_Travel3.jpg",
+                "image-small": "\/assets\/uploads\/products\/115SDBL_Travel3.jpg",
+                "image-detail": "\/assets\/uploads\/products\/115SDBL_Travel3.jpg",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview6.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 3,
+                "slug": "115-sdb-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 177,
+                "cms-product-sub-category-childs-title": "BUS MIKRO",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "115 SDB STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "177"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9948",
+            "attributes": {
+                "source-system-no": "148",
+                "image": "\/assets\/uploads\/products\/HINO_AK_rev2.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_AK_rev2.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_AK_rev2.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview11.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 1,
+                "slug": "ak240-std",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "AK240 STD - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9966",
+            "attributes": {
+                "source-system-no": "182",
+                "image": "\/assets\/uploads\/products\/HINO_GB_rev2-min3.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_GB_rev2-min3.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_GB_rev2-min3.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview2.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 7,
+                "slug": "gb150-at",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "GB150 L - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9968",
+            "attributes": {
+                "source-system-no": "184",
+                "image": "\/assets\/uploads\/products\/HINO_GB_rev2-min9.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_GB_rev2-min9.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_GB_rev2-min9.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 9,
+                "slug": "gb150-l-at",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "GB150 L AT - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9953",
+            "attributes": {
+                "source-system-no": "161",
+                "image": "\/assets\/uploads\/products\/HINO_RK_rev23.png",
+                "image-small": "\/assets\/uploads\/products\/HINO_RK_rev23.png",
+                "image-detail": "\/assets\/uploads\/products\/HINO_RK_rev23.png",
+                "image-breadcrumb": null,
+                "link-brosur": "\/assets\/uploads\/brosur\/Euro4_Bus_Line_Up_preview9.pdf",
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 3,
+                "slug": "rk280-abs",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": true,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RK280 ABS - Euro4",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9408",
+            "attributes": {
+                "source-system-no": "72",
+                "image": "\/assets\/uploads\/products\/fc-bus-no-back.png",
+                "image-small": "\/assets\/uploads\/products\/fc-bus-no-back1.png",
+                "image-detail": "\/assets\/uploads\/products\/fc-bus-no-back2.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 5,
+                "slug": "fc-bus",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "FC Bus - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9405",
+            "attributes": {
+                "source-system-no": "69",
+                "image": "\/assets\/uploads\/products\/Bus_RM_285_Matic_GIIAS2.png",
+                "image-small": "\/assets\/uploads\/products\/rn2851.png",
+                "image-detail": "\/assets\/uploads\/products\/rn2852.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 10,
+                "slug": "rn-285-at",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RN 285 AT - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9407",
+            "attributes": {
+                "source-system-no": "71",
+                "image": "\/assets\/uploads\/products\/rn2853.png",
+                "image-small": "\/assets\/uploads\/products\/rn2854.png",
+                "image-detail": "\/assets\/uploads\/products\/rn2855.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 8,
+                "slug": "rn-285",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "RN 285 - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9410",
+            "attributes": {
+                "source-system-no": "74",
+                "image": "\/assets\/uploads\/products\/r2603.png",
+                "image-small": "\/assets\/uploads\/products\/r2604.png",
+                "image-detail": "\/assets\/uploads\/products\/r2605.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 7,
+                "slug": "r-260",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "R 260 - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9406",
+            "attributes": {
+                "source-system-no": "70",
+                "image": "\/assets\/uploads\/products\/ak.png",
+                "image-small": "\/assets\/uploads\/products\/r2601.png",
+                "image-detail": "\/assets\/uploads\/products\/r2602.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 6,
+                "slug": "a-215",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 179,
+                "cms-product-sub-category-childs-title": "BUS BESAR",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "A 215 - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "179"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9409",
+            "attributes": {
+                "source-system-no": "73",
+                "image": "\/assets\/uploads\/products\/fb.png",
+                "image-small": "\/assets\/uploads\/products\/fb1.png",
+                "image-detail": "\/assets\/uploads\/products\/fb2.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 4,
+                "slug": "fb-130",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 178,
+                "cms-product-sub-category-childs-title": "BUS MEDIUM",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "FB 130 - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "178"
+                    }
+                }
+            }
+        },
+        {
+            "type": "cms-products",
+            "id": "9377",
+            "attributes": {
+                "source-system-no": "40",
+                "image": "\/assets\/uploads\/products\/Dutro_SDB22.png",
+                "image-small": "\/assets\/uploads\/products\/sdb2.png",
+                "image-detail": "\/assets\/uploads\/products\/sdbl311.png",
+                "image-breadcrumb": null,
+                "link-brosur": null,
+                "brosur": null,
+                "statuses-id": 1,
+                "statuses-lookup-code": "",
+                "is-homepage": false,
+                "sort": 1,
+                "slug": "dutro-bus-110-sdb",
+                "cms-product-categories-id": 8,
+                "cms-product-categories-lookup-code": "BUS",
+                "cms-product-categories-meaning": "BUS",
+                "cms-product-category-childs-id": 8,
+                "cms-product-category-childs-title": "Bus",
+                "cms-product-category-childs-source-system-no": "4",
+                "cms-product-sub-category-childs-id": 177,
+                "cms-product-sub-category-childs-title": "BUS MIKRO",
+                "cms-product3d-files-id": null,
+                "cms-product3d-files-uploaded-file-name": "",
+                "is-hino": true,
+                "is-e4": false,
+                "is-gso": true,
+                "created-by": null,
+                "updated-by": "12",
+                "title": "DUTRO BUS 110 SDB - Euro2",
+                "cms-product3d-file-id": null,
+                "cms-product3d-file-title": ""
+            },
+            "relationships": {
+                "cms-product-sub-category-child": {
+                    "data": {
+                        "type": "cmsProductSubCategoryChild",
+                        "id": "177"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "cmsProductSubCategoryChild",
+            "id": "177",
+            "attributes": {
+                "source-system-no": "17",
+                "title": "BUS MIKRO",
+                "sort": 2,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        },
+        {
+            "type": "cmsProductSubCategoryChild",
+            "id": "179",
+            "attributes": {
+                "source-system-no": "19",
+                "title": "BUS BESAR",
+                "sort": 4,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        },
+        {
+            "type": "cmsProductSubCategoryChild",
+            "id": "178",
+            "attributes": {
+                "source-system-no": "18",
+                "title": "BUS MEDIUM",
+                "sort": 3,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        }
+    ]
+}
