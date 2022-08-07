@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:myhino/app/widgets/bottom_navigation.dart';
 import 'package:get/get.dart';
 
 import '../controllers/hino_indonesia_controller.dart';
@@ -25,77 +26,83 @@ class HinoIndonesiaView extends GetView<HinoIndonesiaController> {
         title: Text("About"),
         leading: IconButton(
           onPressed: () {
-            Get.toNamed('booking-service');
+            Get.back();
           },
           icon: Icon(Icons.arrow_back_rounded, color: Colors.white, size: 25),
         ),
         backgroundColor: Colors.red,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.history),
-            onPressed: () {
-              Get.back();
-            },
+      ),
+      resizeToAvoidBottomInset: true,
+      body: ListView(
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 10),
+            child: Text(
+              "PT. Hino Motors Sales Indonesia",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(8),
+            child: Text(
+              "PT. Hino Motors Sales Indonesia (HMSI) adalah anak perusahaan dari Hino Motors, Ltd. (Jepang). HMSI mendistribusikan kendaraan komersial merek Hino melalui Dealer resmi di seluruh wilayah Republik Indonesia untuk memberikan kenyamanan bagi semua pelanggan dalam mendapatkan akses mudah ke Kendaraan Hino di wilayah mereka.",
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(8),
+            child: Text(
+              "Catatan penjualan kami menunjukkan bahwa pelanggan lebih mempercayai Hino dibandingkan dengan merek lain dan kepercayaan mereka telah menempatkan kami sebagai pemimpin pasar. Kehandalan dan daya tahan masing-masing produk telah benar-benar membuktikan Hino sebagai tolok ukur bagaimana truk dan bus seharusnya dalam benak pelanggan kami (produk yang paling sesuai).",
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(8),
+            child: Text(
+              "Kami bertujuan untuk melayani pelanggan melalui kombinasi produk yang paling sesuai dan dukungan total untuk memaksimalkan waktu operasional pelanggan dan meminimalkan waktu henti. yo man !!!! ?",
+            ),
+          ),
+          Container(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                TextButton.icon(
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                  ),
+                  onPressed: () => _launchUrl(_facebook),
+                  icon: FaIcon(FontAwesomeIcons.facebook, size: 24),
+                  label: Text("Facebook"),
+                ),
+                TextButton.icon(
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                  ),
+                  onPressed: () => _launchUrl(_twitter),
+                  icon: FaIcon(FontAwesomeIcons.twitter, size: 24),
+                  label: Text("Twitter"),
+                ),
+                TextButton.icon(
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                  ),
+                  onPressed: () => _launchUrl(_instagram),
+                  icon: FaIcon(FontAwesomeIcons.instagram, size: 24),
+                  label: Text("Instagram"),
+                ),
+                TextButton.icon(
+                  style: TextButton.styleFrom(
+                    primary: Colors.black,
+                  ),
+                  onPressed: () => _launchUrl(_youtube),
+                  icon: FaIcon(FontAwesomeIcons.youtube, size: 24),
+                  label: Text("Youtube"),
+                ),
+              ],
+            ),
           ),
         ],
       ),
-      resizeToAvoidBottomInset: true,
-      body: SingleChildScrollView(
-        child: ListView(
-          children: <Widget>[
-            Container(
-              child: Text.rich(
-                TextSpan(
-                  text: 'PT. Hino Motors Sales Indonesia',
-                  children: <TextSpan>[
-                    TextSpan(
-                        text:
-                            'PT. Hino Motors Sales Indonesia (HMSI) adalah anak perusahaan dari Hino Motors, Ltd. (Jepang). HMSI mendistribusikan kendaraan komersial merek Hino melalui Dealer resmi di seluruh wilayah Republik Indonesia untuk memberikan kenyamanan bagi semua pelanggan dalam mendapatkan akses mudah ke Kendaraan Hino di wilayah mereka.'),
-                    TextSpan(
-                        text:
-                            'Catatan penjualan kami menunjukkan bahwa pelanggan lebih mempercayai Hino dibandingkan dengan merek lain dan kepercayaan mereka telah menempatkan kami sebagai pemimpin pasar. Kehandalan dan daya tahan masing-masing produk telah benar-benar membuktikan Hino sebagai tolok ukur bagaimana truk dan bus seharusnya dalam benak pelanggan kami (produk yang paling sesuai).'),
-                    TextSpan(
-                        text:
-                            'Kami bertujuan untuk melayani pelanggan melalui kombinasi produk yang paling sesuai dan dukungan total untuk memaksimalkan waktu operasional pelanggan dan meminimalkan waktu henti. yo man !!!! ?'),
-                  ],
-                ),
-              ),
-            ),
-            Row(
-              IconButton(
-                // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-                icon: FaIcon(FontAwesomeIcons.gamepad),
-                onPressed: _launchUrl(_facebook),
-              ),
-              Text("facebook"),
-            ),
-            Row(
-              IconButton(
-                // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-                icon: FaIcon(FontAwesomeIcons.gamepad),
-                onPressed: _launchUrl(_facebook),
-              ),
-              Text("Twitter"),
-            ),
-            Row(
-              IconButton(
-                // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-                icon: FaIcon(FontAwesomeIcons.gamepad),
-                onPressed: _launchUrl(_facebook),
-              ),
-              Text("Instagram"),
-            ),
-            Row(
-              IconButton(
-                // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-                icon: FaIcon(FontAwesomeIcons.gamepad),
-                onPressed: _launchUrl(_facebook),
-              ),
-              Text("Youtube"),
-            ),
-          ],
-        ),
-      ),
+      bottomNavigationBar: BottomNavigation(),
     );
   }
 }

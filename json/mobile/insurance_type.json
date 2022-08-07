@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "type": "insurance-types",
+            "id": "1",
+            "attributes": {
+                "name": "All Risk",
+                "created-by": "4",
+                "updated-by": "4",
+                "is-default": "1"
+            }
+        },
+        {
+            "type": "insurance-types",
+            "id": "2",
+            "attributes": {
+                "name": "TLO",
+                "created-by": "4",
+                "updated-by": "4",
+                "is-default": "0"
+            }
+        }
+    ]
+}

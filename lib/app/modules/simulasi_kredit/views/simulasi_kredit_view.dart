@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
-
 import 'package:get/get.dart';
-
+import 'package:flutter/material.dart';
+import 'package:myhino/app/widgets/bottom_navigation.dart';
 import '../controllers/simulasi_kredit_controller.dart';
 
 class SimulasiKreditView extends GetView<SimulasiKreditController> {
@@ -27,6 +26,7 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
         ],
       ),
       resizeToAvoidBottomInset: true,
+      bottomNavigationBar: BottomNavigation(),
     );
   }
 }
