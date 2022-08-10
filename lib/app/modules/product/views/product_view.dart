@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:myhino/app/modules/home/views/header_view.dart';
 import '../controllers/product_controller.dart';
-import './content_hino_view.dart';
-import './header_hino_view.dart';
+import 'widget/content_hino_view.dart';
+import 'widget/header_hino_view.dart';
 
 class ProductView extends GetView<ProductController> {
   @override
@@ -39,10 +39,7 @@ class ProductView extends GetView<ProductController> {
                           children: [
                             GestureDetector(
                               onTap: () {
-                                // Navigator.push(
-                                //     context,
-                                //     MaterialPageRoute(
-                                //         builder: (context) => HinoProfiaPage()));
+                                //HinoProfiaPage()
                               },
                               child: Container(
                                 height: 180,
@@ -61,10 +58,7 @@ class ProductView extends GetView<ProductController> {
                             SizedBox(width: 20),
                             GestureDetector(
                               onTap: () {
-                                // Navigator.push(
-                                //     context,
-                                //     MaterialPageRoute(
-                                //         builder: (context) => HinoBusPage()));
+                                //HinoBusPage()
                               },
                               child: Container(
                                 height: 180,
@@ -87,10 +81,7 @@ class ProductView extends GetView<ProductController> {
                           children: [
                             GestureDetector(
                               onTap: () {
-                                // Navigator.push(
-                                //     context,
-                                //     MaterialPageRoute(
-                                //         builder: (context) => HinoRangerPage()));
+                                // HinoRangerPage()
                               },
                               child: Container(
                                 height: 180,
@@ -109,10 +100,7 @@ class ProductView extends GetView<ProductController> {
                             SizedBox(width: 20),
                             GestureDetector(
                               onTap: () {
-                                // Navigator.push(
-                                //     context,
-                                //     MaterialPageRoute(
-                                //         builder: (context) => HinoDutroPage()));
+                                //HinoDutroPage()
                               },
                               child: Container(
                                 height: 180,
