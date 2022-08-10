@@ -16,7 +16,12 @@ class Euro4View extends GetView {
         child: Column(
           children: [
             SizedBox(height: 10),
-            Search({() {}}),
+            Search({
+              onTap: () {},
+              onChangedTap: () {},
+              onInputTap: () {},
+              width: 345
+            }),
             SizedBox(height: 10),
             //Start::Content
             Container(
