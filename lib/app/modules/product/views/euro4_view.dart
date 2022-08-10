@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:myhino/app/widgets/paginations.dart';
 import 'package:myhino/app/widgets/search.dart';
+import 'package:myhino/app/widgets/reset_filter.dart';
 
 class Euro4View extends GetView {
   @override
@@ -37,6 +38,7 @@ class Euro4View extends GetView {
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 // Filter
+                                ResetFilter(onTap: () {}),
                                 SizedBox(width: 20),
                                 GestureDetector(
                                   onTap: () {},
