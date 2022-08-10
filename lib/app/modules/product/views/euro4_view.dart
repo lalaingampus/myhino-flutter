@@ -38,23 +38,13 @@ class Euro4View extends GetView {
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 // Filter
-                                ResetFilter(onTap: () {}),
+                                ResetFilter(
+                                    onTap: () {}, height: 40, width: 100),
                                 SizedBox(width: 20),
                                 GestureDetector(
                                   onTap: () {},
-                                  child: Container(
-                                    height: 30,
-                                    width: 90,
-                                    padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
-                                    child: new Text(
-                                      "Reset Filter",
-                                      style: TextStyle(
-                                        fontSize: 15,
-                                        color: Colors.red,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                  ),
+                                  child: ResetFilter(
+                                      onTap: () {}, height: 30, width: 90),
                                 ),
                               ],
                             ),

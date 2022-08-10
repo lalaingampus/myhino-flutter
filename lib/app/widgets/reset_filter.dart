@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
-Container ResetFilter({required onTap}) {
+Container ResetFilter(
+    {required onTap, required double height, required double width}) {
   return Container(
-    height: 40,
-    width: 100,
+    height: height,
+    width: width,
     padding: const EdgeInsets.fromLTRB(5, 0, 10, 0),
     child: ElevatedButton(
       onPressed: onTap,

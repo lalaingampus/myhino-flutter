@@ -208,11 +208,7 @@ class HinoProfileView extends GetView {
                                   SizedBox(height: 10),
                                   GestureDetector(
                                     onTap: () {
-                                      // Navigator.push(
-                                      //     context,
-                                      //     MaterialPageRoute(
-                                      //         builder: (context) =>
-                                      //             SpesifikasiHinoProfiaPage()));
+                                      //SpesifikasiHinoProfiaPage
                                     },
                                     child: Align(
                                       alignment: Alignment.bottomRight,
