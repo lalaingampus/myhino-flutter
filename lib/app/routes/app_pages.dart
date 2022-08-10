@@ -136,7 +136,7 @@ class AppPages {
       binding: HinoIndonesiaBinding(),
     ),
 
-    // Web Test
+    // Web Route
     GetPage(
       name: _Paths.WEB_CIA,
       page: () => WebCiaView(),
