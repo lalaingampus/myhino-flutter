@@ -7,6 +7,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:myhino/app/widgets/search_dropdown.dart';
 import 'package:myhino/app/widgets/date_field.dart';
 import 'package:myhino/app/widgets/time_field.dart';
+import 'package:file_picker/file_picker.dart';
 
 class InputBookingView extends GetView {
   final input_booking_controller = Get.find<InputBookingController>();
@@ -206,9 +207,12 @@ class InputBookingView extends GetView {
                   ),
                 ),
               ),
-              Container(
-                padding: const EdgeInsets.all(10),
-                child: Text('file_picker'),
+              ElevatedButton(
+                child: Text("Load file"),
+                onPressed: () async {
+                  FilePickerResult? f = await FilePicker.platform.pickFiles();
+                  input_booking_controller.changeModel(f);
+                },
               ),
               Align(
                 alignment: Alignment.centerLeft,
