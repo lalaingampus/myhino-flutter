@@ -34,6 +34,8 @@ import 'package:myhino/app/modules/telematics/bindings/telematics_binding.dart';
 import 'package:myhino/app/modules/telematics/views/telematics_view.dart';
 import 'package:myhino/app/modules/vehicle_management/bindings/vehicle_management_binding.dart';
 import 'package:myhino/app/modules/vehicle_management/views/vehicle_management_view.dart';
+import 'package:myhino/app/modules/web_cia/bindings/web_cia_binding.dart';
+import 'package:myhino/app/modules/web_cia/views/web_cia_view.dart';
 import 'package:myhino/app/widgets/splash.dart';
 
 part 'app_routes.dart';
@@ -132,6 +134,13 @@ class AppPages {
       name: _Paths.HINO_INDONESIA,
       page: () => HinoIndonesiaView(),
       binding: HinoIndonesiaBinding(),
+    ),
+
+    // Web Test
+    GetPage(
+      name: _Paths.WEB_CIA,
+      page: () => WebCiaView(),
+      binding: WebCiaBinding(),
     ),
   ];
 }

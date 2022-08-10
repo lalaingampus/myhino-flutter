@@ -24,6 +24,7 @@ abstract class Routes {
   static const TELEMATICS = _Paths.TELEMATICS;
   static const SIMULASI_KREDIT = _Paths.SIMULASI_KREDIT;
   static const HINO_INDONESIA = _Paths.HINO_INDONESIA;
+  static const WEB_CIA = _Paths.WEB_CIA;
 }
 
 abstract class _Paths {
@@ -45,4 +46,5 @@ abstract class _Paths {
   static const TELEMATICS = '/telematics';
   static const SIMULASI_KREDIT = '/simulasi-kredit';
   static const HINO_INDONESIA = '/hino-indonesia';
+  static const WEB_CIA = '/web-cia';
 }
