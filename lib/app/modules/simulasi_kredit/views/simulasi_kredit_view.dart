@@ -2,11 +2,16 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:myhino/app/widgets/bottom_navigation.dart';
 import '../controllers/simulasi_kredit_controller.dart';
-import 'package:dropdown_search/dropdown_search.dart';
+import 'package:myhino/app/widgets/search_dropdown.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class SimulasiKreditView extends GetView<SimulasiKreditController> {
   final simulai_kredit_controller = Get.find<SimulasiKreditController>();
+
+  String changeModel(value) {
+    Get.snackbar("vehicle model", value.toString());
+    return value.toString();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -45,17 +50,9 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
               // Add TextFormFields and ElevatedButton here.
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 8),
-                child: DropdownSearch(
-                  items: ["Brazil", "France", "Tunisia", "Canada"],
-                  onChanged: simulai_kredit_controller.changeModel,
-                  selectedItem: "Tunisia",
-                  validator: (String? item) {
-                    if (item == null)
-                      return "Required field";
-                    else
-                      return null;
-                  },
-                ),
+                child: SearchDropDown(
+                    items: ["Brazil", "France", "Tunisia", "Canada"],
+                    defaultSelect: "Tunisia"),
               ),
 
               Text(
@@ -236,17 +233,8 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
               ),
               Container(
                 margin: EdgeInsets.symmetric(horizontal: 8),
-                child: DropdownSearch(
-                  items: ["All Risk", "TLO"],
-                  onChanged: simulai_kredit_controller.changeModel,
-                  selectedItem: "All Risk",
-                  validator: (String? item) {
-                    if (item == null)
-                      return "Required field";
-                    else
-                      return null;
-                  },
-                ),
+                child: SearchDropDown(
+                    items: ["All Risk", "Tlo"], defaultSelect: "All Risk"),
               ),
 
               Text(

@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
-import 'package:datetime_picker_formfield/datetime_picker_formfield.dart';
+
 import '../controllers/input_booking_controller.dart';
-import 'package:dropdown_search/dropdown_search.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:myhino/app/widgets/search_dropdown.dart';
+import 'package:myhino/app/widgets/date_field.dart';
+import 'package:myhino/app/widgets/time_field.dart';
 
 class InputBookingView extends GetView {
   final input_booking_controller = Get.find<InputBookingController>();
-  final dateFormat = DateFormat("yyyy-MM-dd");
-  final timeFormat = DateFormat("HH:mm");
+
+  void changeModel(value) {
+    Get.snackbar("vehicle model", value.toString());
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -102,17 +105,7 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: DateTimeField(
-                  format: dateFormat,
-                  onShowPicker: (context, currentValue) {
-                    return showDatePicker(
-                      context: context,
-                      firstDate: DateTime(1900),
-                      initialDate: currentValue ?? DateTime.now(),
-                      lastDate: DateTime(2100),
-                    );
-                  },
-                ),
+                child: DateField(context: context),
               ),
               Align(
                 alignment: Alignment.centerLeft,
@@ -132,18 +125,7 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: DateTimeField(
-                  format: timeFormat,
-                  onShowPicker: (context, currentValue) async {
-                    final time = await showTimePicker(
-                      context: context,
-                      initialTime: TimeOfDay.fromDateTime(
-                        currentValue ?? DateTime.now(),
-                      ),
-                    );
-                    return DateTimeField.convert(time);
-                  },
-                ),
+                child: TimeField(context: context),
               ),
               Align(
                 alignment: Alignment.centerLeft,
@@ -163,17 +145,9 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: DropdownSearch(
-                  items: ["Brazil", "France", "Tunisia", "Canada"],
-                  onChanged: input_booking_controller.changeModel,
-                  selectedItem: "Tunisia",
-                  validator: (String? item) {
-                    if (item == null)
-                      return "Required field";
-                    else
-                      return null;
-                  },
-                ),
+                child: SearchDropDown(
+                    items: ["Brazil", "France", "Tunisia", "Canada"],
+                    defaultSelect: "Tunisia"),
               ),
               Align(
                 alignment: Alignment.centerLeft,
@@ -254,17 +228,9 @@ class InputBookingView extends GetView {
               ),
               Container(
                 padding: const EdgeInsets.all(10),
-                child: DropdownSearch(
-                  items: ["Brazil", "France", "Tunisia", "Canada"],
-                  onChanged: input_booking_controller.changeModel,
-                  selectedItem: "Tunisia",
-                  validator: (String? item) {
-                    if (item == null)
-                      return "Required field";
-                    else
-                      return null;
-                  },
-                ),
+                child: SearchDropDown(
+                    items: ["Brazil", "France", "Tunisia", "Canada"],
+                    defaultSelect: "Tunisia"),
               ),
               Container(
                 height: 50,
