@@ -270,9 +270,9 @@ class Euro4View extends GetView {
                             ),
                             SizedBox(width: 20),
                             GestureDetector(
-                              // onTap: () {
-                              //   Navigator.push(context, MaterialPageRoute(builder: (context) => PlayVideoTraining(),),);
-                              // },
+                              onTap: () {
+                                //PlayVideoTraining()
+                              },
                               child: Container(
                                 height: 230,
                                 width: 190,
