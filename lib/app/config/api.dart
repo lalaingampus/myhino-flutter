@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class Api {
   final dio = createDio();
-  final tokenDio = Dio(BaseOptions(baseUrl: dotenv.env['BASE_URL'];));
+  final tokenDio =
+      Dio(BaseOptions(baseUrl: "https://my.hino.co.id/myhinoenhancement/"));
 
   Api._internal();
 
@@ -13,7 +13,7 @@ class Api {
 
   static Dio createDio() {
     var dio = Dio(BaseOptions(
-      baseUrl: dotenv.env['BASE_URL'];,
+      baseUrl: "https://my.hino.co.id/myhinoenhancement/",
       receiveTimeout: 15000, // 15 seconds
       connectTimeout: 15000,
       sendTimeout: 15000,
