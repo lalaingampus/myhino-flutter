@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Container Search({required onTap, required onChangedTap, required onInputTap, required width}) {
+Container Search({required onTap, required width}) {
   return Container(
     child: Column(
       children: [
@@ -9,7 +9,7 @@ Container Search({required onTap, required onChangedTap, required onInputTap, re
           child: Row(
             children: <Widget>[
               Container(
-                width: width,
+                width: 345,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(
@@ -23,7 +23,6 @@ Container Search({required onTap, required onChangedTap, required onInputTap, re
                       border: InputBorder.none),
                   onChanged: (value) {
                     // Do something
-                    onChangedTap
                   },
                 ),
               ),
@@ -39,7 +38,7 @@ Container Search({required onTap, required onChangedTap, required onInputTap, re
                       Icons.search,
                       color: Colors.grey,
                     ),
-                    onPressed: onInputTap),
+                    onPressed: () {}),
               )
             ],
           ),

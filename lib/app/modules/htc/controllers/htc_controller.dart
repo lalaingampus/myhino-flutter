@@ -1,20 +1,28 @@
 import 'package:get/get.dart';
+import 'package:flutter/material.dart';
 
-class HtcController extends GetxController {
+class HtcController extends GetxController
+    with GetSingleTickerProviderStateMixin {
   //TODO: Implement HtcController
 
-  final count = 0.obs;
+  late TabController tabController =
+      TabController(vsync: this, length: 3, initialIndex: 0);
+
+  final type = 'register'.obs;
+
   @override
   void onInit() {
     super.onInit();
   }
 
   @override
-  void onReady() {
-    super.onReady();
+  void onClose() {
+    tabController.dispose();
+    super.onClose();
   }
 
   @override
-  void onClose() {}
-  void increment() => count.value++;
+  void onReady() {
+    super.onReady();
+  }
 }

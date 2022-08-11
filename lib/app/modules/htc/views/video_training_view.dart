@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-
+import 'package:myhino/app/widgets/search.dart';
 import 'package:myhino/app/widgets/button.dart';
 import 'package:myhino/app/widgets/slider.dart';
-import '../controllers/htc_controller.dart';
 import './widget/content_view.dart';
 
-class HtcView extends GetView<HtcController> {
-  final htc_controller = Get.put(HtcController());
-
+class VideoTrainingView extends GetView {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,43 +23,15 @@ class HtcView extends GetView<HtcController> {
       resizeToAvoidBottomInset: true,
       body: SingleChildScrollView(
         child: Container(
+          height: 1000,
+          width: 411,
           color: Colors.grey[200],
           child: Column(
             children: [
               SliderView(),
-              SizedBox(
-                child: TabBar(
-                  controller: htc_controller.tabController, // * 3.1
-                  labelColor: Colors.black87,
-                  labelStyle: const TextStyle(fontSize: 18),
-                  unselectedLabelColor: Colors.grey,
-                  isScrollable: true, // can scroll horizontal axis
-
-                  tabs: [
-                    Tab(
-                      child: Text('Training'),
-                    ),
-                    Tab(
-                      child: Text('Aktivitas'),
-                    ),
-                    Tab(
-                      child: Text('Profile'),
-                    )
-                  ],
-                ),
-              ),
-              SizedBox(
-                width: double.maxFinite, //  * 4.1
-                height: 300, //  * 4.2
-                child: TabBarView(
-                  controller: htc_controller.tabController, // * 3.2
-                  children: [
-                    ContentView(),
-                    Text('React'),
-                    Text('Swift'),
-                  ],
-                ),
-              ),
+              Search(onTap: () {}, width: 345),
+              SizedBox(height: 10),
+              ContentView(),
               SizedBox(height: 10),
               Container(
                 child: Column(

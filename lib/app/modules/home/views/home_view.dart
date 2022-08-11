@@ -7,7 +7,7 @@ import '../controllers/home_controller.dart';
 import 'package:myhino/app/widgets/bottom_navigation.dart';
 import './header_view.dart';
 import './menu_view.dart';
-import './slider_view.dart';
+import 'package:myhino/app/widgets/slider.dart';
 import './berita_promosi_view.dart';
 import './information_view.dart';
 import './social_media_view.dart';
