@@ -6,6 +6,8 @@ import 'package:myhino/app/widgets/button.dart';
 import 'package:myhino/app/widgets/slider.dart';
 import '../controllers/htc_controller.dart';
 import './widget/content_view.dart';
+import './widget/aktivitas_view.dart';
+import './widget/profile_view.dart';
 
 class HtcView extends GetView<HtcController> {
   final htc_controller = Get.put(HtcController());
@@ -56,11 +58,7 @@ class HtcView extends GetView<HtcController> {
                 height: 300, //  * 4.2
                 child: TabBarView(
                   controller: htc_controller.tabController, // * 3.2
-                  children: [
-                    ContentView(),
-                    Text('React'),
-                    Text('Swift'),
-                  ],
+                  children: [ContentView(), AktivitasView(), ProfileView()],
                 ),
               ),
               SizedBox(height: 10),

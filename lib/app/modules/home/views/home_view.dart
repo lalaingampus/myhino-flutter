@@ -55,12 +55,8 @@ class HomeView extends GetView<HomeController> {
               Container(
                 child: Column(
                   children: [
-                    Stack(
-                      children: <Widget>[
-                        HeaderView(),
-                        SliderView(),
-                      ],
-                    ),
+                    HeaderView(),
+                    SliderView(),
                     MenuView(),
                     SizedBox(height: 13),
                     Container(

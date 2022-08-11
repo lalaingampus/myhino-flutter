@@ -8,8 +8,6 @@ class HtcController extends GetxController
   late TabController tabController =
       TabController(vsync: this, length: 3, initialIndex: 0);
 
-  final type = 'register'.obs;
-
   @override
   void onInit() {
     super.onInit();

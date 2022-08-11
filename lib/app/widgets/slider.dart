@@ -4,6 +4,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class SliderView extends GetView {
+  // late double topPadding;
+
+  // SliderView({required this.topPadding}) {
+  //   topPadding = topPadding;
+  // }
+
   int activeIndex = 0;
   final urlImages = [
     'assets/mobile/uploads/bus_euro4-homepage-_hino_bus.jpg',
@@ -16,7 +22,7 @@ class SliderView extends GetView {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.fromLTRB(0, 123, 10, 50),
+            padding: EdgeInsets.fromLTRB(0, 10, 10, 50),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

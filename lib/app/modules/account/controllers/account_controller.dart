@@ -4,18 +4,13 @@ import 'package:flutter/material.dart';
 class AccountController extends GetxController
     with GetSingleTickerProviderStateMixin {
   //TODO: Implement AccountController
-  final List<Tab> myTabs = <Tab>[
-    Tab(text: 'Personal'),
-    Tab(text: 'Vehicle'),
-  ];
-
-  late TabController? controller;
+  late TabController tabController =
+      TabController(vsync: this, length: 2, initialIndex: 0);
 
   final count = 0.obs;
   @override
   void onInit() {
     super.onInit();
-    controller = TabController(vsync: this, length: myTabs.length);
   }
 
   @override
@@ -25,7 +20,6 @@ class AccountController extends GetxController
 
   @override
   void onClose() {
-    controller?.dispose();
     super.onClose();
   }
 }

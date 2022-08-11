@@ -34,10 +34,33 @@ class AccountView extends GetView<AccountController> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              //Start::Header
               ProfileHeaderView(),
-              //End::Header
-              PersonalView(),
+              SizedBox(
+                child: TabBar(
+                  controller: account_controller.tabController, // * 3.1
+                  labelColor: Colors.black87,
+                  labelStyle: const TextStyle(fontSize: 18),
+                  unselectedLabelColor: Colors.grey,
+                  isScrollable: true, // can scroll horizontal axis
+
+                  tabs: [
+                    Tab(
+                      child: Text('Personal'),
+                    ),
+                    Tab(
+                      child: Text('Vehicle'),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(
+                width: double.maxFinite, //  * 4.1
+                height: double.maxFinite, //  * 4.2
+                child: TabBarView(
+                  controller: account_controller.tabController, // * 3.2
+                  children: [PersonalView(), VehicleView()],
+                ),
+              ),
             ],
           ),
         ),
