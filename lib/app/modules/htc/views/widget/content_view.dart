@@ -18,8 +18,7 @@ class ContentView extends GetView {
             GestureDetector(
               onTap: () {
                 //DriverTraining
-                // Get.to(DriverTrainingView());
-                Get.to(MekanikTrainingView());
+                Get.to(DriverTrainingView());
               },
               child: Container(
                 padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
