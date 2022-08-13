@@ -10,8 +10,6 @@ class LoginController extends GetxController {
   TextEditingController password = TextEditingController();
   RxBool passwordVisible = false.obs;
 
-
-
   @override
   void onClose() {}
 
@@ -25,7 +23,7 @@ class LoginController extends GetxController {
       password: password.text,
     );
 
-    inspect(obj);
+    print(inspect(obj));
     // if (obj['statusCode'] == 200) {
     //   CoolAlert.show(
     //     context: Get.context!,

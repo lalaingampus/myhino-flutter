@@ -1,11 +1,11 @@
 import 'dart:developer';
 
 import 'package:myhino/app/constants/variable.dart';
-import 'package:myhino/app/config/api.dart';
 import 'package:dio/dio.dart';
 
 class UserService {
-  var dio = Api().dio;
+  final dio = Dio();
+
   Future<Map<String, dynamic>> register(
       {required String namaLengkap,
       required String noHandPhone,
@@ -45,9 +45,9 @@ class UserService {
       {required String username, required String password}) async {
     Map<String, dynamic> ret = {
       "tokenType": "Bearer",
-      "expires_in": "",
-      "access_token": "",
-      "refresh_token": ""
+      "expiresIn": "",
+      "accessToken": "",
+      "refreshToken": ""
     };
 
     try {
@@ -57,10 +57,10 @@ class UserService {
             validateStatus: (status) => true,
           ));
       // ret = {
-      //   "token_type": response.tokenType,
-      //   "expires_in": response.expiresIn,
-      //   "access_token": response.accessToken,
-      //   "refresh_token": response.refreshToken
+      //   "tokenType": response.token_type,
+      //   "expiresIn": response.expires_in,
+      //   "accessToken": response.access_token,
+      //   "refreshToken": response.refresh_token
       // };
       inspect(response);
     } catch (e) {
