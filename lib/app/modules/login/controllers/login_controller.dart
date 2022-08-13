@@ -23,7 +23,6 @@ class LoginController extends GetxController {
       password: password.text,
     );
 
-    print(inspect(obj));
     // if (obj['statusCode'] == 200) {
     //   CoolAlert.show(
     //     context: Get.context!,

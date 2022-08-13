@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:myhino/app/constants/variable.dart';
+import 'package:myhino/app/data/models/tokens.dart';
 import 'package:dio/dio.dart';
 
 class UserService {
@@ -56,12 +57,7 @@ class UserService {
           options: Options(
             validateStatus: (status) => true,
           ));
-      // ret = {
-      //   "tokenType": response.token_type,
-      //   "expiresIn": response.expires_in,
-      //   "accessToken": response.access_token,
-      //   "refreshToken": response.refresh_token
-      // };
+      // var token = Token(response);
       inspect(response);
     } catch (e) {
       print(e);
