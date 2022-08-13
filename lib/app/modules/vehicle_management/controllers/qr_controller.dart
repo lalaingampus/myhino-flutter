@@ -7,10 +7,6 @@ class QrController extends GetxController {
   RxBool flashOn = false.obs;
   RxBool cameraRear = false.obs;
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
   void changeMounted() {
     mounted.toggle();
@@ -24,10 +20,6 @@ class QrController extends GetxController {
     cameraRear.toggle();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {}

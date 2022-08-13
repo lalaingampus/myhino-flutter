@@ -1,14 +1,13 @@
-import 'package:json_serializable/json_serializable.dart';
 
 @JsonSerializable()
-class HinoPointIncluded {
+class UserManagement {
   String? type;
   String? id;
   Class? attributes;
 
-  HinoPointIncluded({this.type, this.id, this.attributes});
+  UserManagement({this.type, this.id, this.attributes});
 
-  HinoPointIncluded.fromJson(Map<String, dynamic> json) {
+  UserManagement.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =

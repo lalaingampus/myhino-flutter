@@ -45,7 +45,7 @@ class InfoView extends GetView {
                         height: 30,
                         width: 90,
                         padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
-                        child: new Text(
+                        child: Text(
                           "Reset Filter",
                           style: TextStyle(
                             fontSize: 15,

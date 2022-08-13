@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 class ScannerView extends GetView {
   final qr_controller = Get.find<QrController>();
 
-  GlobalKey _qrKey = GlobalKey();
+  final GlobalKey _qrKey = GlobalKey();
   late QRViewController _controller;
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class ScannerView extends GetView {
             key: _qrKey,
             overlay: QrScannerOverlayShape(),
             onQRViewCreated: (QRViewController controller) {
-              this._controller = controller;
+              _controller = controller;
               controller.scannedDataStream.listen((val) {
                 if (qr_controller.mounted.value) {
                   _controller.dispose();

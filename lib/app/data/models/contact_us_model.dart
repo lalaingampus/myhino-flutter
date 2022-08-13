@@ -1,14 +1,13 @@
-import 'package:json_serializable/json_serializable.dart';
 
 @JsonSerializable()
-class UserManagement {
+class ContactUs {
   String? type;
   String? id;
   Class? attributes;
 
-  UserManagement({this.type, this.id, this.attributes});
+  ContactUs({this.type, this.id, this.attributes});
 
-  UserManagement.fromJson(Map<String, dynamic> json) {
+  ContactUs.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =

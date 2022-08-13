@@ -43,7 +43,7 @@ Container AddButton(
             onTap: () {
               // Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpPage()));
             },
-            child: new Text(
+            child: Text(
               title,
               style: TextStyle(
                 fontSize: 15,

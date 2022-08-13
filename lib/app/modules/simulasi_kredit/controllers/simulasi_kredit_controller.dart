@@ -21,15 +21,7 @@ class SimulasiKreditController extends GetxController {
   TextEditingController bunga = TextEditingController();
   TextEditingController metodeAngsuran = TextEditingController();
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {}

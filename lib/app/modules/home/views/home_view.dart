@@ -30,7 +30,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: new Row(
+        title: Row(
           children: [
             Image.asset(
               'assets/mobile/images/logo-hino-horizontal.png',

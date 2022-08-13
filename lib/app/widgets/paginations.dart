@@ -48,7 +48,7 @@ Container PaggingButton(
                   color: Colors.white,
                 ),
                 child: Text(
-                  "${currentPage}",
+                  "$currentPage",
                   style: TextStyle(
                     fontSize: 14,
                   ),
@@ -63,7 +63,7 @@ Container PaggingButton(
                   borderRadius: BorderRadius.circular(15.0),
                 ),
                 child: Text(
-                  "/ ${totalPage}",
+                  "/ $totalPage",
                   style: TextStyle(
                     fontSize: 15,
                   ),

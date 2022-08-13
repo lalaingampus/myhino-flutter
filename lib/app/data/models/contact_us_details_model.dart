@@ -1,14 +1,13 @@
-import 'package:json_serializable/json_serializable.dart';
 
 @JsonSerializable()
-class CoreUserIncluded {
+class ContactUsDetails {
   String? type;
   String? id;
   Class? attributes;
 
-  CoreUserIncluded({this.type, this.id, this.attributes});
+  ContactUsDetails({this.type, this.id, this.attributes});
 
-  CoreUserIncluded.fromJson(Map<String, dynamic> json) {
+  ContactUsDetails.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =
@@ -28,17 +27,26 @@ class CoreUserIncluded {
 
 @JsonSerializable()
 class Attributes {
-  String? description;
+  String? title;
+  String? content;
+  String? createdBy;
+  String? updatedBy;
 
-  Attributes({this.description});
+  Attributes({this.title, this.content, this.createdBy, this.updatedBy});
 
   Attributes.fromJson(Map<String, dynamic> json) {
-    description = json['description'];
+    title = json['title'];
+    content = json['content'];
+    createdBy = json['created-by'];
+    updatedBy = json['updated-by'];
   }
 
   Map<String, dynamic> toJson() {
     final data = <String, dynamic>{};
-    data['description'] = description;
+    data['title'] = title;
+    data['content'] = content;
+    data['created-by'] = createdBy;
+    data['updated-by'] = updatedBy;
     return data;
   }
 }

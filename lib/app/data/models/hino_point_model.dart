@@ -1,5 +1,3 @@
-import 'package:json_serializable/json_serializable.dart';
-import 'core_user_model.dart' as CoreUser;
 
 @JsonSerializable()
 class HinoPoint {

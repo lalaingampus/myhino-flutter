@@ -8,10 +8,6 @@ class HtcController extends GetxController
   late TabController tabController =
       TabController(vsync: this, length: 3, initialIndex: 0);
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
   @override
   void onClose() {
@@ -19,8 +15,4 @@ class HtcController extends GetxController
     super.onClose();
   }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 }

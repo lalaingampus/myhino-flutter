@@ -1,11 +1,8 @@
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-import '../../home/views/home_view.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../controllers/login_controller.dart';
 
@@ -80,6 +77,7 @@ class _LoginViewState extends State<LoginView> {
                 Container(
                   padding: const EdgeInsets.all(10),
                   child: TextField(
+                    style: TextStyle(color: Colors.white),
                     controller: login_controller.username,
                     decoration: const InputDecoration(
                       prefixIcon: Align(
@@ -123,7 +121,7 @@ class _LoginViewState extends State<LoginView> {
                             //Forgot Password
                             Get.toNamed("forgot-password");
                           },
-                          child: new Text(
+                          child: Text(
                             "Forgot Password",
                             style: TextStyle(
                               color: Colors.red,
@@ -175,7 +173,8 @@ class _LoginViewState extends State<LoginView> {
                   padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
                   child: ElevatedButton(
                     onPressed: () {
-                      Get.toNamed("home");
+                      // Get.toNamed("home");
+                      login_controller.login(context);
                     },
                     child: const Text(
                       'Log In',
@@ -256,7 +255,7 @@ class _LoginViewState extends State<LoginView> {
                         //SignUp
                         Get.toNamed("signup");
                       },
-                      child: new Text(
+                      child: Text(
                         "Sign Up",
                         style: TextStyle(
                           fontSize: 15,

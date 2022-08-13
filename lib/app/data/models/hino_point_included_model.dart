@@ -1,23 +1,17 @@
-import 'package:json_serializable/json_serializable.dart';
 
 @JsonSerializable()
-class UserManagementApproval {
+class HinoPointIncluded {
   String? type;
   String? id;
   Class? attributes;
-  Class? relationships;
 
-  UserManagementApproval(
-      {this.type, this.id, this.attributes, this.relationships});
+  HinoPointIncluded({this.type, this.id, this.attributes});
 
-  UserManagementApproval.fromJson(Map<String, dynamic> json) {
+  HinoPointIncluded.fromJson(Map<String, dynamic> json) {
     type = json['type'];
     id = json['id'];
     attributes =
         json['attributes'] != null ? Class?.fromJson(json['attributes']) : null;
-    relationships = json['relationships'] != null
-        ? Class?.fromJson(json['relationships'])
-        : null;
   }
 
   Map<String, dynamic> toJson() {
@@ -26,9 +20,6 @@ class UserManagementApproval {
     data['id'] = id;
     if (attributes != null) {
       data['attributes'] = attributes.toJson();
-    }
-    if (relationships != null) {
-      data['relationships'] = relationships.toJson();
     }
     return data;
   }
@@ -212,101 +203,6 @@ class Attributes {
     data['is-hearts'] = isHearts;
     data['referral-code'] = referralCode;
     data['is-sso'] = isSso;
-    return data;
-  }
-}
-
-@JsonSerializable()
-class Relationships {
-  Class? businessSegment;
-  Class? jabatan;
-  Class? coreUser;
-  Class? profilePicture;
-
-  Relationships(
-      {this.businessSegment, this.jabatan, this.coreUser, this.profilePicture});
-
-  Relationships.fromJson(Map<String, dynamic> json) {
-    businessSegment = json['business-segment'] != null
-        ? Class?.fromJson(json['business-segment'])
-        : null;
-    jabatan = json['jabatan'] != null ? Class?.fromJson(json['jabatan']) : null;
-    coreUser =
-        json['core-user'] != null ? Class?.fromJson(json['core-user']) : null;
-    profilePicture = json['profile-picture'] != null
-        ? Class?.fromJson(json['profile-picture'])
-        : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    if (businessSegment != null) {
-      data['business-segment'] = businessSegment.toJson();
-    }
-    if (jabatan != null) {
-      data['jabatan'] = jabatan.toJson();
-    }
-    if (coreUser != null) {
-      data['core-user'] = coreUser.toJson();
-    }
-    if (profilePicture != null) {
-      data['profile-picture'] = profilePicture.toJson();
-    }
-    return data;
-  }
-}
-
-@JsonSerializable()
-class BusinessSegment {
-  Class? data;
-
-  BusinessSegment({this.data});
-
-  BusinessSegment.fromJson(Map<String, dynamic> json) {
-    data = json['data'] != null ? Class?.fromJson(json['data']) : null;
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    if (data != null) {
-      data['data'] = data.toJson();
-    }
-    return data;
-  }
-}
-
-class Data {
-  String? type;
-  String? id;
-
-  Data({this.type, this.id});
-
-  Data.fromJson(Map<String, dynamic> json) {
-    type = json['type'];
-    id = json['id'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['type'] = type;
-    data['id'] = id;
-    return data;
-  }
-}
-
-@JsonSerializable()
-class ProfilePicture {
-  dynamic data;
-
-  ProfilePicture({this.data});
-
-  ProfilePicture.fromJson(Map<String, dynamic> json) {
-    data = json['data'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['data'] = data;
     return data;
   }
 }

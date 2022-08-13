@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:g_recaptcha_v3/g_recaptcha_v3.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
@@ -8,7 +7,7 @@ import '../controllers/signup_controller.dart';
 class SignupView extends GetView<SignupController> {
   TextEditingController nameController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  bool _passwordVisible = false;
+  final bool _passwordVisible = false;
 
   @override
   Widget build(BuildContext context) {
@@ -303,7 +302,7 @@ class SignupView extends GetView<SignupController> {
                       // Login Page
                       Get.toNamed("login");
                     },
-                    child: new Text(
+                    child: Text(
                       "Login",
                       style: TextStyle(
                         fontSize: 15,

@@ -1,4 +1,3 @@
-import 'package:json_serializable/json_serializable.dart';
 
 @JsonSerializable()
 class VehicleManagement {
@@ -174,9 +173,7 @@ class Model {
 
   Map<String, dynamic> toJson() {
     final data = <String, dynamic>{};
-    if (data != null) {
-      data['data'] = data.toJson();
-    }
+    data['data'] = data.toJson();
     return data;
   }
 }

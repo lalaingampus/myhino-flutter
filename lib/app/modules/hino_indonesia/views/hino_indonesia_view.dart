@@ -13,9 +13,9 @@ class HinoIndonesiaView extends GetView<HinoIndonesiaController> {
   final Uri _youtube = Uri.parse(
       'https://www.youtube.com/channel/UCaAUoOw0yHozIzd6nCI3vBA?sub_confirmation=1');
 
-  Future<void> _launchUrl(_url) async {
-    if (!await launchUrl(_url)) {
-      Get.snackbar("Opps Something Wrong", 'Could not launch $_url');
+  Future<void> _launchUrl(url) async {
+    if (!await launchUrl(url)) {
+      Get.snackbar("Opps Something Wrong", 'Could not launch $url');
     }
   }
 
