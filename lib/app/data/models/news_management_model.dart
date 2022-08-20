@@ -1,192 +1,189 @@
+// To parse this JSON data, do
+//
+//     final newsManagement = newsManagementFromJson(jsonString);
 
-@JsonSerializable()
+import 'dart:convert';
+
+List<NewsManagement> newsManagementFromJson(String str) =>
+    List<NewsManagement>.from(
+        json.decode(str).map((x) => NewsManagement.fromJson(x)));
+
+String newsManagementToJson(List<NewsManagement> data) =>
+    json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
+
 class NewsManagement {
-  String? type;
-  String? id;
-  Class? attributes;
-  Class? relationships;
+  NewsManagement({
+    required this.type,
+    required this.id,
+    required this.attributes,
+    required this.relationships,
+  });
 
-  NewsManagement({this.type, this.id, this.attributes, this.relationships});
+  String type;
+  String id;
+  Attributes attributes;
+  Relationships relationships;
 
-  NewsManagement.fromJson(Map<String, dynamic> json) {
-    type = json['type'];
-    id = json['id'];
-    attributes =
-        json['attributes'] != null ? Class?.fromJson(json['attributes']) : null;
-    relationships = json['relationships'] != null
-        ? Class?.fromJson(json['relationships'])
-        : null;
-  }
+  factory NewsManagement.fromJson(Map<String, dynamic> json) => NewsManagement(
+        type: json["type"],
+        id: json["id"],
+        attributes: Attributes.fromJson(json["attributes"]),
+        relationships: Relationships.fromJson(json["relationships"]),
+      );
 
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['type'] = type;
-    data['id'] = id;
-    if (attributes != null) {
-      data['attributes'] = attributes.toJson();
-    }
-    if (relationships != null) {
-      data['relationships'] = relationships.toJson();
-    }
-    return data;
-  }
+  Map<String, dynamic> toJson() => {
+        "type": type,
+        "id": id,
+        "attributes": attributes.toJson(),
+        "relationships": relationships.toJson(),
+      };
 }
 
-@JsonSerializable()
 class Attributes {
-  String? tittle;
-  String? startTime;
-  String? endTime;
-  int? statusesId;
-  String? statusesName;
-  String? message;
-  String? messageNews;
-  int? imagesId;
-  bool? imageExist;
-  String? imagesUploadedFileName;
+  Attributes({
+    required this.tittle,
+    required this.startTime,
+    required this.endTime,
+    required this.statusesId,
+    required this.statusesName,
+    required this.message,
+    required this.messageNews,
+    required this.imagesId,
+    required this.imageExist,
+    required this.imagesUploadedFileName,
+    this.fileAttachmentsId,
+    required this.fileAttachmentsUploadedFileName,
+    this.videoUrl,
+    required this.createdBy,
+    required this.updatedBy,
+    required this.sourceSystemNo,
+    this.kindNews,
+    required this.isExternal,
+    this.createdByName,
+    required this.urlFacebook,
+    required this.urlTwitter,
+    required this.urlWa,
+    required this.urlLinkedin,
+    required this.url,
+  });
+
+  String tittle;
+  DateTime startTime;
+  DateTime endTime;
+  int statusesId;
+  String statusesName;
+  String message;
+  String messageNews;
+  int imagesId;
+  bool imageExist;
+  String imagesUploadedFileName;
   dynamic fileAttachmentsId;
-  String? fileAttachmentsUploadedFileName;
+  String fileAttachmentsUploadedFileName;
   dynamic videoUrl;
-  String? createdBy;
-  String? updatedBy;
-  String? sourceSystemNo;
+  String createdBy;
+  String updatedBy;
+  String sourceSystemNo;
   dynamic kindNews;
-  bool? isExternal;
+  bool isExternal;
   dynamic createdByName;
-  String? urlFacebook;
-  String? urlTwitter;
-  String? urlWa;
-  String? urlLinkedin;
-  String? url;
+  String urlFacebook;
+  String urlTwitter;
+  String urlWa;
+  String urlLinkedin;
+  String url;
 
-  Attributes(
-      {this.tittle,
-      this.startTime,
-      this.endTime,
-      this.statusesId,
-      this.statusesName,
-      this.message,
-      this.messageNews,
-      this.imagesId,
-      this.imageExist,
-      this.imagesUploadedFileName,
-      this.fileAttachmentsId,
-      this.fileAttachmentsUploadedFileName,
-      this.videoUrl,
-      this.createdBy,
-      this.updatedBy,
-      this.sourceSystemNo,
-      this.kindNews,
-      this.isExternal,
-      this.createdByName,
-      this.urlFacebook,
-      this.urlTwitter,
-      this.urlWa,
-      this.urlLinkedin,
-      this.url});
+  factory Attributes.fromJson(Map<String, dynamic> json) => Attributes(
+        tittle: json["tittle"],
+        startTime: DateTime.parse(json["start-time"]),
+        endTime: DateTime.parse(json["end-time"]),
+        statusesId: json["statuses-id"],
+        statusesName: json["statuses-name"],
+        message: json["message"],
+        messageNews: json["message-news"],
+        imagesId: json["images-id"],
+        imageExist: json["image-exist"],
+        imagesUploadedFileName: json["images-uploaded-file-name"],
+        fileAttachmentsId: json["file-attachments-id"],
+        fileAttachmentsUploadedFileName:
+            json["file-attachments-uploaded-file-name"],
+        videoUrl: json["video-url"],
+        createdBy: json["created-by"],
+        updatedBy: json["updated-by"],
+        sourceSystemNo: json["source-system-no"],
+        kindNews: json["kind-news"],
+        isExternal: json["is-external"],
+        createdByName: json["created-by-name"],
+        urlFacebook: json["url-facebook"],
+        urlTwitter: json["url-twitter"],
+        urlWa: json["url-wa"],
+        urlLinkedin: json["url-linkedin"],
+        url: json["url"],
+      );
 
-  Attributes.fromJson(Map<String, dynamic> json) {
-    tittle = json['tittle'];
-    startTime = json['start-time'];
-    endTime = json['end-time'];
-    statusesId = json['statuses-id'];
-    statusesName = json['statuses-name'];
-    message = json['message'];
-    messageNews = json['message-news'];
-    imagesId = json['images-id'];
-    imageExist = json['image-exist'];
-    imagesUploadedFileName = json['images-uploaded-file-name'];
-    fileAttachmentsId = json['file-attachments-id'];
-    fileAttachmentsUploadedFileName =
-        json['file-attachments-uploaded-file-name'];
-    videoUrl = json['video-url'];
-    createdBy = json['created-by'];
-    updatedBy = json['updated-by'];
-    sourceSystemNo = json['source-system-no'];
-    kindNews = json['kind-news'];
-    isExternal = json['is-external'];
-    createdByName = json['created-by-name'];
-    urlFacebook = json['url-facebook'];
-    urlTwitter = json['url-twitter'];
-    urlWa = json['url-wa'];
-    urlLinkedin = json['url-linkedin'];
-    url = json['url'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['tittle'] = tittle;
-    data['start-time'] = startTime;
-    data['end-time'] = endTime;
-    data['statuses-id'] = statusesId;
-    data['statuses-name'] = statusesName;
-    data['message'] = message;
-    data['message-news'] = messageNews;
-    data['images-id'] = imagesId;
-    data['image-exist'] = imageExist;
-    data['images-uploaded-file-name'] = imagesUploadedFileName;
-    data['file-attachments-id'] = fileAttachmentsId;
-    data['file-attachments-uploaded-file-name'] =
-        fileAttachmentsUploadedFileName;
-    data['video-url'] = videoUrl;
-    data['created-by'] = createdBy;
-    data['updated-by'] = updatedBy;
-    data['source-system-no'] = sourceSystemNo;
-    data['kind-news'] = kindNews;
-    data['is-external'] = isExternal;
-    data['created-by-name'] = createdByName;
-    data['url-facebook'] = urlFacebook;
-    data['url-twitter'] = urlTwitter;
-    data['url-wa'] = urlWa;
-    data['url-linkedin'] = urlLinkedin;
-    data['url'] = url;
-    return data;
-  }
+  Map<String, dynamic> toJson() => {
+        "tittle": tittle,
+        "start-time": startTime.toIso8601String(),
+        "end-time": endTime.toIso8601String(),
+        "statuses-id": statusesId,
+        "statuses-name": statusesName,
+        "message": message,
+        "message-news": messageNews,
+        "images-id": imagesId,
+        "image-exist": imageExist,
+        "images-uploaded-file-name": imagesUploadedFileName,
+        "file-attachments-id": fileAttachmentsId,
+        "file-attachments-uploaded-file-name": fileAttachmentsUploadedFileName,
+        "video-url": videoUrl,
+        "created-by": createdBy,
+        "updated-by": updatedBy,
+        "source-system-no": sourceSystemNo,
+        "kind-news": kindNews,
+        "is-external": isExternal,
+        "created-by-name": createdByName,
+        "url-facebook": urlFacebook,
+        "url-twitter": urlTwitter,
+        "url-wa": urlWa,
+        "url-linkedin": urlLinkedin,
+        "url": url,
+      };
 }
 
-@JsonSerializable()
 class Relationships {
-  Class? status;
-  Class? image;
-  Class? fileAttachment;
+  Relationships({
+    required this.status,
+    required this.image,
+    required this.fileAttachment,
+  });
 
-  Relationships({this.status, this.image, this.fileAttachment});
+  FileAttachment status;
+  FileAttachment image;
+  FileAttachment fileAttachment;
 
-  Relationships.fromJson(Map<String, dynamic> json) {
-    status = json['status'] != null ? Class?.fromJson(json['status']) : null;
-    image = json['image'] != null ? Class?.fromJson(json['image']) : null;
-    fileAttachment = json['file-attachment'] != null
-        ? Class?.fromJson(json['file-attachment'])
-        : null;
-  }
+  factory Relationships.fromJson(Map<String, dynamic> json) => Relationships(
+        status: FileAttachment.fromJson(json["status"]),
+        image: FileAttachment.fromJson(json["image"]),
+        fileAttachment: FileAttachment.fromJson(json["file-attachment"]),
+      );
 
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    if (status != null) {
-      data['status'] = status.toJson();
-    }
-    if (image != null) {
-      data['image'] = image.toJson();
-    }
-    if (fileAttachment != null) {
-      data['file-attachment'] = fileAttachment.toJson();
-    }
-    return data;
-  }
+  Map<String, dynamic> toJson() => {
+        "status": status.toJson(),
+        "image": image.toJson(),
+        "file-attachment": fileAttachment.toJson(),
+      };
 }
 
-class Status {
+class FileAttachment {
+  FileAttachment({
+    this.data,
+  });
+
   dynamic data;
 
-  Status({this.data});
+  factory FileAttachment.fromJson(Map<String, dynamic> json) => FileAttachment(
+        data: json["data"],
+      );
 
-  Status.fromJson(Map<String, dynamic> json) {
-    data = json['data'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final data = <String, dynamic>{};
-    data['data'] = data;
-    return data;
-  }
+  Map<String, dynamic> toJson() => {
+        "data": data,
+      };
 }

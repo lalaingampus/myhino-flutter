@@ -18,27 +18,13 @@ class LoginController extends GetxController {
   }
 
   login(BuildContext context) async {
-    Map<String, dynamic> obj = await UserService().login(
+    bool? obj = await UserService().login(
       username: username.text,
       password: password.text,
     );
 
-    // if (obj['statusCode'] == 200) {
-    //   CoolAlert.show(
-    //     context: Get.context!,
-    //     type: CoolAlertType.success,
-    //     title: 'Success Login',
-    //     text: 'Your login!',
-    //     onConfirmBtnTap: () => Get.toNamed('home'),
-    //   );
-    // } else if (obj['statusCode'] == 500) {
-    //   CoolAlert.show(
-    //     context: Get.context!,
-    //     type: CoolAlertType.error,
-    //     title: 'Fail Login',
-    //     text: obj['data']['error']['message'],
-    //     onConfirmBtnTap: () => Get.back(),
-    //   );
-    // }
+    if (obj == true) {
+      Get.toNamed("home");
+    }
   }
 }
