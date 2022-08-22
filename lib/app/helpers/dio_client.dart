@@ -2,12 +2,14 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
+import 'package:flutter_session_manager/flutter_session_manager.dart';
 import 'package:myhino/app/data/models/news_management_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants/variable.dart';
 import './dio_exception.dart';
 
 class DioClient {
+  var sessionManager = SessionManager();
   DioClient()
       : _dio = Dio(
           BaseOptions(
@@ -27,6 +29,12 @@ class DioClient {
     _prefs.setString('access_token', accessToken);
     _prefs.setString('refresh_token', refreshToken);
     _prefs.setString('expires_in', expiresIn);
+
+    await sessionManager.set("token_type", tokenType);
+    await sessionManager.set("access_token", accessToken);
+    await sessionManager.set("refresh_token", refreshToken);
+    await sessionManager.set("expires_in", expiresIn);
+    await SessionManager().update();
   }
 
   // HTTP request methods will go here
@@ -135,7 +143,16 @@ class DioClient {
       throw errorMessage;
     } catch (e) {
       print(e);
-      throw e.toString();
+      if (e.runtimeType == String) {
+        throw e.toString();
+      }
+      inspect(e);
+      Map<String, dynamic> _results = e as Map<String, dynamic>;
+      for (var entry in _results.entries) {
+        print(entry.key);
+        print(entry.value);
+      }
+      throw e.runtimeType;
     }
   }
 }

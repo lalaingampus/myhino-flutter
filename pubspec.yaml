@@ -32,6 +32,8 @@ dependencies:
   smart_select: ^4.3.2
   file_picker: ^5.0.1
 
+  flutter_session_manager: ^1.0.2
+
   flutter: 
     sdk: flutter
 
