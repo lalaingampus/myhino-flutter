@@ -1,31 +1,19 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter/services.dart';
+
 import '../controllers/home_controller.dart';
 
 import 'package:myhino/app/widgets/bottom_navigation.dart';
+import 'package:myhino/app/widgets/slider.dart';
+
 import './header_view.dart';
 import './menu_view.dart';
-import 'package:myhino/app/widgets/slider.dart';
+
 import './berita_promosi_view.dart';
 import './information_view.dart';
 import './social_media_view.dart';
 
 class HomeView extends GetView<HomeController> {
-  List news = [];
-
-  Future<void> loadCountryData() async {
-    try {
-      // we can access builtin asset bundle with rootBundle
-      final data =
-          await rootBundle.loadString("json/mobile/news-management.json");
-      news = json.decode(data);
-    } catch (e) {
-      Get.snackbar("Ops Something Wrong!!", e.toString());
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

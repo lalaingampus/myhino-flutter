@@ -1,24 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'dart:convert';
 
-class BeritaPromosiView extends GetView {
+import '../controllers/berita_promosi_controller.dart';
+
+class BeritaPromosiView extends GetView<BeritaPromosiController> {
+  final bc = Get.find<BeritaPromosiController>();
+
+  // String getNewsImage(bc_news, index){
+  //   final imageExist = ${bc_news[index].attributes.imageExist};
+  //   if(imageExist ){
+  //     return 'assets/mobile/images/${bc_news[index].attributes.imagesUploadedFileName}';
+  //   }else{
+  //     return 'assets/mobile/images/avatar.png';
+  //   }
+  // }
+
   @override
   Widget build(BuildContext context) {
-    List news = [];
-
-    Future<void> loadCountryData() async {
-      try {
-        // we can access builtin asset bundle with rootBundle
-        final data =
-            await rootBundle.loadString("json/mobile/news-management.json");
-        news = json.decode(data);
-      } catch (e) {
-        Get.snackbar("Ops Something Wrong!!", e.toString());
-      }
-    }
-
     return Container(
       child: Column(
         children: [
@@ -55,7 +53,7 @@ class BeritaPromosiView extends GetView {
                   child: ListView.separated(
                     padding: EdgeInsets.all(10),
                     scrollDirection: Axis.horizontal,
-                    itemCount: 4,
+                    itemCount: bc.news.length,
                     separatorBuilder: (context, _) => SizedBox(width: 12),
                     itemBuilder: (context, index) =>
                         // Start::Berita Card
@@ -69,21 +67,20 @@ class BeritaPromosiView extends GetView {
                               child: ClipRRect(
                                 borderRadius: BorderRadius.circular(10),
                                 child: Image.asset(
-                                  'assets/mobile/images/avatar.png',
-                                  fit: BoxFit.cover,
-                                ),
+                                    'assets/mobile/images/${bc.news[index].attributes.imagesUploadedFileName}',
+                                    fit: BoxFit.cover),
                               ),
                             ),
                           ),
                           const SizedBox(height: 5),
                           Text(
-                            "Sub Title",
+                            "${bc.news[index].attributes.messageNews}",
                             textAlign: TextAlign.left,
                             style: TextStyle(fontSize: 10),
                           ),
                           const SizedBox(height: 5),
                           Text(
-                            "Title",
+                            "${bc.news[index].attributes.tittle}",
                             textAlign: TextAlign.left,
                             style: TextStyle(
                                 fontSize: 13, fontWeight: FontWeight.bold),

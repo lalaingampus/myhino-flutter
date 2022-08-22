@@ -10,11 +10,11 @@ class UserService {
     try {
       await DioClient().login(username: username, password: password);
 
-      return Future.value(true);
+      return true;
     } catch (e) {
       print(e);
     }
 
-    return Future.value(false);
+    return false;
   }
 }
