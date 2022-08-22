@@ -135,9 +135,12 @@ class DioClient {
       // print(_dio.options.headers['authorization']);
 
       final response = await _dio.get('/news-managements');
-      inspect(response.data);
-      return List<NewsManagement>.from(
-          json.decode(response.data).map((x) => NewsManagement.fromJson(x)));
+      //print(response.data['data']);
+      List<NewsManagement> news = List<NewsManagement>.from(json
+          .decode(response.data['data'])
+          .map((x) => NewsManagement.fromJson(x)));
+      print(news);
+      return news;
     } on DioError catch (err) {
       final errorMessage = DioException.fromDioError(err).toString();
       throw errorMessage;
@@ -146,13 +149,12 @@ class DioClient {
       if (e.runtimeType == String) {
         throw e.toString();
       }
+      // else if (e.runtimeType == List<dynamic>) {
+      //   throw e[0].toString();
+      // }
       inspect(e);
-      Map<String, dynamic> _results = e as Map<String, dynamic>;
-      for (var entry in _results.entries) {
-        print(entry.key);
-        print(entry.value);
-      }
-      throw e.runtimeType;
+
+      throw e.toString();
     }
   }
 }

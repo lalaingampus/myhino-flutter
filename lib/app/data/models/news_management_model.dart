@@ -1,6 +1,6 @@
 // To parse this JSON data, do
 //
-//     final newsManagement = newsManagementFromJson(jsonString);
+//     final news = newsFromJson(jsonString);
 
 import 'dart:convert';
 
@@ -16,26 +16,22 @@ class NewsManagement {
     required this.type,
     required this.id,
     required this.attributes,
-    required this.relationships,
   });
 
-  String type;
+  Type type;
   String id;
   Attributes attributes;
-  Relationships relationships;
 
-  factory NewsManagement.fromJson(Map<String, dynamic> json) => NewsManagement(
-        type: json["type"],
+  factory NewsManagement.fromJson(Map<String, dynamic> json) => News(
+        type: typeValues.map[json["type"]],
         id: json["id"],
         attributes: Attributes.fromJson(json["attributes"]),
-        relationships: Relationships.fromJson(json["relationships"]),
       );
 
   Map<String, dynamic> toJson() => {
-        "type": type,
+        "type": typeValues.reverse[type],
         "id": id,
         "attributes": attributes.toJson(),
-        "relationships": relationships.toJson(),
       };
 }
 
@@ -51,7 +47,7 @@ class Attributes {
     required this.imagesId,
     required this.imageExist,
     required this.imagesUploadedFileName,
-    this.fileAttachmentsId,
+    required this.fileAttachmentsId,
     required this.fileAttachmentsUploadedFileName,
     this.videoUrl,
     required this.createdBy,
@@ -76,8 +72,8 @@ class Attributes {
   String messageNews;
   int imagesId;
   bool imageExist;
-  String imagesUploadedFileName;
-  dynamic fileAttachmentsId;
+  ImagesUploadedFileName imagesUploadedFileName;
+  int fileAttachmentsId;
   String fileAttachmentsUploadedFileName;
   dynamic videoUrl;
   String createdBy;
@@ -102,8 +98,11 @@ class Attributes {
         messageNews: json["message-news"],
         imagesId: json["images-id"],
         imageExist: json["image-exist"],
-        imagesUploadedFileName: json["images-uploaded-file-name"],
-        fileAttachmentsId: json["file-attachments-id"],
+        imagesUploadedFileName:
+            imagesUploadedFileNameValues.map[json["images-uploaded-file-name"]],
+        fileAttachmentsId: json["file-attachments-id"] == null
+            ? null
+            : json["file-attachments-id"],
         fileAttachmentsUploadedFileName:
             json["file-attachments-uploaded-file-name"],
         videoUrl: json["video-url"],
@@ -130,8 +129,10 @@ class Attributes {
         "message-news": messageNews,
         "images-id": imagesId,
         "image-exist": imageExist,
-        "images-uploaded-file-name": imagesUploadedFileName,
-        "file-attachments-id": fileAttachmentsId,
+        "images-uploaded-file-name":
+            imagesUploadedFileNameValues.reverse[imagesUploadedFileName],
+        "file-attachments-id":
+            fileAttachmentsId == null ? null : fileAttachmentsId,
         "file-attachments-uploaded-file-name": fileAttachmentsUploadedFileName,
         "video-url": videoUrl,
         "created-by": createdBy,
@@ -148,42 +149,34 @@ class Attributes {
       };
 }
 
-class Relationships {
-  Relationships({
-    required this.status,
-    required this.image,
-    required this.fileAttachment,
-  });
-
-  FileAttachment status;
-  FileAttachment image;
-  FileAttachment fileAttachment;
-
-  factory Relationships.fromJson(Map<String, dynamic> json) => Relationships(
-        status: FileAttachment.fromJson(json["status"]),
-        image: FileAttachment.fromJson(json["image"]),
-        fileAttachment: FileAttachment.fromJson(json["file-attachment"]),
-      );
-
-  Map<String, dynamic> toJson() => {
-        "status": status.toJson(),
-        "image": image.toJson(),
-        "file-attachment": fileAttachment.toJson(),
-      };
+enum ImagesUploadedFileName {
+  EMPTY,
+  THE_61_B6_F825_CDB68_SCREENSHOT_2_PNG,
+  THE_61_B3_FF0_E06_D57_VOKASI_JPG
 }
 
-class FileAttachment {
-  FileAttachment({
-    this.data,
-  });
+final imagesUploadedFileNameValues = EnumValues({
+  "": ImagesUploadedFileName.EMPTY,
+  "61b3ff0e06d57_vokasi.JPG":
+      ImagesUploadedFileName.THE_61_B3_FF0_E06_D57_VOKASI_JPG,
+  "61b6f825cdb68_Screenshot (2).png":
+      ImagesUploadedFileName.THE_61_B6_F825_CDB68_SCREENSHOT_2_PNG
+});
 
-  dynamic data;
+enum Type { NEWS_MANAGEMENTS }
 
-  factory FileAttachment.fromJson(Map<String, dynamic> json) => FileAttachment(
-        data: json["data"],
-      );
+final typeValues = EnumValues({"news-managements": Type.NEWS_MANAGEMENTS});
 
-  Map<String, dynamic> toJson() => {
-        "data": data,
-      };
+class EnumValues<T> {
+  Map<String, T> map;
+  Map<T, String> reverseMap;
+
+  EnumValues(this.map);
+
+  Map<T, String> get reverse {
+    if (reverseMap == null) {
+      reverseMap = map.map((k, v) => new MapEntry(v, k));
+    }
+    return reverseMap;
+  }
 }
