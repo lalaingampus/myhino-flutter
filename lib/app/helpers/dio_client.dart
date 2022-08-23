@@ -14,8 +14,8 @@ class DioClient {
       : _dio = Dio(
           BaseOptions(
               baseUrl: "$baseUrl",
-              connectTimeout: 10000,
-              receiveTimeout: 10000,
+              connectTimeout: 100000,
+              receiveTimeout: 100000,
               responseType: ResponseType.json,
               headers: {"content-Type": 'application/json'}),
         );
@@ -127,6 +127,7 @@ class DioClient {
 
   Future<List<NewsManagement>> getNews() async {
     SharedPreferences _prefs = await SharedPreferences.getInstance();
+    late var result;
     try {
       _dio.options.headers['authorization'] =
           "${_prefs.getString('token_type')} ${_prefs.getString('access_token')}";
@@ -135,26 +136,17 @@ class DioClient {
       // print(_dio.options.headers['authorization']);
 
       final response = await _dio.get('/news-managements');
-      //print(response.data['data']);
-      List<NewsManagement> news = List<NewsManagement>.from(json
-          .decode(response.data['data'])
-          .map((x) => NewsManagement.fromJson(x)));
-      print(news);
-      return news;
+      result = response.data['data'];
+      // print(result['data']);
     } on DioError catch (err) {
       final errorMessage = DioException.fromDioError(err).toString();
       throw errorMessage;
     } catch (e) {
-      print(e);
-      if (e.runtimeType == String) {
-        throw e.toString();
-      }
-      // else if (e.runtimeType == List<dynamic>) {
-      //   throw e[0].toString();
-      // }
-      inspect(e);
-
       throw e.toString();
     }
+
+    List<NewsManagement> news = List<NewsManagement>.from(
+        result.map((x) => NewsManagement.fromJson(x)));
+    return news;
   }
 }

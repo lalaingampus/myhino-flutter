@@ -11,7 +11,6 @@ class BeritaPromosiController extends GetxController {
 
   Future<List<NewsManagement>> loadCountryData() async {
     List<NewsManagement> news = await DioClient().getNews();
-    print("this is news");
     return news;
   }
 
@@ -19,7 +18,7 @@ class BeritaPromosiController extends GetxController {
   void onInit() async {
     super.onInit();
     news = await loadCountryData();
-    print(news);
+    // print("ini title ${news[0].attributes.tittle}");
     inspect(news);
   }
 

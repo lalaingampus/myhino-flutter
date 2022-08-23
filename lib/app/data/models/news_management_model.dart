@@ -1,12 +1,12 @@
 // To parse this JSON data, do
 //
-//     final news = newsFromJson(jsonString);
+//     final newsManagement = newsManagementFromJson(jsonString);
 
 import 'dart:convert';
 
-List<NewsManagement> newsManagementFromJson(String str) =>
-    List<NewsManagement>.from(
-        json.decode(str).map((x) => NewsManagement.fromJson(x)));
+// List<NewsManagement> newsManagementFromJson(String str) =>
+//     List<NewsManagement>.from(
+//         json.decode(str).map((x) => NewsManagement.fromJson(x)));
 
 String newsManagementToJson(List<NewsManagement> data) =>
     json.encode(List<dynamic>.from(data.map((x) => x.toJson())));
@@ -18,18 +18,18 @@ class NewsManagement {
     required this.attributes,
   });
 
-  Type type;
+  String type;
   String id;
   Attributes attributes;
 
-  factory NewsManagement.fromJson(Map<String, dynamic> json) => News(
-        type: typeValues.map[json["type"]],
+  factory NewsManagement.fromJson(Map<String, dynamic> json) => NewsManagement(
+        type: json["type"],
         id: json["id"],
         attributes: Attributes.fromJson(json["attributes"]),
       );
 
   Map<String, dynamic> toJson() => {
-        "type": typeValues.reverse[type],
+        "type": type,
         "id": id,
         "attributes": attributes.toJson(),
       };
@@ -47,15 +47,15 @@ class Attributes {
     required this.imagesId,
     required this.imageExist,
     required this.imagesUploadedFileName,
-    required this.fileAttachmentsId,
+    this.fileAttachmentsId,
     required this.fileAttachmentsUploadedFileName,
-    this.videoUrl,
+    required this.videoUrl,
     required this.createdBy,
     required this.updatedBy,
     required this.sourceSystemNo,
     this.kindNews,
     required this.isExternal,
-    this.createdByName,
+    required this.createdByName,
     required this.urlFacebook,
     required this.urlTwitter,
     required this.urlWa,
@@ -72,8 +72,8 @@ class Attributes {
   String messageNews;
   int imagesId;
   bool imageExist;
-  ImagesUploadedFileName imagesUploadedFileName;
-  int fileAttachmentsId;
+  String imagesUploadedFileName;
+  dynamic fileAttachmentsId;
   String fileAttachmentsUploadedFileName;
   dynamic videoUrl;
   String createdBy;
@@ -98,11 +98,8 @@ class Attributes {
         messageNews: json["message-news"],
         imagesId: json["images-id"],
         imageExist: json["image-exist"],
-        imagesUploadedFileName:
-            imagesUploadedFileNameValues.map[json["images-uploaded-file-name"]],
-        fileAttachmentsId: json["file-attachments-id"] == null
-            ? null
-            : json["file-attachments-id"],
+        imagesUploadedFileName: json["images-uploaded-file-name"],
+        fileAttachmentsId: json["file-attachments-id"],
         fileAttachmentsUploadedFileName:
             json["file-attachments-uploaded-file-name"],
         videoUrl: json["video-url"],
@@ -129,10 +126,8 @@ class Attributes {
         "message-news": messageNews,
         "images-id": imagesId,
         "image-exist": imageExist,
-        "images-uploaded-file-name":
-            imagesUploadedFileNameValues.reverse[imagesUploadedFileName],
-        "file-attachments-id":
-            fileAttachmentsId == null ? null : fileAttachmentsId,
+        "images-uploaded-file-name": imagesUploadedFileName,
+        "file-attachments-id": fileAttachmentsId,
         "file-attachments-uploaded-file-name": fileAttachmentsUploadedFileName,
         "video-url": videoUrl,
         "created-by": createdBy,
@@ -147,36 +142,4 @@ class Attributes {
         "url-linkedin": urlLinkedin,
         "url": url,
       };
-}
-
-enum ImagesUploadedFileName {
-  EMPTY,
-  THE_61_B6_F825_CDB68_SCREENSHOT_2_PNG,
-  THE_61_B3_FF0_E06_D57_VOKASI_JPG
-}
-
-final imagesUploadedFileNameValues = EnumValues({
-  "": ImagesUploadedFileName.EMPTY,
-  "61b3ff0e06d57_vokasi.JPG":
-      ImagesUploadedFileName.THE_61_B3_FF0_E06_D57_VOKASI_JPG,
-  "61b6f825cdb68_Screenshot (2).png":
-      ImagesUploadedFileName.THE_61_B6_F825_CDB68_SCREENSHOT_2_PNG
-});
-
-enum Type { NEWS_MANAGEMENTS }
-
-final typeValues = EnumValues({"news-managements": Type.NEWS_MANAGEMENTS});
-
-class EnumValues<T> {
-  Map<String, T> map;
-  Map<T, String> reverseMap;
-
-  EnumValues(this.map);
-
-  Map<T, String> get reverse {
-    if (reverseMap == null) {
-      reverseMap = map.map((k, v) => new MapEntry(v, k));
-    }
-    return reverseMap;
-  }
 }
