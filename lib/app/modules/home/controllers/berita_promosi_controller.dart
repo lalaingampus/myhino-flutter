@@ -7,7 +7,8 @@ class BeritaPromosiController extends GetxController {
   //TODO: Implement BeritaPromosiController
 
   // ignore: prefer_typing_uninitialized_variables
-  List<NewsManagement> news = [];
+  List<NewsManagement> news_raw = [];
+  late var news = [].obs;
 
   Future<List<NewsManagement>> loadCountryData() async {
     List<NewsManagement> news = await DioClient().getNews();
@@ -17,7 +18,9 @@ class BeritaPromosiController extends GetxController {
   @override
   void onInit() async {
     super.onInit();
-    news = await loadCountryData();
+    news_raw = await loadCountryData();
+
+    news = news_raw.obs;
     // print("ini title ${news[0].attributes.tittle}");
     inspect(news);
   }

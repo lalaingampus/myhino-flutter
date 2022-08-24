@@ -47,6 +47,7 @@ class BeritaPromosiView extends GetView<BeritaPromosiController> {
                     ),
                   ],
                 ),
+                Text("banyaknya item ${bc.news.length}"),
                 SizedBox(height: 10),
                 Container(
                   height: 180,

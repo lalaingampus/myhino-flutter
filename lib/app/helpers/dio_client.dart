@@ -3,7 +3,9 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_session_manager/flutter_session_manager.dart';
-import 'package:myhino/app/data/models/news_management_model.dart';
+import 'package:myhino/app/data/models/news_management.dart';
+import 'package:myhino/app/data/models/spare_part.dart';
+import 'package:myhino/app/data/models/vehicle_management.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants/variable.dart';
 import './dio_exception.dart';
@@ -148,5 +150,49 @@ class DioClient {
     List<NewsManagement> news = List<NewsManagement>.from(
         result.map((x) => NewsManagement.fromJson(x)));
     return news;
+  }
+
+  Future<List<SparePart>> getSparePart() async {
+    SharedPreferences _prefs = await SharedPreferences.getInstance();
+    late var result;
+    try {
+      _dio.options.headers['authorization'] =
+          "${_prefs.getString('token_type')} ${_prefs.getString('access_token')}";
+
+      final response = await _dio.get('/spare-parts');
+      result = response.data['data'];
+      // print(result['data']);
+    } on DioError catch (err) {
+      final errorMessage = DioException.fromDioError(err).toString();
+      throw errorMessage;
+    } catch (e) {
+      throw e.toString();
+    }
+
+    List<SparePart> sparePart =
+        List<SparePart>.from(result.map((x) => SparePart.fromJson(x)));
+    return sparePart;
+  }
+
+  Future<List<VehicleManagement>> getVehicleManagement() async {
+    SharedPreferences _prefs = await SharedPreferences.getInstance();
+    late var result;
+    try {
+      _dio.options.headers['authorization'] =
+          "${_prefs.getString('token_type')} ${_prefs.getString('access_token')}";
+
+      final response = await _dio.get('/vehicle-managements');
+      result = response.data['data'];
+      // print(result['data']);
+    } on DioError catch (err) {
+      final errorMessage = DioException.fromDioError(err).toString();
+      throw errorMessage;
+    } catch (e) {
+      throw e.toString();
+    }
+
+    List<VehicleManagement> vehicleManagements =
+        List<VehicleManagement>.from(result.map((x) => SparePart.fromJson(x)));
+    return vehicleManagements;
   }
 }
