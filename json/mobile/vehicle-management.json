@@ -1,0 +1,361 @@
+{
+    "data": [
+      {
+        "type": "vehicle-managements",
+        "id": "150",
+        "attributes": {
+          "input-option": "Cabin",
+          "plate-or-cabin-no": "PLAT01",
+          "models-id": "9995",
+          "models-name": "115HD - Euro4",
+          "variant-name": null,
+          "vehicle-colors-id": null,
+          "vehicle-colors-name": "",
+          "vehicle-name": "115HD - Euro4",
+          "chassis-number": null,
+          "machine-number": null,
+          "production-year": null,
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "DUMP",
+          "series-name": "Dutro",
+          "series-id": 5,
+          "image-model": "/assets/uploads/products/136HD-Dump_Caro_HIRES3.png",
+          "created-by": "107",
+          "updated-by": "107"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9995"
+            }
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "124",
+        "attributes": {
+          "input-option": "Plate",
+          "plate-or-cabin-no": "K4TR0",
+          "models-id": "9396",
+          "models-name": "",
+          "variant-name": "V2",
+          "vehicle-colors-id": "1002",
+          "vehicle-colors-name": "Merah",
+          "vehicle-name": "",
+          "chassis-number": null,
+          "machine-number": null,
+          "production-year": null,
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": null,
+          "series-name": "",
+          "series-id": "",
+          "image-model": "",
+          "created-by": "107",
+          "updated-by": "107"
+        },
+        "relationships": {
+          "model": {
+            "data": null
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "92",
+        "attributes": {
+          "input-option": "Plate",
+          "plate-or-cabin-no": "B123NO",
+          "models-id": "9341",
+          "models-name": "FM 260 JD - Euro2",
+          "variant-name": "FM 260 JD",
+          "vehicle-colors-id": "1004",
+          "vehicle-colors-name": "Hijau",
+          "vehicle-name": "FM 260 JD - Euro2 FM 260 JD",
+          "chassis-number": "MJEFM8JN1MJE12345",
+          "machine-number": "J08EUFR12345",
+          "production-year": "2021",
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "DUMP",
+          "series-name": "Ranger",
+          "series-id": 6,
+          "image-model": "/assets/uploads/products/EX_rigid_Revisi_514LFRIDN001D7.png",
+          "created-by": "196",
+          "updated-by": "196"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9341"
+            }
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "32",
+        "attributes": {
+          "input-option": "Cabin",
+          "plate-or-cabin-no": "Akakakak",
+          "models-id": "9381",
+          "models-name": "DUTRO 110 LD - Euro2",
+          "variant-name": "Ahah",
+          "vehicle-colors-id": "1040",
+          "vehicle-colors-name": "Warna Lainnya",
+          "vehicle-name": "DUTRO 110 LD - Euro2 Ahah",
+          "chassis-number": "Asdfghjkl12345678",
+          "machine-number": "Asdfghjkqwer4",
+          "production-year": "1509",
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": "R",
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "CARGO",
+          "series-name": "Dutro",
+          "series-id": 5,
+          "image-model": "/assets/uploads/products/110_LD21.png",
+          "created-by": "110",
+          "updated-by": "110"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9381"
+            }
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "30",
+        "attributes": {
+          "input-option": "Cabin",
+          "plate-or-cabin-no": "8uD12",
+          "models-id": "9414",
+          "models-name": "FG 235 JP - Euro2",
+          "variant-name": "8UD12s",
+          "vehicle-colors-id": "1040",
+          "vehicle-colors-name": "Warna Lainnya",
+          "vehicle-name": "FG 235 JP - Euro2 8UD12s",
+          "chassis-number": "A1234567891234567",
+          "machine-number": "Thajggfhfu3",
+          "production-year": "2099",
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "CARGO",
+          "series-name": "Ranger",
+          "series-id": 6,
+          "image-model": "",
+          "created-by": "110",
+          "updated-by": "110"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9414"
+            }
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "29",
+        "attributes": {
+          "input-option": "Plate",
+          "plate-or-cabin-no": "8UD1",
+          "models-id": "9422",
+          "models-name": "FM 260 JW - Euro2",
+          "variant-name": "8UD1s",
+          "vehicle-colors-id": "1031",
+          "vehicle-colors-name": "",
+          "vehicle-name": "FM 260 JW - Euro2 8UD1s",
+          "chassis-number": "1627262626261626G",
+          "machine-number": "527257172m2d",
+          "production-year": "2013",
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "CARGO",
+          "series-name": "Ranger",
+          "series-id": 6,
+          "image-model": "/assets/uploads/products/Picture81.png",
+          "created-by": "110",
+          "updated-by": "110"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9422"
+            }
+          }
+        }
+      },
+      {
+        "type": "vehicle-managements",
+        "id": "20",
+        "attributes": {
+          "input-option": "Plate",
+          "plate-or-cabin-no": "B33013WD",
+          "models-id": "9404",
+          "models-name": "FC 190 J - Euro2",
+          "variant-name": "Variant test 5",
+          "vehicle-colors-id": "1002",
+          "vehicle-colors-name": "Merah",
+          "vehicle-name": "FC 190 J - Euro2 Variant test 5",
+          "chassis-number": "12bc1234567890123456",
+          "machine-number": "12bc12345671",
+          "production-year": "2021",
+          "variants-name-custom": null,
+          "user-managements-id": "151",
+          "other-color": null,
+          "vehicle-colors-name-custom": null,
+          "vehicle-model-name": null,
+          "nomor-handphone": null,
+          "nama-lengkap": null,
+          "catrgory-child-title": "CARGO",
+          "series-name": "Ranger",
+          "series-id": 6,
+          "image-model": "/assets/uploads/products/DSC_7100b1.png",
+          "created-by": "18",
+          "updated-by": "110"
+        },
+        "relationships": {
+          "model": {
+            "data": {
+              "type": "model",
+              "id": "9404"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "model",
+        "id": "9995",
+        "attributes": {
+          "name": "115HD - Euro4",
+          "description": "115HD - Euro4",
+          "series-id": 5,
+          "series-name": "Dutro",
+          "image-model": "/assets/uploads/products/136HD-Dump_Caro_HIRES3.png",
+          "created-by": null,
+          "updated-by": "12"
+        }
+      },
+      {
+        "type": "model",
+        "id": "9341",
+        "attributes": {
+          "name": "FM 260 JD - Euro2",
+          "description": "FM 260 JD - Euro2",
+          "series-id": 6,
+          "series-name": "Ranger",
+          "image-model": "/assets/uploads/products/EX_rigid_Revisi_514LFRIDN001D7.png",
+          "created-by": null,
+          "updated-by": "12"
+        }
+      },
+      {
+        "type": "model",
+        "id": "9381",
+        "attributes": {
+          "name": "DUTRO 110 LD - Euro2",
+          "description": "DUTRO 110 LD - Euro2",
+          "series-id": 5,
+          "series-name": "Dutro",
+          "image-model": "/assets/uploads/products/110_LD21.png",
+          "created-by": null,
+          "updated-by": "12"
+        }
+      },
+      {
+        "type": "model",
+        "id": "9414",
+        "attributes": {
+          "name": "FG 235 JP - Euro2",
+          "description": "FG 235 JP - Euro2",
+          "series-id": 6,
+          "series-name": "Ranger",
+          "image-model": "",
+          "created-by": null,
+          "updated-by": "10"
+        }
+      },
+      {
+        "type": "model",
+        "id": "9422",
+        "attributes": {
+          "name": "FM 260 JW - Euro2",
+          "description": "FM 260 JW - Euro2",
+          "series-id": 6,
+          "series-name": "Ranger",
+          "image-model": "/assets/uploads/products/Picture81.png",
+          "created-by": null,
+          "updated-by": "12"
+        }
+      },
+      {
+        "type": "model",
+        "id": "9404",
+        "attributes": {
+          "name": "FC 190 J - Euro2",
+          "description": "FC 190 J - Euro2",
+          "series-id": 6,
+          "series-name": "Ranger",
+          "image-model": "/assets/uploads/products/DSC_7100b1.png",
+          "created-by": null,
+          "updated-by": "12"
+        }
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "total": 7,
+        "count": 7,
+        "per_page": 10,
+        "current_page": 1,
+        "total_pages": 1
+      }
+    },
+    "links": {
+      "self": "http://34.101.202.245/b2capi/vehicle-managements?filter=&include=model%2C%20vehicle-color&isFromHome=true&per_page=10&whitCustomFilter=true&page=1",
+      "first": "http://34.101.202.245/b2capi/vehicle-managements?filter=&include=model%2C%20vehicle-color&isFromHome=true&per_page=10&whitCustomFilter=true&page=1",
+      "last": "http://34.101.202.245/b2capi/vehicle-managements?filter=&include=model%2C%20vehicle-color&isFromHome=true&per_page=10&whitCustomFilter=true&page=1"
+    }
+  }

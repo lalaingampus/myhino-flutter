@@ -1,0 +1,1241 @@
+{
+    "code": 200,
+    "data": {
+        "cmsProducts": [
+            {
+                "id": 9406,
+                "name": "A 215 - Euro2",
+                "image": "\/assets\/uploads\/products\/ak.png",
+                "subCategoryTitle": "BUS BESAR",
+                "categoryTitle": "Bus"
+            },
+            {
+                "id": 9377,
+                "name": "DUTRO BUS 110 SDB - Euro2",
+                "image": "\/assets\/uploads\/products\/Dutro_SDB22.png",
+                "subCategoryTitle": "BUS MIKRO",
+                "categoryTitle": "Bus"
+            },
+            {
+                "id": 9378,
+                "name": "DUTRO BUS 110 SDBL - Euro2",
+                "image": "\/assets\/uploads\/products\/sdbl31.png",
+                "subCategoryTitle": "BUS MIKRO",
+                "categoryTitle": "Bus"
+            },
+            {
+                "id": 9409,
+                "name": "FB 130 - Euro2",
+                "image": "\/assets\/uploads\/products\/fb.png",
+                "subCategoryTitle": "BUS MEDIUM",
+                "categoryTitle": "Bus"
+            }
+        ],
+        "karoseries": [
+            {
+                "cmsProductId": 9406,
+                "karoseries": [
+                    {
+                        "type": "BUS_BESAR_MESIN_DEPAN",
+                        "image": "assets\/front_new\/images\/karoseri\/bus-besar-mesin-depan-bus.svg",
+                        "available": true
+                    },
+                    {
+                        "type": "AMBULANS",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "MIKRO\/MEDIUM_BUS",
+                        "image": null,
+                        "available": false
+                    }
+                ]
+            },
+            {
+                "cmsProductId": 9377,
+                "karoseries": [
+                    {
+                        "type": "BUS_BESAR_MESIN_DEPAN",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "AMBULANS",
+                        "image": "assets\/front_new\/images\/karoseri\/ambulans-dutro.svg",
+                        "available": true
+                    },
+                    {
+                        "type": "MIKRO\/MEDIUM_BUS",
+                        "image": "assets\/front_new\/images\/karoseri\/mikro-medium-bus.svg",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "cmsProductId": 9378,
+                "karoseries": [
+                    {
+                        "type": "BUS_BESAR_MESIN_DEPAN",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "AMBULANS",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "MIKRO\/MEDIUM_BUS",
+                        "image": "assets\/front_new\/images\/karoseri\/mikro-medium-bus.svg",
+                        "available": true
+                    }
+                ]
+            },
+            {
+                "cmsProductId": 9409,
+                "karoseries": [
+                    {
+                        "type": "BUS_BESAR_MESIN_DEPAN",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "AMBULANS",
+                        "image": null,
+                        "available": false
+                    },
+                    {
+                        "type": "MIKRO\/MEDIUM_BUS",
+                        "image": "assets\/front_new\/images\/karoseri\/mikro-medium-bus.svg",
+                        "available": true
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "title": "TRANSMISI",
+                "lookupCode": "TRANSMISI",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Tipe",
+                                "value": "LJ06S -"
+                            },
+                            {
+                                "title": "C",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-1",
+                                "value": "7,663 -"
+                            },
+                            {
+                                "title": "Ke-2",
+                                "value": "4,751 -"
+                            },
+                            {
+                                "title": "Ke-3",
+                                "value": "2,898 -"
+                            },
+                            {
+                                "title": "Ke-4",
+                                "value": "1,844 -"
+                            },
+                            {
+                                "title": "Ke-5",
+                                "value": "1,288 -"
+                            },
+                            {
+                                "title": "Ke-6",
+                                "value": "1,000 -"
+                            },
+                            {
+                                "title": "Ke-7",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-8",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Mundur",
+                                "value": "7,173 -"
+                            },
+                            {
+                                "title": "Perbandingan gigi",
+                                "value": "- -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Tipe",
+                                "value": "M153 -"
+                            },
+                            {
+                                "title": "C",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-1",
+                                "value": "5,339 -"
+                            },
+                            {
+                                "title": "Ke-2",
+                                "value": "2,792 -"
+                            },
+                            {
+                                "title": "Ke-3",
+                                "value": "1,593 -"
+                            },
+                            {
+                                "title": "Ke-4",
+                                "value": "1,000 -"
+                            },
+                            {
+                                "title": "Ke-5",
+                                "value": "0,788 -"
+                            },
+                            {
+                                "title": "Ke-6",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-7",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-8",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Mundur",
+                                "value": "5,339 -"
+                            },
+                            {
+                                "title": "Perbandingan gigi",
+                                "value": "- -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Tipe",
+                                "value": "M153 -"
+                            },
+                            {
+                                "title": "C",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-1",
+                                "value": "5,339 -"
+                            },
+                            {
+                                "title": "Ke-2",
+                                "value": "2,792 -"
+                            },
+                            {
+                                "title": "Ke-3",
+                                "value": "1,593 -"
+                            },
+                            {
+                                "title": "Ke-4",
+                                "value": "1,000 -"
+                            },
+                            {
+                                "title": "Ke-5",
+                                "value": "0,788 -"
+                            },
+                            {
+                                "title": "Ke-6",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-7",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-8",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Mundur",
+                                "value": "5,339 -"
+                            },
+                            {
+                                "title": "Perbandingan gigi",
+                                "value": "- -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Tipe",
+                                "value": "M550 -"
+                            },
+                            {
+                                "title": "C",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-1",
+                                "value": "4,981 -"
+                            },
+                            {
+                                "title": "Ke-2",
+                                "value": "2,911 -"
+                            },
+                            {
+                                "title": "Ke-3",
+                                "value": "1,556 -"
+                            },
+                            {
+                                "title": "Ke-4",
+                                "value": "1,000 -"
+                            },
+                            {
+                                "title": "Ke-5",
+                                "value": "0,738 -"
+                            },
+                            {
+                                "title": "Ke-6",
+                                "value": "-"
+                            },
+                            {
+                                "title": "Ke-7",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Ke-8",
+                                "value": "- -"
+                            },
+                            {
+                                "title": "Mundur",
+                                "value": "4,625 -"
+                            },
+                            {
+                                "title": "Perbandingan gigi",
+                                "value": "- -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "BERAT CHASSIS",
+                "lookupCode": "BERATCHASSIS",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Berat Kosong",
+                                "value": "4.405 kg"
+                            },
+                            {
+                                "title": "Berat Total Kendaraan",
+                                "value": "14.200 kg"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Berat Kosong",
+                                "value": "1.945 kg"
+                            },
+                            {
+                                "title": "Berat Total Kendaraan",
+                                "value": "5.200 kg"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Berat Kosong",
+                                "value": "2.010 kg"
+                            },
+                            {
+                                "title": "Berat Total Kendaraan",
+                                "value": "5.200 kg"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Berat Kosong",
+                                "value": "2.300 kg"
+                            },
+                            {
+                                "title": "Berat Total Kendaraan",
+                                "value": "8.000 kg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "DIMENSI",
+                "lookupCode": "DIMENSI",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Jarak Sumbu Roda",
+                                "value": "5.800 mm"
+                            },
+                            {
+                                "title": "Julur Belakang",
+                                "value": "3.350 mm"
+                            },
+                            {
+                                "title": "Julur Depan",
+                                "value": "2.030 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Belakang",
+                                "value": "1.840 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Depan",
+                                "value": "1.920 mm"
+                            },
+                            {
+                                "title": "Total Lebar",
+                                "value": "2.425 mm"
+                            },
+                            {
+                                "title": "Total Panjang",
+                                "value": "11.180 mm"
+                            },
+                            {
+                                "title": "Total Tinggi",
+                                "value": "2.100 mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Jarak Sumbu Roda",
+                                "value": "2.530 mm"
+                            },
+                            {
+                                "title": "Julur Belakang",
+                                "value": "1.480 mm"
+                            },
+                            {
+                                "title": "Julur Depan",
+                                "value": "1.065 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Belakang",
+                                "value": "1.420 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Depan",
+                                "value": "1.415 mm"
+                            },
+                            {
+                                "title": "Total Lebar",
+                                "value": "1.720 mm"
+                            },
+                            {
+                                "title": "Total Panjang",
+                                "value": "5.075 mm"
+                            },
+                            {
+                                "title": "Total Tinggi",
+                                "value": "2.115 mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Jarak Sumbu Roda",
+                                "value": "3.405 mm"
+                            },
+                            {
+                                "title": "Julur Belakang",
+                                "value": "1.960 mm"
+                            },
+                            {
+                                "title": "Julur Depan",
+                                "value": "1.065 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Belakang",
+                                "value": "1.440 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Depan",
+                                "value": "1.435 mm"
+                            },
+                            {
+                                "title": "Total Lebar",
+                                "value": "1.720 mm"
+                            },
+                            {
+                                "title": "Total Panjang",
+                                "value": "6.430 mm"
+                            },
+                            {
+                                "title": "Total Tinggi",
+                                "value": "2.110 mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Jarak Sumbu Roda",
+                                "value": "3.780 mm"
+                            },
+                            {
+                                "title": "Julur Belakang",
+                                "value": "2.155 mm"
+                            },
+                            {
+                                "title": "Julur Depan",
+                                "value": "1.110 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Belakang",
+                                "value": "1.520 mm"
+                            },
+                            {
+                                "title": "Lebar Jejak Depan",
+                                "value": "1.655 mm"
+                            },
+                            {
+                                "title": "Total Lebar",
+                                "value": "2.100 mm"
+                            },
+                            {
+                                "title": "Total Panjang",
+                                "value": "7.045 mm"
+                            },
+                            {
+                                "title": "Total Tinggi",
+                                "value": "1.770 mm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "KEMUDI",
+                "lookupCode": "KEMUDI",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Minimal Radius Putar",
+                                "value": "9,9 m"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Integral Power Steering -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Minimal Radius Putar",
+                                "value": "5,5 m"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Integral Power Steering -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Minimal Radius Putar",
+                                "value": "7,2 m"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Integral Power Steering -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Minimal Radius Putar",
+                                "value": "6,5 m"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "integral power steering -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "KOPLING",
+                "lookupCode": "KOPLING",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Diameter Cakram",
+                                "value": "350 mm"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Single Dry Plate with Coil Spring -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Diameter Cakram",
+                                "value": "300 mm mm"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Single Dry Plate -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Diameter Cakram",
+                                "value": "300 mm"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Single Dry Plate -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Diameter Cakram",
+                                "value": "300 mm"
+                            },
+                            {
+                                "title": "Tipe",
+                                "value": "Single Dry Plate w\/ Coil Spring; Hyd. -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "MODEL MESIN",
+                "lookupCode": "MODELMESIN",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Daya maksimum",
+                                "value": "62 \/ 1.500 Kg.m\/rpm"
+                            },
+                            {
+                                "title": "Diameter x Langkah Piston",
+                                "value": "112 x 130 mm"
+                            },
+                            {
+                                "title": "Isi Silinder",
+                                "value": "7.684 cc"
+                            },
+                            {
+                                "title": "Jumlah silinder",
+                                "value": "6 -"
+                            },
+                            {
+                                "title": "Model",
+                                "value": "J08E-UH -"
+                            },
+                            {
+                                "title": "Model Tipe",
+                                "value": "4 stroke engine, In-Line, turbocharger, intercooler -"
+                            },
+                            {
+                                "title": "Tenaga Maksimum",
+                                "value": "215 \/ 2.500 PS\/rpm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Daya maksimum",
+                                "value": "29 \/ 1.800 kgm\/rpm"
+                            },
+                            {
+                                "title": "Diameter x Langkah Piston",
+                                "value": "104 x 118 mm"
+                            },
+                            {
+                                "title": "Isi Silinder",
+                                "value": "4.009 cc"
+                            },
+                            {
+                                "title": "Jumlah silinder",
+                                "value": "4 -"
+                            },
+                            {
+                                "title": "Model",
+                                "value": "W04D-TP -"
+                            },
+                            {
+                                "title": "Model Tipe",
+                                "value": "Diesel 4 stroke engine; Direct Injection; Turbo Intercooler -"
+                            },
+                            {
+                                "title": "Tenaga Maksimum",
+                                "value": "110 \/ 2.800 PS\/rpm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Daya maksimum",
+                                "value": "29 \/ 1.800 kgm\/rpm"
+                            },
+                            {
+                                "title": "Diameter x Langkah Piston",
+                                "value": "104 x 118 mm"
+                            },
+                            {
+                                "title": "Isi Silinder",
+                                "value": "4.009 cc"
+                            },
+                            {
+                                "title": "Jumlah silinder",
+                                "value": "4 -"
+                            },
+                            {
+                                "title": "Model",
+                                "value": "W04D-TP -"
+                            },
+                            {
+                                "title": "Model Tipe",
+                                "value": "4 stroke engine, Direct Injection, Turbo Intercooler -"
+                            },
+                            {
+                                "title": "Tenaga Maksimum",
+                                "value": "110 \/ 2.800 PS\/rpm"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Daya maksimum",
+                                "value": "37 \/ 1.800 Kg.m\/rpm"
+                            },
+                            {
+                                "title": "Diameter x Langkah Piston",
+                                "value": "104 x 118 mm"
+                            },
+                            {
+                                "title": "Isi Silinder",
+                                "value": "4.009 cc"
+                            },
+                            {
+                                "title": "Jumlah silinder",
+                                "value": "4 -"
+                            },
+                            {
+                                "title": "Model",
+                                "value": "W04D-TN -"
+                            },
+                            {
+                                "title": "Model Tipe",
+                                "value": "4 Stroke Engine, Direct Injection, Turbo Intercooler -"
+                            },
+                            {
+                                "title": "Tenaga Maksimum",
+                                "value": "130 \/ 2.500 PS\/rpm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "PERFORMA",
+                "lookupCode": "PERFORMA",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Daya Tanjak",
+                                "value": "35 tan"
+                            },
+                            {
+                                "title": "Kecepatan Maksimum",
+                                "value": "105 km\/jam"
+                            },
+                            {
+                                "title": "Kecepatan maksimum",
+                                "value": "-"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Daya Tanjak",
+                                "value": "33,1 tan %"
+                            },
+                            {
+                                "title": "Kecepatan Maksimum",
+                                "value": "121 km\/jam"
+                            },
+                            {
+                                "title": "Kecepatan maksimum",
+                                "value": "-"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Daya Tanjak",
+                                "value": "33,1 tan %"
+                            },
+                            {
+                                "title": "Kecepatan Maksimum",
+                                "value": "-"
+                            },
+                            {
+                                "title": "Kecepatan maksimum",
+                                "value": "121 km\/jam"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Daya Tanjak",
+                                "value": "38,3 tan"
+                            },
+                            {
+                                "title": "Kecepatan Maksimum",
+                                "value": "104,6 km\/jam"
+                            },
+                            {
+                                "title": "Kecepatan maksimum",
+                                "value": "-"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "REM",
+                "lookupCode": "REM",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Rem Parkir",
+                                "value": "Internal Expanding type on Transmission -"
+                            },
+                            {
+                                "title": "Rem Pelambat",
+                                "value": "With on Exhaust Pipe -"
+                            },
+                            {
+                                "title": "Rem Utama",
+                                "value": "air over hydraulic -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Rem Parkir",
+                                "value": "Internal Expanding type on output transmision -"
+                            },
+                            {
+                                "title": "Rem Pelambat",
+                                "value": "With on Exhaust Pipe -"
+                            },
+                            {
+                                "title": "Rem Utama",
+                                "value": "Vacuum Servo with Dual Circuit; with Booster -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Rem Parkir",
+                                "value": "Internal Expanding Type on Out Shaft Transmisi -"
+                            },
+                            {
+                                "title": "Rem Pelambat",
+                                "value": "With on Exhaust Pipe -"
+                            },
+                            {
+                                "title": "Rem Utama",
+                                "value": "Vacuum Servo with Dual Circuit; with Booster -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Rem Parkir",
+                                "value": "Internal expanding tipe on output t\/m -"
+                            },
+                            {
+                                "title": "Rem Pelambat",
+                                "value": "with on Exhaust Pipe -"
+                            },
+                            {
+                                "title": "Rem Utama",
+                                "value": "vacuum servo hydraulic -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "RODA & BAN",
+                "lookupCode": "RODA&BAN",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Jumlah Ban",
+                                "value": "6 (+1) -"
+                            },
+                            {
+                                "title": "Ukuran Ban",
+                                "value": "11.00 x R22.5 - 16PR -"
+                            },
+                            {
+                                "title": "Ukuran Rim",
+                                "value": "22,5 x 8,25v-165 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Jumlah Ban",
+                                "value": "4 (+1) -"
+                            },
+                            {
+                                "title": "Ukuran Ban",
+                                "value": "235\/65 R16 -"
+                            },
+                            {
+                                "title": "Ukuran Rim",
+                                "value": "16 x 7 JJ \u2013 30 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Jumlah Ban",
+                                "value": "4 (+1) -"
+                            },
+                            {
+                                "title": "Ukuran Ban",
+                                "value": "235\/65 R16 -"
+                            },
+                            {
+                                "title": "Ukuran Rim",
+                                "value": "16 x 7 JJ \u2013 30 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Jumlah Ban",
+                                "value": "6 (+1) -"
+                            },
+                            {
+                                "title": "Ukuran Ban",
+                                "value": "7.50 - 16 - 14PR -"
+                            },
+                            {
+                                "title": "Ukuran Rim",
+                                "value": "16 x 6.00GS - 127 -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "SISTIM LISTRIK ACCU",
+                "lookupCode": "SISTIMLISTRIKACCU",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Accu",
+                                "value": "2 x 12V-120Ah -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Accu",
+                                "value": "12V-100Ah (Battery Tunggal) -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Accu",
+                                "value": "12V-100Ah (Battery Tunggal) -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Accu",
+                                "value": "2 x 12V-65Ah -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "SUMBU",
+                "lookupCode": "SUMBU",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Belakang",
+                                "value": "Full Floating Type, Single Reduction, Single Speed by Hypoid Gear -"
+                            },
+                            {
+                                "title": "Depan",
+                                "value": "Reverse Elliot , I-Section Beam -"
+                            },
+                            {
+                                "title": "Perbandingan Gigi Akhir",
+                                "value": "5,125 -"
+                            },
+                            {
+                                "title": "Sistem Penggerak",
+                                "value": "Rear 4 x 2 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Belakang",
+                                "value": "Full Floating Type, Single Reduction, Single Speed by Hypoid Gear -"
+                            },
+                            {
+                                "title": "Depan",
+                                "value": "Reverse Elliot, I-Section Beam with stabilizer -"
+                            },
+                            {
+                                "title": "Perbandingan Gigi Akhir",
+                                "value": "4,625 -"
+                            },
+                            {
+                                "title": "Sistem Penggerak",
+                                "value": "Rear 4 x 2 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Belakang",
+                                "value": "Full Floating Type, Single Reduction, Single Speed by Hypoid Gear -"
+                            },
+                            {
+                                "title": "Depan",
+                                "value": "Reverse Elliot, I-Section Beam with stabilizer -"
+                            },
+                            {
+                                "title": "Perbandingan Gigi Akhir",
+                                "value": "4,625 -"
+                            },
+                            {
+                                "title": "Sistem Penggerak",
+                                "value": "Rear 4 x 2 -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Belakang",
+                                "value": "Full Floating type; single reduction; single speed by hydraulic gearings -"
+                            },
+                            {
+                                "title": "Depan",
+                                "value": "Reverse Elliot, I-Section Beam -"
+                            },
+                            {
+                                "title": "Perbandingan Gigi Akhir",
+                                "value": "6,167 -"
+                            },
+                            {
+                                "title": "Sistem Penggerak",
+                                "value": "Rear 4 x 2 -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "SUSPENSI",
+                "lookupCode": "SUSPENSI",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Depan & Belakang",
+                                "value": "Rigid Axle Semi Eliptic Leaf Spring Semi Elliptical: dilengkapi Shock Absorber -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Depan & Belakang",
+                                "value": "Rigid Axle with Semi Eliptic with Shock Absorber -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Depan & Belakang",
+                                "value": "rigid axle dengan pegas daun semi elliptic -"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Depan & Belakang",
+                                "value": "Rigid Axle with Semi Eliptic with Shock Absorber -"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "TANGKI SOLAR",
+                "lookupCode": "TANGKISOLAR",
+                "contents": [
+                    {
+                        "cmsProductId": 9406,
+                        "contents": [
+                            {
+                                "title": "Kapasitas",
+                                "value": "200 Liter"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9377,
+                        "contents": [
+                            {
+                                "title": "Kapasitas",
+                                "value": "100 L"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9378,
+                        "contents": [
+                            {
+                                "title": "Kapasitas",
+                                "value": "100 L"
+                            }
+                        ]
+                    },
+                    {
+                        "cmsProductId": 9409,
+                        "contents": [
+                            {
+                                "title": "Kapasitas",
+                                "value": "100 Liter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

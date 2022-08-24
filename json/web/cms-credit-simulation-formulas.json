@@ -1,0 +1,251 @@
+{
+    "data": [
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "17",
+            "attributes": {
+                "formula-name": "TR (True Rate\/ Eff Rate)",
+                "formula-field": null,
+                "formula-code": "L",
+                "formula": "select bunga from cms_credit_simulations ccs",
+                "deskripsi": "Bunga",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "9",
+            "attributes": {
+                "formula-name": "Monthly Installment",
+                "formula-field": null,
+                "formula-code": "M",
+                "formula": "-",
+                "deskripsi": "PMT(rate, nper, pv, fv, type)",
+                "created-by": null,
+                "updated-by": "42"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "11",
+            "attributes": {
+                "formula-name": "Tenor",
+                "formula-field": null,
+                "formula-code": "I",
+                "formula": "select tenor from cms_credit_simulations ccs",
+                "deskripsi": "Tenor",
+                "created-by": null,
+                "updated-by": "125"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "12",
+            "attributes": {
+                "formula-name": "ADDB \/ ADDM",
+                "formula-field": null,
+                "formula-code": "J",
+                "formula": "select is_addm from cms_credit_simulations ccs",
+                "deskripsi": "ADDB \/ ADDM",
+                "created-by": null,
+                "updated-by": "125"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "4",
+            "attributes": {
+                "formula-name": "Insurance (Capitalized)",
+                "formula-field": null,
+                "formula-code": "D",
+                "formula": "select biaya_asuransi from cms_credit_simulations ccs",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "5",
+            "attributes": {
+                "formula-name": "Administration (Capitalized)",
+                "formula-field": null,
+                "formula-code": "E",
+                "formula": "select biaya_admin from cms_credit_simulations ccs",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "6",
+            "attributes": {
+                "formula-name": "Provision (Capitalized)",
+                "formula-field": null,
+                "formula-code": "F",
+                "formula": "select biaya_profisi from cms_credit_simulations ccs",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "18",
+            "attributes": {
+                "formula-name": "TR (Flat Rate Value)",
+                "formula-field": null,
+                "formula-code": "K",
+                "formula": "(M*I)-G",
+                "deskripsi": "(Monthly Installment * Tenor) - Net Finance",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "13",
+            "attributes": {
+                "formula-name": "rate",
+                "formula-field": null,
+                "formula-code": "O",
+                "formula": "L",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": "139"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "14",
+            "attributes": {
+                "formula-name": "nper",
+                "formula-field": null,
+                "formula-code": "P",
+                "formula": "I",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": "139"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "15",
+            "attributes": {
+                "formula-name": "pv",
+                "formula-field": null,
+                "formula-code": "Q",
+                "formula": "G",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": "139"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "16",
+            "attributes": {
+                "formula-name": "type",
+                "formula-field": null,
+                "formula-code": "R",
+                "formula": "J",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": "139"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "10",
+            "attributes": {
+                "formula-name": "TR (Flate Rate)",
+                "formula-field": null,
+                "formula-code": "N",
+                "formula": "K\/G\/(I\/12)",
+                "deskripsi": "-",
+                "created-by": null,
+                "updated-by": "139"
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "19",
+            "attributes": {
+                "formula-name": "Net Finance",
+                "formula-field": null,
+                "formula-code": "G_",
+                "formula": "select ((harga_unit\/jumlah_unit)+(harga_karoseri\/jumlah_unit)*jumlah_unit)-((((harga_unit\/jumlah_unit)+(harga_karoseri\/jumlah_unit))*jumlah_unit)*(dp\/100))+biaya_admin+biaya_asuransi+biaya_profisi as net_finance from cms_credit_simulations ccs",
+                "deskripsi": "Total Purchase Amount - Security Deposit (%) + Insurance (Capitalized) + Administration (Capitalized) + Provision (Capitalized)",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "1",
+            "attributes": {
+                "formula-name": "Total Price",
+                "formula-field": null,
+                "formula-code": "A",
+                "formula": "select (harga_unit +harga_karoseri) as total_price from cms_credit_simulations ccs ",
+                "deskripsi": "Price Chassis\/Unit + Price Carosery\/Unit",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "2",
+            "attributes": {
+                "formula-name": "Total Purchase Amount",
+                "formula-field": null,
+                "formula-code": "B",
+                "formula": "select ((harga_unit +harga_karoseri) * jumlah_unit) as total_purchase_amount from cms_credit_simulations ccs",
+                "deskripsi": "Total Price * Quantity (Total Unit)",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "3",
+            "attributes": {
+                "formula-name": "Security Deposit",
+                "formula-field": null,
+                "formula-code": "C",
+                "formula": "select ((harga_unit +harga_karoseri) * jumlah_unit)* (dp\/100) as security_deposit from cms_credit_simulations ccs",
+                "deskripsi": "Total Purchase Amount * Security Deposit (%)",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "7",
+            "attributes": {
+                "formula-name": "Net Finance",
+                "formula-field": null,
+                "formula-code": "G",
+                "formula": "select  ((harga_unit +harga_karoseri) * jumlah_unit) - ((harga_unit +harga_karoseri) * jumlah_unit * dp\/100) +  biaya_admin+biaya_asuransi+biaya_profisi as net_finance from cms_credit_simulations ccs",
+                "deskripsi": "Total Purchase Amount - Security Deposit (%) + Insurance (Capitalized) + Administration (Capitalized) + Provision (Capitalized)",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-formulas",
+            "id": "8",
+            "attributes": {
+                "formula-name": "FV",
+                "formula-field": null,
+                "formula-code": "H",
+                "formula": "10",
+                "deskripsi": "Total Purchase Amount * FV (%)",
+                "created-by": null,
+                "updated-by": "125"
+            }
+        }
+    ]
+}

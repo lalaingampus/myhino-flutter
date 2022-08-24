@@ -1,0 +1,1063 @@
+{
+    "data": [
+        {
+            "type": "htc-training-requests",
+            "id": "3",
+            "attributes": {
+                "training-request-number": "TRN\/7\/2022\/3",
+                "request-registered": "2022-06-30 16:47:24",
+                "nama": "Reza",
+                "nama-perusahaan": "AMN",
+                "jabatans-id": "2",
+                "jabatans-name": "MEKANIK",
+                "business-segments-id": "CONSTRUCTION",
+                "business-segments-name": "Construction",
+                "no-handphone": "082299787655",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": 12,
+                "training-plains-id": "4",
+                "training-plains-lookup-code": "BUS",
+                "training-plains-icon": "smart_driving_hino_bus.svg",
+                "cms-dealer-ids-id": "7544",
+                "cms-dealer-ids-dealer-id": "19191",
+                "request-handle-date": "2022-06-30 16:48:49",
+                "htscc-pic-ids-id": "14",
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "3",
+                "status-ids-lookup-code": "ACCEPTED",
+                "reason": "",
+                "confirmation-date-training": "2022-07-06 00:00:00",
+                "confirmation-date-system": "2022-07-06 17:10:40",
+                "alamat-email": "biyyualy@gmail.com",
+                "alamat": "Bogor, Jawa Barat",
+                "jumlah-armada-hino": 2,
+                "created-by": "1",
+                "updated-by": "1530",
+                "created-at": "2022-06-30T09:47:24.000000Z",
+                "token": null,
+                "dealer-name": "PT Hibaindo Armada Motor Cakung",
+                "training-plan-name": "Smart driving hino Bus",
+                "formatted-confirm-date": "2022-07-06 00:00:00"
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "2"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "CONSTRUCTION"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "4"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7544"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "3"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "45",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/18",
+                "request-registered": "2022-07-11 16:02:40",
+                "nama": "Muhammad Reza Fahlevi",
+                "nama-perusahaan": "PT. TEST",
+                "jabatans-id": "2",
+                "jabatans-name": "MEKANIK",
+                "business-segments-id": "BUS",
+                "business-segments-name": "Bus",
+                "no-handphone": "089630960820",
+                "provinsi": "Kalimantan Selatan",
+                "jumlah-peserta-training": 10,
+                "training-plains-id": "6",
+                "training-plains-lookup-code": "BNSP",
+                "training-plains-icon": "sertifikasi_bnsp.svg",
+                "cms-dealer-ids-id": "7655",
+                "cms-dealer-ids-dealer-id": "19246",
+                "request-handle-date": "2022-07-11 16:02:40",
+                "htscc-pic-ids-id": null,
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "4",
+                "status-ids-lookup-code": "CANCELLED",
+                "reason": null,
+                "confirmation-date-training": null,
+                "confirmation-date-system": null,
+                "alamat-email": "dxdreza@gmail.com",
+                "alamat": "Jl. SMPN 7 Kandangan, Gambah Dalam, Kandangan, Kabupaten Hulu Sungai Selatan, Kalimantan Selatan 71217, Indonesia",
+                "jumlah-armada-hino": 23,
+                "created-by": null,
+                "updated-by": "18",
+                "created-at": null,
+                "token": null,
+                "dealer-name": "PT Hudaya Maju Mandiri",
+                "training-plan-name": "Sertifikasi BNSP",
+                "formatted-confirm-date": ""
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "2"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "BUS"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "6"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7655"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "4"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "4",
+            "attributes": {
+                "training-request-number": "TRN\/7\/2022\/4",
+                "request-registered": "2022-06-30 16:47:24",
+                "nama": "Reza2",
+                "nama-perusahaan": "AMN",
+                "jabatans-id": "2",
+                "jabatans-name": "MEKANIK",
+                "business-segments-id": "CONSTRUCTION",
+                "business-segments-name": "Construction",
+                "no-handphone": "082299787655",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": 12,
+                "training-plains-id": "5",
+                "training-plains-lookup-code": "TOT",
+                "training-plains-icon": "training_of_trainer.svg",
+                "cms-dealer-ids-id": "7544",
+                "cms-dealer-ids-dealer-id": "19191",
+                "request-handle-date": "2022-06-30 16:48:49",
+                "htscc-pic-ids-id": "15",
+                "htscc-pic-ids-name": "Biyanto Daru Wicaksono",
+                "status-ids-id": "1",
+                "status-ids-lookup-code": "SENT",
+                "reason": "tes reject",
+                "confirmation-date-training": null,
+                "confirmation-date-system": "2022-07-19 13:25:07",
+                "alamat-email": "hilminugroho12@gmail.com",
+                "alamat": "Bogor, Jawa Barat",
+                "jumlah-armada-hino": 2,
+                "created-by": "1",
+                "updated-by": "125",
+                "created-at": "2022-06-30T09:47:24.000000Z",
+                "token": "testoken",
+                "dealer-name": "PT Hibaindo Armada Motor Cakung",
+                "training-plan-name": "Training of Trainer (ToT)",
+                "formatted-confirm-date": ""
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "2"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "CONSTRUCTION"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "5"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7544"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": {
+                        "type": "cmsHtsccPic",
+                        "id": "15"
+                    }
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "1"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "46",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/19",
+                "request-registered": "2022-07-13 13:45:25",
+                "nama": "Kibud du",
+                "nama-perusahaan": "Nama Perusahan 1",
+                "jabatans-id": "3",
+                "jabatans-name": "MANAGER",
+                "business-segments-id": "AGRICULTURE",
+                "business-segments-name": "Agriculture",
+                "no-handphone": "089613733455",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": -6,
+                "training-plains-id": "4",
+                "training-plains-lookup-code": "BUS",
+                "training-plains-icon": "smart_driving_hino_bus.svg",
+                "cms-dealer-ids-id": "7655",
+                "cms-dealer-ids-dealer-id": "19246",
+                "request-handle-date": "2022-07-13 13:45:25",
+                "htscc-pic-ids-id": "15",
+                "htscc-pic-ids-name": "Biyanto Daru Wicaksono",
+                "status-ids-id": "4",
+                "status-ids-lookup-code": "CANCELLED",
+                "reason": "Jumlah Peserta Training -6",
+                "confirmation-date-training": "2022-07-14 00:00:00",
+                "confirmation-date-system": "2022-07-14 14:23:15",
+                "alamat-email": "budiapradibta@gmail.com",
+                "alamat": "Jl. Babakan 2, RT.02\/RW.01, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128, Indonesia",
+                "jumlah-armada-hino": null,
+                "created-by": "107",
+                "updated-by": "17",
+                "created-at": "2022-07-13T06:45:25.000000Z",
+                "token": "ecbe877e999a691c7bb6380e640b0939",
+                "dealer-name": "PT Hudaya Maju Mandiri",
+                "training-plan-name": "Smart driving hino Bus",
+                "formatted-confirm-date": "2022-07-14 00:00:00"
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "3"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "AGRICULTURE"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "4"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7655"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": {
+                        "type": "cmsHtsccPic",
+                        "id": "15"
+                    }
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "4"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "48",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/21",
+                "request-registered": "2022-07-13 15:26:17",
+                "nama": "Daru",
+                "nama-perusahaan": "PT  Daru Istirahat Selalu",
+                "jabatans-id": "4",
+                "jabatans-name": "STAFF",
+                "business-segments-id": "CONSTRUCTION",
+                "business-segments-name": "Construction",
+                "no-handphone": "081288801463",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": 1,
+                "training-plains-id": "3",
+                "training-plains-lookup-code": "HINO700",
+                "training-plains-icon": "smart_driving_hino_700.svg",
+                "cms-dealer-ids-id": "7655",
+                "cms-dealer-ids-dealer-id": "19246",
+                "request-handle-date": "2022-07-13 15:26:17",
+                "htscc-pic-ids-id": "15",
+                "htscc-pic-ids-name": "Biyanto Daru Wicaksono",
+                "status-ids-id": "3",
+                "status-ids-lookup-code": "ACCEPTED",
+                "reason": "",
+                "confirmation-date-training": "2022-07-14 00:00:00",
+                "confirmation-date-system": "2022-07-14 14:22:20",
+                "alamat-email": "druwickson@gmail.com",
+                "alamat": "Sudirman, Bogor",
+                "jumlah-armada-hino": 3,
+                "created-by": "1607",
+                "updated-by": "17",
+                "created-at": "2022-07-13T08:26:17.000000Z",
+                "token": "fe26da68d74730d4344e25500a30be7a",
+                "dealer-name": "PT Hudaya Maju Mandiri",
+                "training-plan-name": "Smart driving hino 700",
+                "formatted-confirm-date": "2022-07-14 00:00:00"
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "4"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "CONSTRUCTION"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "3"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7655"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": {
+                        "type": "cmsHtsccPic",
+                        "id": "15"
+                    }
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "3"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "54",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/27",
+                "request-registered": "2022-07-18 21:45:50",
+                "nama": "Jibanto Hartanto",
+                "nama-perusahaan": "PT. PRX",
+                "jabatans-id": "4",
+                "jabatans-name": "STAFF",
+                "business-segments-id": "AGRICULTURE",
+                "business-segments-name": "Agriculture",
+                "no-handphone": "087889362888",
+                "provinsi": "DKI Jakarta",
+                "jumlah-peserta-training": 50,
+                "training-plains-id": "3",
+                "training-plains-lookup-code": "HINO700",
+                "training-plains-icon": "smart_driving_hino_700.svg",
+                "cms-dealer-ids-id": "7654",
+                "cms-dealer-ids-dealer-id": "19207",
+                "request-handle-date": "2022-07-18 21:45:50",
+                "htscc-pic-ids-id": "20",
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "3",
+                "status-ids-lookup-code": "ACCEPTED",
+                "reason": "null",
+                "confirmation-date-training": "2022-07-20 00:00:00",
+                "confirmation-date-system": "2022-07-18 21:47:01",
+                "alamat-email": "jibantoh@gmail.com",
+                "alamat": "Jalan Kedoya",
+                "jumlah-armada-hino": 50,
+                "created-by": "1585",
+                "updated-by": "1585",
+                "created-at": "2022-07-18T14:45:50.000000Z",
+                "token": "7ff036c7954b0281b5480fefc22489ad",
+                "dealer-name": "PT Hino Motors Sales Indonesia",
+                "training-plan-name": "Smart driving hino 700",
+                "formatted-confirm-date": "2022-07-20 00:00:00"
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "4"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "AGRICULTURE"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "3"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7654"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "3"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "37",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/10",
+                "request-registered": "2022-07-06 18:33:38",
+                "nama": "Aly Arianto22",
+                "nama-perusahaan": "AMN Indonesia",
+                "jabatans-id": "1",
+                "jabatans-name": "DRIVER",
+                "business-segments-id": "TAMBANG",
+                "business-segments-name": "Tambang",
+                "no-handphone": "082299706177",
+                "provinsi": "Bali",
+                "jumlah-peserta-training": 3,
+                "training-plains-id": "2",
+                "training-plains-lookup-code": "HINO500",
+                "training-plains-icon": "smart_driving_hino_500.svg",
+                "cms-dealer-ids-id": "8613",
+                "cms-dealer-ids-dealer-id": "20076",
+                "request-handle-date": "2022-07-06 18:33:38",
+                "htscc-pic-ids-id": null,
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "4",
+                "status-ids-lookup-code": "CANCELLED",
+                "reason": null,
+                "confirmation-date-training": null,
+                "confirmation-date-system": null,
+                "alamat-email": "abiyyu.arianto99@gmail.com",
+                "alamat": "Cimanggu",
+                "jumlah-armada-hino": 41,
+                "created-by": null,
+                "updated-by": "181",
+                "created-at": null,
+                "token": null,
+                "dealer-name": "TENAGA BARU",
+                "training-plan-name": "Smart driving hino 500",
+                "formatted-confirm-date": ""
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "1"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "TAMBANG"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "2"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "8613"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "4"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "56",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/29",
+                "request-registered": "2022-07-19 09:17:36",
+                "nama": "druwickson",
+                "nama-perusahaan": "PT Daru Jalan",
+                "jabatans-id": "1",
+                "jabatans-name": "DRIVER",
+                "business-segments-id": "BUS",
+                "business-segments-name": "Bus",
+                "no-handphone": "081288801463",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": 2,
+                "training-plains-id": "6",
+                "training-plains-lookup-code": "BNSP",
+                "training-plains-icon": "sertifikasi_bnsp.svg",
+                "cms-dealer-ids-id": "7655",
+                "cms-dealer-ids-dealer-id": "19246",
+                "request-handle-date": "2022-07-19 09:17:36",
+                "htscc-pic-ids-id": null,
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "1",
+                "status-ids-lookup-code": "SENT",
+                "reason": null,
+                "confirmation-date-training": null,
+                "confirmation-date-system": null,
+                "alamat-email": "druwickson@gmail.com",
+                "alamat": "Sudirman, Bogor",
+                "jumlah-armada-hino": 2,
+                "created-by": "1607",
+                "updated-by": "1607",
+                "created-at": "2022-07-19T02:17:36.000000Z",
+                "token": "1193409687659b0ce4528912a4718eca",
+                "dealer-name": "PT Hudaya Maju Mandiri",
+                "training-plan-name": "Sertifikasi BNSP",
+                "formatted-confirm-date": ""
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "1"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "BUS"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "6"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7655"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "1"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "1",
+            "attributes": {
+                "training-request-number": "TRN\/7\/2022\/1",
+                "request-registered": "2022-06-29 16:47:24",
+                "nama": "Daru",
+                "nama-perusahaan": "UNOTEK",
+                "jabatans-id": "1",
+                "jabatans-name": "DRIVER",
+                "business-segments-id": "CONSTRUCTION",
+                "business-segments-name": "Construction",
+                "no-handphone": "081288801463",
+                "provinsi": "Jawa Barat",
+                "jumlah-peserta-training": 2,
+                "training-plains-id": "1",
+                "training-plains-lookup-code": "HINO300",
+                "training-plains-icon": "smart_driving_hino_300.svg",
+                "cms-dealer-ids-id": "7544",
+                "cms-dealer-ids-dealer-id": "19191",
+                "request-handle-date": "2022-06-29 16:48:49",
+                "htscc-pic-ids-id": "14",
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "4",
+                "status-ids-lookup-code": "CANCELLED",
+                "reason": "Ulangin yaaa",
+                "confirmation-date-training": "2022-07-06 00:00:00",
+                "confirmation-date-system": "2022-07-06 16:40:23",
+                "alamat-email": "biyantodaru@gmail.com",
+                "alamat": "Bogor, Jawa Barat",
+                "jumlah-armada-hino": 1,
+                "created-by": null,
+                "updated-by": "1530",
+                "created-at": "2022-06-29T09:47:24.000000Z",
+                "token": null,
+                "dealer-name": "PT Hibaindo Armada Motor Cakung",
+                "training-plan-name": "Smart driving hino 300",
+                "formatted-confirm-date": "2022-07-06 00:00:00"
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "1"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "CONSTRUCTION"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "1"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "7544"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "4"
+                    }
+                }
+            }
+        },
+        {
+            "type": "htc-training-requests",
+            "id": "68",
+            "attributes": {
+                "training-request-number": "HTSCC\/7\/2022\/41",
+                "request-registered": "2022-07-29 09:15:59",
+                "nama": "Aly Arianto",
+                "nama-perusahaan": "AMN Indonesia",
+                "jabatans-id": "1",
+                "jabatans-name": "DRIVER",
+                "business-segments-id": "TAMBANG",
+                "business-segments-name": "Tambang",
+                "no-handphone": "082299706177",
+                "provinsi": "Bali",
+                "jumlah-peserta-training": 1,
+                "training-plains-id": "3",
+                "training-plains-lookup-code": "HINO700",
+                "training-plains-icon": "smart_driving_hino_700.svg",
+                "cms-dealer-ids-id": "8268",
+                "cms-dealer-ids-dealer-id": "19714",
+                "request-handle-date": "2022-07-29 09:15:59",
+                "htscc-pic-ids-id": null,
+                "htscc-pic-ids-name": "",
+                "status-ids-id": "4",
+                "status-ids-lookup-code": "CANCELLED",
+                "reason": null,
+                "confirmation-date-training": null,
+                "confirmation-date-system": null,
+                "alamat-email": "abiyyu.arianto99@gmail.com",
+                "alamat": "Jl. Jend. Sudirman No.91-27, RT.04\/RW.03, Sempur, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16121, Indonesia",
+                "jumlah-armada-hino": 3,
+                "created-by": "181",
+                "updated-by": "181",
+                "created-at": "2022-07-29T02:15:59.000000Z",
+                "token": "58984c911a286becd6c0af930de924f1",
+                "dealer-name": "PADA SENANG",
+                "training-plan-name": "Smart driving hino 700",
+                "formatted-confirm-date": ""
+            },
+            "relationships": {
+                "position": {
+                    "data": {
+                        "type": "position",
+                        "id": "1"
+                    }
+                },
+                "business-segment": {
+                    "data": {
+                        "type": "businessSegment",
+                        "id": "TAMBANG"
+                    }
+                },
+                "training-plan": {
+                    "data": {
+                        "type": "trainingPlan",
+                        "id": "3"
+                    }
+                },
+                "cms-dealer": {
+                    "data": {
+                        "type": "cmsDealer",
+                        "id": "8268"
+                    }
+                },
+                "cms-htscc-pic": {
+                    "data": null
+                },
+                "htscc-status": {
+                    "data": {
+                        "type": "htsccStatus",
+                        "id": "4"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "position",
+            "id": "2",
+            "attributes": {
+                "name": "MEKANIK",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "businessSegment",
+            "id": "CONSTRUCTION",
+            "attributes": {
+                "name": "Construction",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "4",
+            "attributes": {
+                "lookup-code": "BUS",
+                "meaning": "Smart driving hino Bus",
+                "description": "Smart driving hino Bus",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "smart_driving_hino_bus.svg"
+            }
+        },
+        {
+            "type": "cmsDealer",
+            "id": "7544",
+            "attributes": {
+                "dealer-id": "19191",
+                "branch-id": "118",
+                "dealer-code": "VJHAM1",
+                "dealer-name": "PT Hibaindo Armada Motor Cakung",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Jakarta Timur - PT Hibaindo Armada Motor Cakung",
+                "email": null,
+                "combo-dealer-name": "PT Hibaindo Armada Motor Cakung - Jakarta Timur"
+            }
+        },
+        {
+            "type": "htsccStatus",
+            "id": "3",
+            "attributes": {
+                "lookup-code": "ACCEPTED",
+                "meaning": "Accepted",
+                "description": "Accepted",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "businessSegment",
+            "id": "BUS",
+            "attributes": {
+                "name": "Bus",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "6",
+            "attributes": {
+                "lookup-code": "BNSP",
+                "meaning": "Sertifikasi BNSP",
+                "description": "Sertifikasi BNSP",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "sertifikasi_bnsp.svg"
+            }
+        },
+        {
+            "type": "cmsDealer",
+            "id": "7655",
+            "attributes": {
+                "dealer-id": "19246",
+                "branch-id": "120",
+                "dealer-code": "VJHMM1",
+                "dealer-name": "PT Hudaya Maju Mandiri",
+                "attachments-id": "207",
+                "attachments-original-filename": "training center.png",
+                "phone": "082336555719",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": "198",
+                "dealer-city-name": "HINO Nanggewer - PT Hudaya Maju Mandiri",
+                "email": "biyantodaru@gmail.com",
+                "combo-dealer-name": "PT Hudaya Maju Mandiri - Nanggewer"
+            }
+        },
+        {
+            "type": "htsccStatus",
+            "id": "4",
+            "attributes": {
+                "lookup-code": "CANCELLED",
+                "meaning": "Cancelled",
+                "description": "Cancelled",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "5",
+            "attributes": {
+                "lookup-code": "TOT",
+                "meaning": "Training of Trainer (ToT)",
+                "description": "Training of Trainer (ToT)",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "training_of_trainer.svg"
+            }
+        },
+        {
+            "type": "cmsHtsccPic",
+            "id": "15",
+            "attributes": {
+                "name": "Biyanto Daru Wicaksono",
+                "pic-email": "biyantodaru@gmail.com",
+                "no-handphone": "081288801463",
+                "created-by": "17",
+                "updated-by": "17"
+            }
+        },
+        {
+            "type": "htsccStatus",
+            "id": "1",
+            "attributes": {
+                "lookup-code": "SENT",
+                "meaning": "Sent",
+                "description": "Sent",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "position",
+            "id": "3",
+            "attributes": {
+                "name": "MANAGER",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "businessSegment",
+            "id": "AGRICULTURE",
+            "attributes": {
+                "name": "Agriculture",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "position",
+            "id": "4",
+            "attributes": {
+                "name": "STAFF",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "3",
+            "attributes": {
+                "lookup-code": "HINO700",
+                "meaning": "Smart driving hino 700",
+                "description": "Smart driving hino 700",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "smart_driving_hino_700.svg"
+            }
+        },
+        {
+            "type": "cmsDealer",
+            "id": "7654",
+            "attributes": {
+                "dealer-id": "19207",
+                "branch-id": "298",
+                "dealer-code": "VJBJI1",
+                "dealer-name": "PT Hino Motors Sales Indonesia",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO Tangerang - PT Hino Motors Sales Indonesia",
+                "email": null,
+                "combo-dealer-name": "PT Hino Motors Sales Indonesia - Tangerang"
+            }
+        },
+        {
+            "type": "position",
+            "id": "1",
+            "attributes": {
+                "name": "DRIVER",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "businessSegment",
+            "id": "TAMBANG",
+            "attributes": {
+                "name": "Tambang",
+                "created-by": "18",
+                "updated-by": "18"
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "2",
+            "attributes": {
+                "lookup-code": "HINO500",
+                "meaning": "Smart driving hino 500",
+                "description": "Smart driving hino 500",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "smart_driving_hino_500.svg"
+            }
+        },
+        {
+            "type": "cmsDealer",
+            "id": "8613",
+            "attributes": {
+                "dealer-id": "20076",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "TENAGA BARU",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO KABUPATEN LABUHANBATU - TENAGA BARU",
+                "email": null,
+                "combo-dealer-name": ""
+            }
+        },
+        {
+            "type": "trainingPlan",
+            "id": "1",
+            "attributes": {
+                "lookup-code": "HINO300",
+                "meaning": "Smart driving hino 300",
+                "description": "Smart driving hino 300",
+                "created-by": null,
+                "updated-by": null,
+                "icon": "smart_driving_hino_300.svg"
+            }
+        },
+        {
+            "type": "cmsDealer",
+            "id": "8268",
+            "attributes": {
+                "dealer-id": "19714",
+                "branch-id": null,
+                "dealer-code": "",
+                "dealer-name": "PADA SENANG",
+                "attachments-id": null,
+                "attachments-original-filename": "",
+                "phone": "085776715985",
+                "branch-code": null,
+                "created-by": null,
+                "updated-by": null,
+                "dealer-city-name": "HINO KABUPATEN CIREBON - PADA SENANG",
+                "email": null,
+                "combo-dealer-name": ""
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 81,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 9
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/htc-training-requests?filter=&fromCms=true&include=position%2Cbusiness-segment%2Ctraining-plan%2Ccms-dealer%2Ccms-htscc-pic%2Chtscc-status&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/htc-training-requests?filter=&fromCms=true&include=position%2Cbusiness-segment%2Ctraining-plan%2Ccms-dealer%2Ccms-htscc-pic%2Chtscc-status&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/htc-training-requests?filter=&fromCms=true&include=position%2Cbusiness-segment%2Ctraining-plan%2Ccms-dealer%2Ccms-htscc-pic%2Chtscc-status&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/htc-training-requests?filter=&fromCms=true&include=position%2Cbusiness-segment%2Ctraining-plan%2Ccms-dealer%2Ccms-htscc-pic%2Chtscc-status&per_page=10&page=9"
+    }
+}

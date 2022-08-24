@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "type": "cms-htscc-pics",
+            "id": "15",
+            "attributes": {
+                "name": "Biyanto Daru Wicaksono",
+                "pic-email": "biyantodaru@gmail.com",
+                "no-handphone": "081288801463",
+                "created-by": "17",
+                "updated-by": "17"
+            }
+        },
+        {
+            "type": "cms-htscc-pics",
+            "id": "16",
+            "attributes": {
+                "name": "Muhammad Reza Fahlevi",
+                "pic-email": "dxdreza@gmail.com",
+                "no-handphone": "089630960820",
+                "created-by": "17",
+                "updated-by": "17"
+            }
+        },
+        {
+            "type": "cms-htscc-pics",
+            "id": "21",
+            "attributes": {
+                "name": "Jibanto Hartanto",
+                "pic-email": "jibantoh@gmail.com",
+                "no-handphone": "087889362888",
+                "created-by": "17",
+                "updated-by": "17"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 3,
+            "count": 3,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htscc-pics?filter=&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htscc-pics?filter=&per_page=10&page=1",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/cms-htscc-pics?filter=&per_page=10&page=1"
+    }
+}

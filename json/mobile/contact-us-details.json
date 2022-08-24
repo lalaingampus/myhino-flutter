@@ -1,0 +1,38 @@
+{
+    "data": [
+      {
+        "type": "contact-us-details",
+        "id": "573",
+        "attributes": {
+          "title": "HINO MOTORS SALES INDONESIA",
+          "content": "<pre><h1><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\"><b>Head Office</b></span></font></h1><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Wisma Indomobil II. Jl Letjen MT. Haryono \nKav. 9 Jakarta 13330 DKI Jakarta - Indonesia \nPhone : +6221 856 4570, +6221 856 4480 \nFax : +6221 851 5731, +6221 851 7550, +6221 856 4835\n</span></font><hr id=\"null\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><b style=\"font-size: 16px;\">Service and Sparepart Center</b></font></pre><pre><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl Raya Gatot Subroto \nKm. 8,5 Tangerang 15111, Banten Indonesia \nPhone : +6221 591 8080, +6221 591 8844 \nFax: +6221 591 7979, +6221 591 7887\n</span></font><hr id=\"null\"><h1><pre style=\"font-family: var(--bs-font-monospace); font-weight: 400;\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-weight: bolder; font-size: 16px;\">Balikpapan Branch</span></font></pre></h1><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl. Pulau Balang\nKarang Joang Balikpapan Utara - Kalimantan Timur\nPhone : +62 542 7066043\n</span></font><hr id=\"null\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><b style=\"font-size: 16px;\">Medan Branch</b></font></pre><pre><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl. Medan - Lubuk Pakam \nkm 24, Tanjung Morawa - Sumatera Utara\nPhone : +62 61 88904955\n</span></font><hr id=\"null\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><b style=\"font-size: 16px;\">Part Depo Surabaya</b></font></pre><pre><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl. Raya Kletek No.9\nTaman Sidoarjo Surabaya, Jawa Timur - Indonesia\nPhone : +62 31 7872225\nFax :+62 31 7872226\n</span></font><hr id=\"null\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\"><b>Part Depo Makassar</b></span></font></pre><pre><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl. Ir. Sutami, No.35 Kota Makassar, Sulawesi Selatan\nPhone : 08001004466\n</span></font><hr id=\"null\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\"><b>Part Depo Banjarmasin</b></span></font></pre><pre><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Kawasan Industri LIK-Liang Anggang\nJl. Banjar Gawi Raya No. 6E Banjarbaru\nBanjarmasin - Kalimantan Selatan</span></font><br></pre>",
+          "created-by": "139",
+          "updated-by": "139"
+        }
+      },
+      {
+        "type": "contact-us-details",
+        "id": "574",
+        "attributes": {
+          "title": "HINO MOTORS MANUFACTURING INDONESIA",
+          "content": "<pre style=\"\"><pre style=\"\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\"><b>Kawasan Industri Kota Bukit Indah </b></span></font></pre><pre style=\"\"><font color=\"#797b89\" face=\"Helvetica-Neue-Medium, sans-serif\"><span style=\"font-size: 16px;\">Jl. Damar Blok D1 No.1 Purwakarta 41181 \nJawa Barat - Indonesia \nPhone : +62264 351 911 \nFax: +62264 351 755, +62264 350 488</span></font><br></pre></pre>",
+          "created-by": "139",
+          "updated-by": "139"
+        }
+      }
+    ],
+    "meta": {
+      "pagination": {
+        "total": 2,
+        "count": 2,
+        "per_page": 10,
+        "current_page": 1,
+        "total_pages": 1
+      }
+    },
+    "links": {
+      "self": "http://34.101.202.245/b2capi/contact-us-details?filter=&per_page=10&sort=title&page=1",
+      "first": "http://34.101.202.245/b2capi/contact-us-details?filter=&per_page=10&sort=title&page=1",
+      "last": "http://34.101.202.245/b2capi/contact-us-details?filter=&per_page=10&sort=title&page=1"
+    }
+  }

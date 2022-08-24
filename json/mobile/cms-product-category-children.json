@@ -1,0 +1,43 @@
+{
+    "data": [
+        {
+            "type": "cms-product-sub-category-childs",
+            "id": "177",
+            "attributes": {
+                "source-system-no": "17",
+                "title": "BUS MIKRO",
+                "sort": 2,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        },
+        {
+            "type": "cms-product-sub-category-childs",
+            "id": "178",
+            "attributes": {
+                "source-system-no": "18",
+                "title": "BUS MEDIUM",
+                "sort": 3,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        },
+        {
+            "type": "cms-product-sub-category-childs",
+            "id": "179",
+            "attributes": {
+                "source-system-no": "19",
+                "title": "BUS BESAR",
+                "sort": 4,
+                "brosurs-id": null,
+                "brosurs-original-filename": "",
+                "created-by": "1",
+                "updated-by": "1"
+            }
+        }
+    ]
+}

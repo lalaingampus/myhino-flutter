@@ -1,0 +1,77 @@
+{
+    "data": [
+      {
+        "type": "hino-points",
+        "id": "23",
+        "attributes": {
+          "user-names-id": "151",
+          "user-names-name": "Kibud du",
+          "point": 13000,
+          "phone-number-detail": "089613733455",
+          "alamat-email-detail": "budiapradibta@gmail.com",
+          "phone-number": null,
+          "alamat-email": null,
+          "nama-lengkap": null,
+          "created-by": "18",
+          "updated-by": "198"
+        },
+        "relationships": {
+          "core-user": {
+            "data": {
+              "type": "core-user",
+              "id": "151"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "core-user",
+        "id": "151",
+        "attributes": {
+          "email": "budiapradibta@gmail.com",
+          "nomor-handphone": "089613733455",
+          "nama-lengkap": "Kibud du",
+          "business-segments-id": "AGRICULTURE",
+          "business-segments-name": "Agriculture",
+          "jabatan-id": "2",
+          "jabatan-name": "MEKANIK",
+          "nomor-tlp": "",
+          "tanggal-lahir": "2022-02-25",
+          "alamat": "Jl. Babakan 2, RT.02/RW.01, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128, Indonesia",
+          "long": "106.8056482",
+          "lat": "-6.593923",
+          "provinsi": "Jawa Barat",
+          "kota-kabupaten": "Kota Bogor",
+          "kecamatan": "Kecamatan Bogor Tengah",
+          "kelurahan": "Babakan",
+          "jumlah-unit-dutro": 5,
+          "jumlah-unit-ranger": 7,
+          "jumlah-unit-profia": 9,
+          "jumlah-unit-bus": 8,
+          "profile-pictures": null,
+          "profile-pictures-id": "",
+          "profile-pictures-original-file-name": "",
+          "profile-pictures-uploaded-file-name": "",
+          "last-login": "2022-06-25 12:27:22",
+          "login-count": 366,
+          "is-new-user": false,
+          "is-account-verified": true,
+          "is-email-valid": true,
+          "employee-no": null,
+          "core-users-id": "107",
+          "core-users-name": "Kibud",
+          "created-by": null,
+          "updated-by": "107",
+          "nama-perusahaan": "Nama Perusahan 1",
+          "password": "$2y$10$DsKiVqn6DgaOpwQjm3xG7.kZMdP/O5QnNAxNzE8Pd4ZsceU6kOcZC",
+          "confirm-password": "$2y$10$DsKiVqn6DgaOpwQjm3xG7.kZMdP/O5QnNAxNzE8Pd4ZsceU6kOcZC",
+          "token": "9670c4fba5d7e050d710194374f22607",
+          "is-hearts": false,
+          "referral-code": "VHMSI1",
+          "is-sso": false
+        }
+      }
+    ]
+  }

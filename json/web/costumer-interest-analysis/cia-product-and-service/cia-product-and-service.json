@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "series": "FLX 280 JW - Euro4",
+            "type": "Ranger",
+            "sales": 1
+        },
+        {
+            "series": "115 LD STD - Euro4",
+            "type": "Dutro",
+            "sales": 1
+        }
+    ]
+}

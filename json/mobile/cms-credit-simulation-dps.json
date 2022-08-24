@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "type": "cms-credit-simulation-dps",
+            "id": "16",
+            "attributes": {
+                "user-id": "107",
+                "dp": "20",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-dps",
+            "id": "19",
+            "attributes": {
+                "user-id": "107",
+                "dp": "0",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-dps",
+            "id": "20",
+            "attributes": {
+                "user-id": "107",
+                "dp": "12",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-dps",
+            "id": "30",
+            "attributes": {
+                "user-id": "107",
+                "dp": "23",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "cms-credit-simulation-dps",
+            "id": "31",
+            "attributes": {
+                "user-id": "107",
+                "dp": "22",
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ]
+}

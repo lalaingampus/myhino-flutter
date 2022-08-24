@@ -1,0 +1,389 @@
+{
+    "data": [
+        {
+            "type": "vehicle-managements",
+            "id": "209",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "Y8020GR",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JG53M5007445",
+                "machine-number": "W04DTRR86809",
+                "production-year": "2021",
+                "variants-name-custom": "130HD L 4X4",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "Dutro 130 HDL 4x4",
+                "nomor-handphone": "0812888014634",
+                "nama-lengkap": "Application Tester",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "208",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "H234WHD",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJERK8JSKJJN21399",
+                "machine-number": "J08EUFJ94425",
+                "production-year": "2018",
+                "variants-name-custom": "R 260",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Putih",
+                "vehicle-model-name": "R 260 AS - Euro2",
+                "nomor-handphone": "081290551452",
+                "nama-lengkap": "Aris Wibowo",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "207",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "A8774ZE",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEFG8JJ1JJB13060",
+                "machine-number": "J08EUGJ63991",
+                "production-year": "2018",
+                "variants-name-custom": "FG 235 JJ (NEW)",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "FG 235 JJ - Euro2",
+                "nomor-handphone": "081288801463",
+                "nama-lengkap": "tester",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "206",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "DS5924AE",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JG43C5061775",
+                "machine-number": "W04DTRJ64887",
+                "production-year": "2012",
+                "variants-name-custom": "130MD BL PS",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "DUTRO 130 MD - Euro2",
+                "nomor-handphone": "081288801463",
+                "nama-lengkap": "tester",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "205",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "B9616WJ",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEFG8JJK9JG10958",
+                "machine-number": "J08EUGJ14848",
+                "production-year": "2009",
+                "variants-name-custom": "FG 215 JJ",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "FG 235 JP - Euro2",
+                "nomor-handphone": null,
+                "nama-lengkap": null,
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "204",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "D8903FH",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JG41K5176091",
+                "machine-number": "W04DTPJ80560",
+                "production-year": "2019",
+                "variants-name-custom": "110SD L (NEW)",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "DUTRO 110 SDR - Euro2",
+                "nomor-handphone": "081290551452",
+                "nama-lengkap": "Aris Wibowo",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "203",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "G1234GGG",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JGX294004558",
+                "machine-number": "W04DTMJ21152",
+                "production-year": "2009",
+                "variants-name-custom": "110SD STD",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "DUTRO 110 SDR - Euro2",
+                "nomor-handphone": "082261020881",
+                "nama-lengkap": "Haris Prasetyo",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "202",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "F9988TES",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JGX1C5007790",
+                "machine-number": "W04DTPJ24219",
+                "production-year": "2012",
+                "variants-name-custom": "110SD L PS",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": null,
+                "vehicle-model-name": "DUTRO 110 SDR - Euro2",
+                "nomor-handphone": "082261020881",
+                "nama-lengkap": "Haris Prasetyo",
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "200",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "DB8607AS",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JG41A5000126",
+                "machine-number": "W04DTPJ10216",
+                "production-year": "2010",
+                "variants-name-custom": "110HD PS",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "DUTRO 110 HD - Euro2",
+                "nomor-handphone": null,
+                "nama-lengkap": null,
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "vehicle-managements",
+            "id": "199",
+            "attributes": {
+                "input-option": null,
+                "plate-or-cabin-no": "F661414BGR",
+                "models-id": null,
+                "models-name": "",
+                "variant-name": null,
+                "vehicle-colors-id": null,
+                "vehicle-colors-name": "",
+                "vehicle-name": "",
+                "chassis-number": "MJEC1JG43J5172306",
+                "machine-number": "W04DTRR62621",
+                "production-year": "2018",
+                "variants-name-custom": "130HD PS 6.8",
+                "user-managements-id": null,
+                "other-color": null,
+                "vehicle-colors-name-custom": "Hijau",
+                "vehicle-model-name": "130 HD New",
+                "nomor-handphone": null,
+                "nama-lengkap": null,
+                "catrgory-child-title": null,
+                "series-name": "",
+                "series-id": "",
+                "image-model": "",
+                "tipe-emisi": "",
+                "category-unit": "",
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "model": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 95,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 10
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/vehicle-managements?filter=&include=model%2C%20variant%2C%20vehicle-color&isFromWeb=true&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/vehicle-managements?filter=&include=model%2C%20variant%2C%20vehicle-color&isFromWeb=true&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/vehicle-managements?filter=&include=model%2C%20variant%2C%20vehicle-color&isFromWeb=true&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/vehicle-managements?filter=&include=model%2C%20variant%2C%20vehicle-color&isFromWeb=true&per_page=10&page=10"
+    }
+}

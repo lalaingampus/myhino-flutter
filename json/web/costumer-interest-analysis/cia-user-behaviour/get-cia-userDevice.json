@@ -1,0 +1,34 @@
+[
+    {
+        "category": "iPhone",
+        "value": 6
+    },
+    {
+        "category": "Redmi 9",
+        "value": 2
+    },
+    {
+        "category": "Mi 11T Pro",
+        "value": 2
+    },
+    {
+        "category": "Galaxy A20",
+        "value": 2
+    },
+    {
+        "category": "5.4",
+        "value": 1
+    },
+    {
+        "category": "Galaxy S21 5G",
+        "value": 1
+    },
+    {
+        "category": "Galaxy A20s",
+        "value": 1
+    },
+    {
+        "category": "Mi 10T Pro 5G",
+        "value": 1
+    }
+]

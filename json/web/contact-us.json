@@ -1,0 +1,18 @@
+{
+    "data": [
+        {
+            "type": "contact-us",
+            "id": "1",
+            "attributes": {
+                "contact-us-images-id": "165",
+                "contact-us-images-original-file-name": "",
+                "phone-number": "08001004466",
+                "whatsapp-number": "081519001900",
+                "email": "hino.hotline@hino.co.id",
+                "created-by": null,
+                "updated-by": "139",
+                "phone-number-custom": "0-800-100-4466"
+            }
+        }
+    ]
+}

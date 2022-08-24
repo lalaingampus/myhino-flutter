@@ -1,0 +1,4753 @@
+{
+    "data": [
+        {
+            "type": "privilege-infos",
+            "id": "58",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "profile_configuration",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "profile_configuration"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "59",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "position",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "position"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "60",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "hino_point",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "hino_point"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "61",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "config_hino_point",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "config_hino_point"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "64",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "contact_us",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "contact_us"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "65",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "contact_us_detail",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "contact_us_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "9",
+            "attributes": {
+                "title": "Admin - Approval Input Configuration Detail Action",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "approval_input_configuration_detail_action",
+                "core-function-infos-name": "Approval Input Configuration Detail Action",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "approval_input_configuration_detail_action"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "10",
+            "attributes": {
+                "title": "Admin - Approval Input Configuration Detail",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "approval_input_configuration_detail",
+                "core-function-infos-name": "Approval Input Configuration Detail",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "approval_input_configuration_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "14",
+            "attributes": {
+                "title": "Admin - Approval Input Configuration",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "approval_input_configuration",
+                "core-function-infos-name": "Approval Input Configuration",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "approval_input_configuration"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "15",
+            "attributes": {
+                "title": "Admin - Form",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "form",
+                "core-function-infos-name": "Form",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "form"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "16",
+            "attributes": {
+                "title": "Admin - Field",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "field",
+                "core-function-infos-name": "Field",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "field"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "17",
+            "attributes": {
+                "title": "Admin - Inbox Document",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "inbox_document",
+                "core-function-infos-name": "Inbox Document",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": true,
+                "allow-cancel-request": true,
+                "is-show": true,
+                "created-by": 1,
+                "updated-by": 1
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "inbox_document"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "21",
+            "attributes": {
+                "title": "Admin - Module Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "module_info",
+                "core-function-infos-name": "Module Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "module_info"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "66",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "business_segment",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "business_segment"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "23",
+            "attributes": {
+                "title": "Admin - User Group Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "user_group",
+                "core-function-infos-name": "User Group Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "user_group"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "24",
+            "attributes": {
+                "title": "Admin - User Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "user_info",
+                "core-function-infos-name": "User Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "user_info"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "25",
+            "attributes": {
+                "title": "Admin - Lookup Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "lookup",
+                "core-function-infos-name": "Lookup Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "lookup"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "26",
+            "attributes": {
+                "title": "Admin - Role Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "role",
+                "core-function-infos-name": "Role Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "role"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "27",
+            "attributes": {
+                "title": "Admin - Approval Input Management",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "approval_input",
+                "core-function-infos-name": "Approval Input Management",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "approval_input"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "67",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "log_otp",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "log_otp"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "71",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "user_management",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "user_management"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "74",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "euro4_category",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "euro4_category"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "75",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "euro4",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "euro4"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "77",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "vehicle_management",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "vehicle_management"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "78",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "model",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "model"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "79",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "variant",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "variant"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "83",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "news_and_promos",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "news_and_promos"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "84",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "notification_type",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "notification_type"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "85",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "notification",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "notification"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "101",
+            "attributes": {
+                "title": "Admin - ",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "status",
+                "core-function-infos-name": "",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "86",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "moving_code",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "moving_code"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "87",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "item_class",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "item_class"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "88",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "spare_parts",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "spare_parts"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "89",
+            "attributes": {
+                "title": "Admin - ",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "total_support_parts",
+                "core-function-infos-name": "",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "90",
+            "attributes": {
+                "title": "Admin - ",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "total_support_service",
+                "core-function-infos-name": "",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "93",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "booking_status",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "booking_status"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "94",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "booking_service",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "booking_service"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "95",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_status",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_status"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "96",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_category",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_category"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "97",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_category_child",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_category_child"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "98",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_sub_category_child",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_sub_category_child"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "102",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_karoseri",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_karoseri"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "103",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_karoseri_type",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_karoseri_type"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "104",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_spesification_category_size",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_spesification_category_size"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "105",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_spesification_size",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_spesification_size"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "106",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_spesification_size_type",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_spesification_size_type"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "107",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product_spesification_category",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product_spesification_category"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "108",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product3d_file_attachment",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product3d_file_attachment"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "109",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "110",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_dealer",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_dealer"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "111",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "dealer_service_lookup_codes",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "dealer_service_lookup_codes"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "112",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "dealer",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "dealer"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "36",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "notification_configuration",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "notification_configuration"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "37",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "notification_configuration_detail",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "notification_configuration_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "38",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "vehicle_color",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "vehicle_color"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "40",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "user_alias",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "user_alias"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "41",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "user_alias_detail",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "user_alias_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "42",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "account_management",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "account_management"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "43",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "account_address",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "account_address"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "44",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "account_contact",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "account_contact"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "45",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "account_team",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "account_team"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "46",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "account_customer_uio",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "account_customer_uio"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "47",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "multiple_attachment",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "multiple_attachment"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "48",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "multiple_attachment_detail",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "multiple_attachment_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "49",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "fcm_token",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "fcm_token"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "50",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "role_management",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "role_management"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "51",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "role_management_dealer",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "role_management_dealer"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "52",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "role_management_dealer_branch",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "role_management_dealer_branch"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "53",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "function_info",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "function_info"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "54",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "core_tenant",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "core_tenant"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "55",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "core_user_group",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "core_user_group"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "56",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "core_user",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "core_user"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "57",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "privilege_info",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "privilege_info"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "113",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_banner",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_banner"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "114",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "application_tour_screen",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "application_tour_screen"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "115",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "htc_webs",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "htc_webs"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "116",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "htc_kategori",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "htc_kategori"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "117",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "hino_training_center",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "hino_training_center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "118",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "hino_training_center_detail",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "hino_training_center_detail"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "120",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_credit_simulation_dp",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_credit_simulation_dp"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "121",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_credit_simulation_formula",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_credit_simulation_formula"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "122",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_credit_simulation_payment",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_credit_simulation_payment"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "123",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_credit_simulation_tenor",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_credit_simulation_tenor"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "124",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_credit_simulation",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_credit_simulation"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "125",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "insurance_type",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "insurance_type"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "100",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "news_managements",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "news_managements"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "212",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "fin",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "fin"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "213",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "statuses",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "statuses"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "214",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_product3d_file",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_product3d_file"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "215",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_activity",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_activity"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "216",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_activity_category",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_activity_category"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "217",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_htscc_pic",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_htscc_pic"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "218",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_profile",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_profile"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "219",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "htc_training_request",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "htc_training_request"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "220",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "htscc_confirmation_message",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "htscc_confirmation_message"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "221",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "htscc_status",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "htscc_status"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "222",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "self_study_material",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "self_study_material"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "223",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "training_plan",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "training_plan"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "224",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "cms_htc_banner",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "cms_htc_banner"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "225",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "material_category",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "material_category"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "226",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "material_category_name",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "material_category_name"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "227",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "manual_book",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "manual_book"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "228",
+            "attributes": {
+                "title": "Admin - Master Data",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "booking_type",
+                "core-function-infos-name": "Master Data",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "booking_type"
+                    }
+                }
+            }
+        },
+        {
+            "type": "privilege-infos",
+            "id": "229",
+            "attributes": {
+                "title": "Admin - Voucher Allocation",
+                "core-user-groups-id": 1,
+                "core-user-groups-name": "Admin",
+                "core-function-infos-id": "voucher_allocation",
+                "core-function-infos-name": "Voucher Allocation",
+                "allow-create": true,
+                "allow-read": true,
+                "allow-update": true,
+                "allow-delete": true,
+                "allow-submit-change-request": false,
+                "allow-cancel-request": false,
+                "is-show": true,
+                "created-by": null,
+                "updated-by": null
+            },
+            "relationships": {
+                "core-user-group": {
+                    "data": {
+                        "type": "coreUserGroup",
+                        "id": "1"
+                    }
+                },
+                "core-function-info": {
+                    "data": {
+                        "type": "coreFunctionInfo",
+                        "id": "voucher_allocation"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "coreUserGroup",
+            "id": "1",
+            "attributes": {
+                "name": "Admin",
+                "is-super-user": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "profile_configuration",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "profile_configuration",
+                "module-id": "profile_configuration",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "position",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "position",
+                "module-id": "position",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "hino_point",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "hino_point",
+                "module-id": "hino_point",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "config_hino_point",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "config_hino_point",
+                "module-id": "config_hino_point",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "contact_us",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "contact_us",
+                "module-id": "contact_us",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "contact_us_detail",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "contact_us_detail",
+                "module-id": "contact_us_detail",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "approval_input_configuration_detail_action",
+            "attributes": {
+                "name": "Approval Input Configuration Detail Action",
+                "sequence": 1,
+                "url": "approval_input_configuration_detail_action",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "approval_input_configuration_detail",
+            "attributes": {
+                "name": "Approval Input Configuration Detail",
+                "sequence": 1,
+                "url": "approvalinputconfigurationDetail",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "approval_input_configuration",
+            "attributes": {
+                "name": "Approval Input Configuration",
+                "sequence": 1,
+                "url": "approvalinputconfiguration",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "form",
+            "attributes": {
+                "name": "Form",
+                "sequence": 1,
+                "url": "form",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "field",
+            "attributes": {
+                "name": "Field",
+                "sequence": 1,
+                "url": "field",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "inbox_document",
+            "attributes": {
+                "name": "Inbox Document",
+                "sequence": 1,
+                "url": "inbox-document",
+                "module-id": "transaction",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "module_info",
+            "attributes": {
+                "name": "Module Management",
+                "sequence": 1,
+                "url": "core.module",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "business_segment",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "business_segment",
+                "module-id": "business_segment",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "user_group",
+            "attributes": {
+                "name": "User Group Management",
+                "sequence": 3,
+                "url": "core.user-group",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "user_info",
+            "attributes": {
+                "name": "User Management",
+                "sequence": 4,
+                "url": "core.user",
+                "module-id": "privilege",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "lookup",
+            "attributes": {
+                "name": "Lookup Management",
+                "sequence": 1,
+                "url": "core.lookup",
+                "module-id": "config",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "role",
+            "attributes": {
+                "name": "Role Management",
+                "sequence": 1,
+                "url": "core.role",
+                "module-id": "approval",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "approval_input",
+            "attributes": {
+                "name": "Approval Input Management",
+                "sequence": 2,
+                "url": "core.approval-input",
+                "module-id": "approval",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "log_otp",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "log_otp",
+                "module-id": "log_otp",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "user_management",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "user_management",
+                "module-id": "user_management",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "euro4_category",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "euro4_category",
+                "module-id": "euro4_category",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "euro4",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "euro4",
+                "module-id": "euro4",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "vehicle_management",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "vehicle_management",
+                "module-id": "vehicle_management",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "model",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "model",
+                "module-id": "model",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "variant",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "variant",
+                "module-id": "variant",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "news_and_promos",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "news_and_promos",
+                "module-id": "news_and_promos",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "notification_type",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "notification_type",
+                "module-id": "notification_type",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "notification",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "notification",
+                "module-id": "notification",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "moving_code",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "moving_code",
+                "module-id": "moving_code",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "item_class",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "item_class",
+                "module-id": "item_class",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "spare_parts",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "spare_parts",
+                "module-id": "spare_parts",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "booking_status",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "booking_status",
+                "module-id": "booking_status",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "booking_service",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "booking_service",
+                "module-id": "booking_service",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_status",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_status",
+                "module-id": "cms_status",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_category",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_category",
+                "module-id": "cms_product_category",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_category_child",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_category_child",
+                "module-id": "cms_product_category_child",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_sub_category_child",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_sub_category_child",
+                "module-id": "cms_product_sub_category_child",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_karoseri",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_karoseri",
+                "module-id": "cms_product_karoseri",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_karoseri_type",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_karoseri_type",
+                "module-id": "cms_product_karoseri_type",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_spesification_category_size",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_spesification_category_size",
+                "module-id": "cms_product_spesification_category_size",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_spesification_size",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_spesification_size",
+                "module-id": "cms_product_spesification_size",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_spesification_size_type",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_spesification_size_type",
+                "module-id": "cms_product_spesification_size_type",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product_spesification_category",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product_spesification_category",
+                "module-id": "cms_product_spesification_category",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product3d_file_attachment",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product3d_file_attachment",
+                "module-id": "cms_product3d_file_attachment",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product",
+                "module-id": "cms_product",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_dealer",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_dealer",
+                "module-id": "cms_dealer",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "dealer_service_lookup_codes",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "dealer_service_lookup_codes",
+                "module-id": "dealer_service_lookup_codes",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "dealer",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "dealer",
+                "module-id": "dealer",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "notification_configuration",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "notification_configuration",
+                "module-id": "notification_configuration",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "notification_configuration_detail",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "notification_configuration_detail",
+                "module-id": "notification_configuration_detail",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "vehicle_color",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "vehicle_color",
+                "module-id": "vehicle_color",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "user_alias",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "user_alias",
+                "module-id": "user_alias",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "user_alias_detail",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "user_alias_detail",
+                "module-id": "user_alias_detail",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "account_management",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "account_management",
+                "module-id": "account_management",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "account_address",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "account_address",
+                "module-id": "account_address",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "account_contact",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "account_contact",
+                "module-id": "account_contact",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "account_team",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "account_team",
+                "module-id": "account_team",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "account_customer_uio",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "account_customer_uio",
+                "module-id": "account_customer_uio",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "multiple_attachment",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "multiple_attachment",
+                "module-id": "multiple_attachment",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "multiple_attachment_detail",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "multiple_attachment_detail",
+                "module-id": "multiple_attachment_detail",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "fcm_token",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "fcm_token",
+                "module-id": "fcm_token",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "role_management",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "role_management",
+                "module-id": "role_management",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "role_management_dealer",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "role_management_dealer",
+                "module-id": "role_management_dealer",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "role_management_dealer_branch",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "role_management_dealer_branch",
+                "module-id": "role_management_dealer_branch",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "function_info",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "function_info",
+                "module-id": "function_info",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "core_tenant",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "core_tenant",
+                "module-id": "core_tenant",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "core_user_group",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "core_user_group",
+                "module-id": "core_user_group",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "core_user",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "core_user",
+                "module-id": "core_user",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "privilege_info",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "privilege_info",
+                "module-id": "privilege_info",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_banner",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_banner",
+                "module-id": "cms_banner",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "application_tour_screen",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "application_tour_screen",
+                "module-id": "application_tour_screen",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "htc_webs",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "htc_webs",
+                "module-id": "htc_webs",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "htc_kategori",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "htc_kategori",
+                "module-id": "htc_kategori",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "hino_training_center",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "hino_training_center",
+                "module-id": "hino_training_center",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "hino_training_center_detail",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "hino_training_center_detail",
+                "module-id": "hino_training_center_detail",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_credit_simulation_dp",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_credit_simulation_dp",
+                "module-id": "cms_credit_simulation_dp",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_credit_simulation_formula",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_credit_simulation_formula",
+                "module-id": "cms_credit_simulation_formula",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_credit_simulation_payment",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_credit_simulation_payment",
+                "module-id": "cms_credit_simulation_payment",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_credit_simulation_tenor",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_credit_simulation_tenor",
+                "module-id": "cms_credit_simulation_tenor",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_credit_simulation",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_credit_simulation",
+                "module-id": "cms_credit_simulation",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "insurance_type",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "insurance_type",
+                "module-id": "insurance_type",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "news_managements",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "news_managements",
+                "module-id": "news_managements",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "fin",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "fin",
+                "module-id": "fin",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "statuses",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "status",
+                "module-id": "status",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_product3d_file",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_product3d_file",
+                "module-id": "cms_product3d_file",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_activity",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_activity",
+                "module-id": "cms_activity",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_activity_category",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_activity_category",
+                "module-id": "cms_activity_category",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_htscc_pic",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_htscc_pic",
+                "module-id": "cms_htscc_pic",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_profile",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_profile",
+                "module-id": "cms_profile",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "htc_training_request",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "htc_training_request",
+                "module-id": "htc_training_request",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "htscc_confirmation_message",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "htscc_confirmation_message",
+                "module-id": "htscc_confirmation_message",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "htscc_status",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "htscc_status",
+                "module-id": "htscc_status",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "self_study_material",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "self_study_material",
+                "module-id": "self_study_material",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "training_plan",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "training_plan",
+                "module-id": "training_plan",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "cms_htc_banner",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "cms_htc_banner",
+                "module-id": "cms_htc_banner",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "material_category",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "material_category",
+                "module-id": "material_category",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "material_category_name",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "material_category_name",
+                "module-id": "material_category_name",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "manual_book",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "manual_book",
+                "module-id": "manual_book",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "booking_type",
+            "attributes": {
+                "name": "Master Data",
+                "sequence": 1,
+                "url": "booking_type",
+                "module-id": "booking_type",
+                "is-show": true,
+                "is-enabled": true
+            }
+        },
+        {
+            "type": "coreFunctionInfo",
+            "id": "voucher_allocation",
+            "attributes": {
+                "name": "Voucher Allocation",
+                "sequence": 1,
+                "url": "voucher_allocation",
+                "module-id": "voucher_allocation",
+                "is-show": true,
+                "is-enabled": true
+            }
+        }
+    ]
+}

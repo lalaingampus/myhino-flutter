@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "type": "htscc-confirmation-messages",
+            "id": "1",
+            "attributes": {
+                "confirmation-message": "<div style=\"text-align: justify;\"><span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px;\">Hello, thank you for enrolling in the HTSCC training program, our team will contact you a maximum of 1x24 hours on weekdays<\/span><br><\/div>",
+                "created-by": "125",
+                "updated-by": "125"
+            }
+        }
+    ]
+}

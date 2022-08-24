@@ -1,0 +1,322 @@
+{
+    "data": [
+        {
+            "type": "spare-part",
+            "id": "28744442",
+            "attributes": {
+                "item-code": "ZU8883429",
+                "item-name": "OUTPUT SHAFT ASSY",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "26576000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744441",
+            "attributes": {
+                "item-code": "ZM001R0010JA",
+                "item-name": "AC HINO DUTRO 24 VOLTS",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "9451000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744440",
+            "attributes": {
+                "item-code": "Z8883434",
+                "item-name": "OIL MUF 1XX09",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "1742000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744439",
+            "attributes": {
+                "item-code": "Z8883394",
+                "item-name": "SUN GEAR FOR 11109",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "1812000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744438",
+            "attributes": {
+                "item-code": "Z8883043",
+                "item-name": "RING SYN",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "1513000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744437",
+            "attributes": {
+                "item-code": "Z320102200",
+                "item-name": "WIPA MOTOR RH",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "2291850",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744436",
+            "attributes": {
+                "item-code": "XZ941024AB",
+                "item-name": "HOLE, PLUG",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "41400",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744435",
+            "attributes": {
+                "item-code": "XZ841001AA",
+                "item-name": "BEADED GUSKET",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "16000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744434",
+            "attributes": {
+                "item-code": "XZ741038AB",
+                "item-name": "WASHER PLAIN",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "9000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        },
+        {
+            "type": "spare-part",
+            "id": "28744433",
+            "attributes": {
+                "item-code": "XZ741030AB",
+                "item-name": "SPRING COMPRESSION",
+                "item-classes-id": "SP",
+                "item-classes-name": "Sparepart",
+                "bg-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "moving-codes-id": null,
+                "moving-codes-name": "",
+                "price-amount": "6000",
+                "core-attachments-id": null,
+                "core-attachments-original-filename": "",
+                "created-by": null,
+                "updated-by": null,
+                "images-id": null,
+                "image-exist": false
+            },
+            "relationships": {
+                "item-class": {
+                    "data": {
+                        "type": "itemClass",
+                        "id": "SP"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "itemClass",
+            "id": "SP",
+            "attributes": {
+                "name": "Sparepart",
+                "background-hex": "#CCE5FF",
+                "font-hex": "#194979",
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 34802,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 3481
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/spare-parts?filter=&include=item-class%2C%20moving-code%2C%20core-attachment&isFromHome=true&isMobile=true&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/spare-parts?filter=&include=item-class%2C%20moving-code%2C%20core-attachment&isFromHome=true&isMobile=true&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/spare-parts?filter=&include=item-class%2C%20moving-code%2C%20core-attachment&isFromHome=true&isMobile=true&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/\/spare-parts?filter=&include=item-class%2C%20moving-code%2C%20core-attachment&isFromHome=true&isMobile=true&per_page=10&page=3481"
+    }
+}

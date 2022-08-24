@@ -1,0 +1,424 @@
+{
+    "data": [
+        {
+            "type": "self-study-materials",
+            "id": "3",
+            "attributes": {
+                "title": "Mesin",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/youtube.com\/playlist?list=PLaKoy91qqPBN2CZH-dEUkhuAttMv4Fnnc",
+                "parent": null,
+                "type": "playlist",
+                "source-system-no": "115",
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": "2",
+                "category-names-name": "Driver",
+                "is-parent": true,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": {
+                        "type": "materialCategoryName",
+                        "id": "2"
+                    }
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "85",
+            "attributes": {
+                "title": "Hino Dakar Rally 2015",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=OKSUlZf8nXI",
+                "parent": "84",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "2",
+                "categories-name": "Hino 500",
+                "is-sync": false,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": "17",
+                "updated-by": "17",
+                "playlist-name": "HINO Rally",
+                "string-is-sync": "false"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "2"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "4",
+            "attributes": {
+                "title": "Chasis",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/youtube.com\/playlist?list=PLaKoy91qqPBP9HJkdqMe3CDl2MBQPzKu-",
+                "parent": null,
+                "type": "playlist",
+                "source-system-no": "117",
+                "categories-id": "2",
+                "categories-name": "Hino 500",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": true,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "2"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "5",
+            "attributes": {
+                "title": "Daily Inspection",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/youtube.com\/playlist?list=PLaKoy91qqPBMz8lyyCR1Ohb33izWaSyhm",
+                "parent": null,
+                "type": "playlist",
+                "source-system-no": "121",
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": true,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "7",
+            "attributes": {
+                "title": "Driver 300 Daily Inspection Driving Sebelum Mengemudi",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=nylEzZiN3Cg",
+                "parent": "5",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "Daily Inspection",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "8",
+            "attributes": {
+                "title": "Driver 300 Daily Inspection Urutan Pemeriksaan",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=ma9C8Q5vAMU",
+                "parent": "5",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "Daily Inspection",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "10",
+            "attributes": {
+                "title": "Driver 300 Proper Driving Sebelum Menghidupkan Mesin",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=gJZpuim43Uo",
+                "parent": "9",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "Proper Driving",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "9",
+            "attributes": {
+                "title": "Proper Driving",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/youtube.com\/playlist?list=PLaKoy91qqPBNLJ9GdEYz1E7fXmUy8IFmM",
+                "parent": null,
+                "type": "playlist",
+                "source-system-no": "122",
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": true,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "11",
+            "attributes": {
+                "title": "Driver 300 Proper Driving Tombol dan Simbol",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=KswXT1JWpfo",
+                "parent": "9",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "Proper Driving",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        },
+        {
+            "type": "self-study-materials",
+            "id": "12",
+            "attributes": {
+                "title": "Driver 300 Proper Driving Pedal Rem dan Gas",
+                "thumbnails-id": null,
+                "thumbnails-original-filename": "",
+                "video-url": "https:\/\/www.youtube.com\/watch?v=Gi78hYPWsRw",
+                "parent": "9",
+                "type": "video",
+                "source-system-no": null,
+                "categories-id": "1",
+                "categories-name": "Hino 300",
+                "is-sync": true,
+                "category-names-id": null,
+                "category-names-name": "",
+                "is-parent": false,
+                "created-by": null,
+                "updated-by": null,
+                "playlist-name": "Proper Driving",
+                "string-is-sync": "true"
+            },
+            "relationships": {
+                "core-attachment": {
+                    "data": null
+                },
+                "material-category": {
+                    "data": {
+                        "type": "materialCategory",
+                        "id": "1"
+                    }
+                },
+                "material-category-name": {
+                    "data": null
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "materialCategory",
+            "id": "1",
+            "attributes": {
+                "name": "Hino 300",
+                "description": "Dutro",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "materialCategoryName",
+            "id": "2",
+            "attributes": {
+                "name": "Driver",
+                "description": "Driver",
+                "created-by": null,
+                "updated-by": null
+            }
+        },
+        {
+            "type": "materialCategory",
+            "id": "2",
+            "attributes": {
+                "name": "Hino 500",
+                "description": "Ranger",
+                "created-by": null,
+                "updated-by": null
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 73,
+            "count": 10,
+            "per_page": 10,
+            "current_page": 1,
+            "total_pages": 8
+        }
+    },
+    "links": {
+        "self": "https:\/\/my.hino.co.id\/myhinoenhancement\/self-study-materials?filter=&include=core-attachment%2Cmaterial-category%2Cmaterial-category-name&per_page=10&page=1",
+        "first": "https:\/\/my.hino.co.id\/myhinoenhancement\/self-study-materials?filter=&include=core-attachment%2Cmaterial-category%2Cmaterial-category-name&per_page=10&page=1",
+        "next": "https:\/\/my.hino.co.id\/myhinoenhancement\/self-study-materials?filter=&include=core-attachment%2Cmaterial-category%2Cmaterial-category-name&per_page=10&page=2",
+        "last": "https:\/\/my.hino.co.id\/myhinoenhancement\/self-study-materials?filter=&include=core-attachment%2Cmaterial-category%2Cmaterial-category-name&per_page=10&page=8"
+    }
+}

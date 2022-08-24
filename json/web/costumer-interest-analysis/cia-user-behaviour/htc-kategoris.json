@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "type": "htc-kategoris",
+            "id": "2",
+            "attributes": {
+                "kategori": "Driver",
+                "is-active": true,
+                "created-by": "19",
+                "updated-by": "19"
+            }
+        },
+        {
+            "type": "htc-kategoris",
+            "id": "1",
+            "attributes": {
+                "kategori": "Mekanik",
+                "is-active": true,
+                "created-by": "19",
+                "updated-by": "19"
+            }
+        }
+    ]
+}
