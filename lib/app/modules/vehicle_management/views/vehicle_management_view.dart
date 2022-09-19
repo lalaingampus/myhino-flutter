@@ -172,41 +172,38 @@ class VehicleManagementView extends GetView<VehicleManagementController> {
                                                   Container(
                                                     height: 200,
                                                     color: Colors.white,
-                                                    child: Center(
+                                                    child: Align(
+                                                      alignment: Alignment.centerLeft,
                                                       child: Column(
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .center,
-                                                        mainAxisSize:
-                                                            MainAxisSize.min,
+
                                                         children: <Widget>[
-                                                          ElevatedButton(
-                                                            child: const Text(
-                                                                'Owner Manual Book'),
-                                                            onPressed: () =>
-                                                                Navigator.pop(
-                                                                    context),
+                                                          TextButton(
+                                                            onPressed: () => print('Logic goes here'),
+                                                            child: Text('Button Alignment Example'),
+                                                            style: TextButton.styleFrom(
+                                                              alignment: Alignment.centerRight,
+                                                            ),
                                                           ),
-                                                          ElevatedButton(
-                                                            child: const Text(
-                                                                'Booking Service'),
-                                                            onPressed: () =>
-                                                                Navigator.pop(
-                                                                    context),
+                                                          TextButton(
+                                                            onPressed: () => print('Logic goes here'),
+                                                            child: Text('Button Alignment Example'),
+                                                            style: TextButton.styleFrom(
+                                                              alignment: Alignment.centerRight,
+                                                            ),
                                                           ),
-                                                          ElevatedButton(
-                                                            child: const Text(
-                                                                'Edit Vehicle'),
-                                                            onPressed: () =>
-                                                                Navigator.pop(
-                                                                    context),
+                                                          TextButton(
+                                                            onPressed: () => print('Logic goes here'),
+                                                            child: Text('Button Alignment Example'),
+                                                            style: TextButton.styleFrom(
+                                                              alignment: Alignment.centerRight,
+                                                            ),
                                                           ),
-                                                          ElevatedButton(
-                                                            child: const Text(
-                                                                'Delete'),
-                                                            onPressed: () =>
-                                                                Navigator.pop(
-                                                                    context),
+                                                          TextButton(
+                                                            onPressed: () => print('Logic goes here'),
+                                                            child: Text('Button Alignment Example'),
+                                                            style: TextButton.styleFrom(
+                                                              alignment: Alignment.centerRight,
+                                                            ),
                                                           ),
                                                         ],
                                                       ),
