@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import './header_profile_view.dart';
+import 'header_new_hino_view.dart';
 
 class HinoProfileView extends GetView {
   @override

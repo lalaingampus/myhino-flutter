@@ -36,22 +36,45 @@ class AccountView extends GetView<AccountController> {
             children: [
               ProfileHeaderView(),
               SizedBox(
-                child: TabBar(
-                  controller: account_controller.tabController, // * 3.1
-                  labelColor: Colors.black87,
-                  labelStyle: const TextStyle(fontSize: 18),
-                  unselectedLabelColor: Colors.grey,
-                  isScrollable: true, // can scroll horizontal axis
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: TabBar(
+                    controller: account_controller.tabController, // * 3.1
+                    labelColor: Colors.red,
+                    labelPadding: EdgeInsets.only(left: 20, right: 20),
+                    labelStyle: const TextStyle(fontSize: 18),
+                    unselectedLabelColor: Colors.grey,
+                    indicator: UnderlineTabIndicator(
+                        borderSide: BorderSide(width: 2.0, color: Colors.red),
+                        insets: EdgeInsets.symmetric(horizontal: 10.0)
+                    ),
+                    isScrollable: true, // can scroll horizontal axis
 
-                  tabs: [
-                    Tab(
-                      child: Text('Personal'),
-                    ),
-                    Tab(
-                      child: Text('Vehicle'),
-                    ),
-                  ],
+                    tabs: [
+                      Tab(
+                        child: Container(
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: Text('Personal',
+                              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold), ),
+                          ),
+                        ),
+
+                      ),
+                      Tab(
+                        child: Container(
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: Text('Vehicle',
+                                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                          ),
+                        ),
+
+                      ),
+                    ],
+                  ),
                 ),
+
               ),
               SizedBox(
                 width: double.maxFinite, //  * 4.1

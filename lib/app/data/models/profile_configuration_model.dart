@@ -113,19 +113,19 @@ class Attributes {
 
 class AboutUsAttachment {
   AboutUsAttachment({
-    this.id,
-    this.uploadedFilename,
-    this.originalFilename,
-    this.fileExtension,
-    this.fileSize,
-    this.createdBy,
-    this.updatedBy,
-    this.createdAt,
-    this.updatedAt,
-    this.deletedAt,
-    this.entityId,
-    this.documentType,
-    this.fileContent,
+    required this.id,
+    required this.uploadedFilename,
+    required this.originalFilename,
+    required this.fileExtension,
+    required this.fileSize,
+    required this.createdBy,
+    required this.updatedBy,
+    required this.createdAt,
+    required this.updatedAt,
+    required this.deletedAt,
+    required this.entityId,
+    required this.documentType,
+    required this.fileContent,
   });
 
   int id;

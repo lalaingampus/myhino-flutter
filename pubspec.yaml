@@ -11,6 +11,7 @@ dependencies:
   html: ^0.15.0
   intl: ^0.17.0 
   cool_alert: any
+  google_fonts: ^2.1.0
 
   get_storage: ^2.0.3
   cupertino_icons: ^1.0.2

@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'package:get/get.dart';
-import 'package:myhino/app/data/models/news_management_model.dart';
+import 'package:myhino/app/data/models/news_management.dart';
 import 'package:myhino/app/helpers/dio_client.dart';
 
 class BeritaPromosiController extends GetxController {
