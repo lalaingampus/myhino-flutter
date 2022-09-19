@@ -11,7 +11,7 @@ class PersonalView extends GetView {
           SizedBox(height: 10),
           Container(
             padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-            height: 565,
+            height: 605,
             width: 430,
             child: ClipRRect(
               borderRadius: BorderRadius.circular(10),

@@ -29,21 +29,21 @@ class BottomNavigation extends GetView {
       onTap: _onTap,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.red), label: 'Home'),
+            icon: Icon(Icons.home, ), label: 'Home'),
         BottomNavigationBarItem(
-          icon: Icon(Icons.handyman, color: Colors.red),
+          icon: Icon(Icons.handyman, ),
           label: 'Booking Service',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.directions_bus, color: Colors.red),
+          icon: Icon(Icons.directions_bus,),
           label: 'Vehicle Mgmt',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.support_agent, color: Colors.red),
+          icon: Icon(Icons.support_agent, ),
           label: 'Contact us',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.account_box_outlined, color: Colors.red),
+          icon: Icon(Icons.account_box_outlined ),
           label: 'Account',
         ),
       ],

@@ -22,7 +22,7 @@ class SliderView extends GetView {
       child: Column(
         children: [
           Container(
-            padding: EdgeInsets.fromLTRB(0, 10, 10, 50),
+            padding: EdgeInsets.fromLTRB(0, 150, 10, 50),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
