@@ -170,43 +170,65 @@ class VehicleManagementView extends GetView<VehicleManagementController> {
                                                 // Show Modal Bottom
                                                 Get.bottomSheet(
                                                   Container(
-                                                    height: 200,
-                                                    color: Colors.white,
+                                                    height: 220,
+
                                                     child: Align(
                                                       alignment: Alignment.centerLeft,
                                                       child: Column(
 
                                                         children: <Widget>[
+                                                          SizedBox(height: 10),
                                                           TextButton(
                                                             onPressed: () => print('Logic goes here'),
-                                                            child: Text('Button Alignment Example'),
+                                                            child: Text('Owner Manual Book',
+                                                                style: TextStyle(color: Colors.black,
+                                                                )
+                                                            ),
                                                             style: TextButton.styleFrom(
-                                                              alignment: Alignment.centerRight,
+                                                              alignment: Alignment.center,
+                                                              backgroundColor: Colors.blue,
                                                             ),
                                                           ),
                                                           TextButton(
                                                             onPressed: () => print('Logic goes here'),
-                                                            child: Text('Button Alignment Example'),
+                                                            child: Text('Booking Service',
+                                                                style: TextStyle(color: Colors.black,
+                                                                )
+                                                            ),
                                                             style: TextButton.styleFrom(
-                                                              alignment: Alignment.centerRight,
+                                                              alignment: Alignment.centerLeft,
+                                                              backgroundColor: Colors.blue,
                                                             ),
                                                           ),
                                                           TextButton(
                                                             onPressed: () => print('Logic goes here'),
-                                                            child: Text('Button Alignment Example'),
+                                                            child: Text('Edit Vehicle',
+                                                                style: TextStyle(color: Colors.black,
+                                                                )
+                                                            ),
                                                             style: TextButton.styleFrom(
-                                                              alignment: Alignment.centerRight,
+                                                              alignment: Alignment.centerLeft,
+                                                              backgroundColor: Colors.blue,
+
                                                             ),
                                                           ),
                                                           TextButton(
                                                             onPressed: () => print('Logic goes here'),
-                                                            child: Text('Button Alignment Example'),
+                                                            child: Text('Delete',
+                                                            style: TextStyle(
+                                                                color: Colors.red,
+                                                            )),
                                                             style: TextButton.styleFrom(
-                                                              alignment: Alignment.centerRight,
+                                                              alignment: Alignment.centerLeft,
+                                                                backgroundColor: Colors.blue,
                                                             ),
                                                           ),
                                                         ],
                                                       ),
+                                                    ),
+                                                    decoration: BoxDecoration(
+                                                      borderRadius: BorderRadius.circular(10),
+                                                      color: Colors.white,
                                                     ),
                                                   ),
                                                 );

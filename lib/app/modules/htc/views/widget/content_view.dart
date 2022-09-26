@@ -10,7 +10,7 @@ class ContentView extends GetView {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        height: 150,
+        height: 320,
         width: 400,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

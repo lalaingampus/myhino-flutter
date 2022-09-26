@@ -1,19 +1,32 @@
 import 'package:flutter/material.dart';
-import 'package:myhino/app/widgets/slider.dart';
+import 'package:myhino/app/modules/htc/views/video_training_view.dart';
+import 'package:myhino/app/widgets/slider_htc.dart';
 import 'package:myhino/app/widgets/button.dart';
 import 'package:get/get.dart';
 
 class DriverTrainingView extends GetView {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("HINO Training Centre (HTC)"),
+        leading: IconButton(
+          onPressed: () {
+            Get.toNamed('home');
+          },
+          icon: Icon(Icons.arrow_back_rounded, color: Colors.white, size: 25),
+        ),
+        backgroundColor: Colors.red,
+      ),
+      resizeToAvoidBottomInset: true,
+      body: SingleChildScrollView(
       child: Container(
         height: 860,
         width: 411,
         color: Colors.grey[200],
         child: Column(
           children: [
-            SliderView(),
+            SliderHTCView(),
             //Start::Content
             Container(
               height: 275,
@@ -143,6 +156,7 @@ class DriverTrainingView extends GetView {
                   GestureDetector(
                     onTap: () {
                       //VideoTraining()
+                      Get.to(VideoTrainingView());
                     },
                     child: Container(
                       padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -190,6 +204,7 @@ class DriverTrainingView extends GetView {
                   GestureDetector(
                     onTap: () {
                       //DaftarTrainingHSTCC()
+
                     },
                     child: Container(
                       padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -238,10 +253,27 @@ class DriverTrainingView extends GetView {
             ),
             //End::Option
             SizedBox(height: 20),
-            Button(onTap: () {}, height: 60, width: 400, title: 'HTC'),
+            Container(
+              child: Column(
+                children: [
+                  Button(
+                      onTap: () {},
+                      height: 60,
+                      width: 400,
+                      title: 'Instagram HTC'),
+                  Button(
+                      onTap: () {},
+                      height: 60,
+                      width: 400,
+                      title: 'Website HTC')
+                ],
+              ),
+            ),
           ],
         ),
       ),
+      )
     );
+
   }
 }

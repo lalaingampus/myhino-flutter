@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myhino/app/widgets/slider.dart';
+import 'package:myhino/app/widgets/slider_htc.dart';
 import 'package:myhino/app/widgets/search.dart';
 import 'package:myhino/app/widgets/paginations.dart';
 import 'package:myhino/app/widgets/button.dart';
@@ -27,7 +27,7 @@ class MekanikTrainingView extends GetView {
           color: Colors.grey[200],
           child: Column(
             children: [
-              SliderView(),
+              SliderHTCView(),
               // Start::detail Component
               Container(
                 child: Column(
@@ -45,6 +45,7 @@ class MekanikTrainingView extends GetView {
                                 onTap: () {
                                   //PlayVideoTraining
                                 },
+
                                 child: Container(
                                   height: 210,
                                   width: 180,
@@ -255,221 +256,7 @@ class MekanikTrainingView extends GetView {
               // End:: detail COmponent
               Search(onTap: () {}, width: 345),
               SizedBox(height: 10),
-              Container(
-                child: Column(
-                  children: [
-                    Container(
-                      height: 460,
-                      width: 411,
-                      padding:
-                          EdgeInsets.symmetric(vertical: 5, horizontal: 15),
-                      child: Column(
-                        children: [
-                          Row(
-                            children: [
-                              GestureDetector(
-                                onTap: () {
-                                  //DetailVideoTraining
-                                },
-                                child: Container(
-                                  height: 220,
-                                  width: 180,
-                                  child: Column(
-                                    children: [
-                                      Container(
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(12),
-                                          child: Container(
-                                            child: Image.asset(
-                                              "assets/mobile/images/pc-profia.png",
-                                              scale: 1.5,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      SizedBox(height: 10),
-                                      Align(
-                                        alignment: Alignment.centerLeft,
-                                        child: Container(
-                                          child: Padding(
-                                            padding: EdgeInsets.only(
-                                                left: 10,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0),
-                                            //apply padding to some sides only
-                                            child: Text(
-                                              'Proper Driving',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 18),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              SizedBox(width: 20),
-                              GestureDetector(
-                                onTap: () {
-                                  //HinoProfiaPage
-                                },
-                                child: Container(
-                                  height: 220,
-                                  width: 180,
-                                  child: Column(
-                                    children: [
-                                      Container(
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(12),
-                                          child: Container(
-                                            child: Image.asset(
-                                              "assets/mobile/images/pc-profia.png",
-                                              scale: 1.5,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      SizedBox(height: 10),
-                                      Align(
-                                        alignment: Alignment.centerLeft,
-                                        child: Container(
-                                          child: Padding(
-                                            padding: EdgeInsets.only(
-                                                left: 10,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0),
-                                            //apply padding to some sides only
-                                            child: Text(
-                                              'Proper Driving',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 18),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                          SizedBox(height: 5),
-                          Row(
-                            children: [
-                              GestureDetector(
-                                onTap: () {
-                                  //HinoProfiaPage
-                                },
-                                child: Container(
-                                  height: 220,
-                                  width: 180,
-                                  child: Column(
-                                    children: [
-                                      Container(
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(12),
-                                          child: Container(
-                                            child: Image.asset(
-                                              "assets/mobile/images/pc-profia.png",
-                                              scale: 1.5,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      SizedBox(height: 10),
-                                      Align(
-                                        alignment: Alignment.centerLeft,
-                                        child: Container(
-                                          child: Padding(
-                                            padding: EdgeInsets.only(
-                                                left: 10,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0),
-                                            //apply padding to some sides only
-                                            child: Text(
-                                              'Proper Driving',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 18),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                              SizedBox(width: 20),
-                              GestureDetector(
-                                onTap: () {
-                                  //HinoProfiaPage
-                                },
-                                child: Container(
-                                  height: 220,
-                                  width: 180,
-                                  child: Column(
-                                    children: [
-                                      Container(
-                                        child: ClipRRect(
-                                          borderRadius:
-                                              BorderRadius.circular(12),
-                                          child: Container(
-                                            child: Image.asset(
-                                              "assets/mobile/images/pc-profia.png",
-                                              scale: 1.5,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      SizedBox(height: 10),
-                                      Align(
-                                        alignment: Alignment.centerLeft,
-                                        child: Container(
-                                          child: Padding(
-                                            padding: EdgeInsets.only(
-                                                left: 10,
-                                                bottom: 0,
-                                                right: 0,
-                                                top: 0),
-                                            //apply padding to some sides only
-                                            child: Text(
-                                              'Proper Driving',
-                                              textAlign: TextAlign.center,
-                                              style: TextStyle(
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 18),
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
+
               SizedBox(height: 10),
               PaggingButton(currentPage: 1, totalPage: 20),
               Button(onTap: () {}, height: 60, width: 400, title: 'HTC'),
