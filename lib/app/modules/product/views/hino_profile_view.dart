@@ -111,18 +111,19 @@ class HinoProfileView extends GetView {
             SizedBox(height: 25),
             //Start:: Content
             Container(
-              height: 400,
+              height: 120,
               width: 400,
+
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
-                    height: 180,
+                    padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+                    height: 120,
                     width: 400,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10.0),
+                      borderRadius: BorderRadius.circular(25.0),
                       color: Colors.white,
                     ),
                     child: ClipRRect(
@@ -131,7 +132,7 @@ class HinoProfileView extends GetView {
                         child: Row(
                           children: [
                             Container(
-                              height: 100,
+                              height: 50,
                               width: 140,
                               child: Image.asset(
                                 "assets/mobile/images/icon-bus.png",
@@ -141,12 +142,13 @@ class HinoProfileView extends GetView {
                             ),
                             SizedBox(width: 10),
                             Container(
-                              height: 380,
+                              height: 100,
                               width: 220,
                               child: Column(
                                 children: [
                                   SizedBox(height: 7),
                                   Align(
+
                                     alignment: Alignment.centerLeft,
                                     child: Container(
                                       child: Text(
@@ -158,7 +160,7 @@ class HinoProfileView extends GetView {
                                       ),
                                     ),
                                   ),
-                                  SizedBox(height: 15),
+                                  SizedBox(height: 10),
                                   Align(
                                     alignment: Alignment.centerLeft,
                                     child: Container(
@@ -170,12 +172,12 @@ class HinoProfileView extends GetView {
                                       ),
                                     ),
                                   ),
-                                  SizedBox(height: 25),
+                                  SizedBox(height: 10),
                                   Container(
                                     height: 30,
                                     width: 220,
                                     child: Row(
-                                      mainAxisAlignment: MainAxisAlignment.end,
+                                      mainAxisAlignment: MainAxisAlignment.start,
                                       children: [
                                         GestureDetector(
                                           onTap: () {},
@@ -202,27 +204,30 @@ class HinoProfileView extends GetView {
                                             ),
                                           ),
                                         ),
+                                        SizedBox(width: 63),
+                                        GestureDetector(
+                                          onTap: () {
+                                            //SpesifikasiHinoProfiaPage
+                                          },
+                                          child: Align(
+                                            alignment: Alignment.center,
+
+                                            child: Container(
+                                              child: Text(
+                                                "Lihat Spesifikasi",
+                                                style: TextStyle(
+                                                    fontSize: 13,
+                                                    color: Colors.red,
+                                                    fontWeight: FontWeight.bold),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
                                       ],
                                     ),
                                   ),
-                                  SizedBox(height: 10),
-                                  GestureDetector(
-                                    onTap: () {
-                                      //SpesifikasiHinoProfiaPage
-                                    },
-                                    child: Align(
-                                      alignment: Alignment.bottomRight,
-                                      child: Container(
-                                        child: Text(
-                                          "Lihat Spesifikasi",
-                                          style: TextStyle(
-                                              fontSize: 15,
-                                              color: Colors.red,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ),
-                                    ),
-                                  ),
+
+
                                 ],
                               ),
                             ),
@@ -234,7 +239,133 @@ class HinoProfileView extends GetView {
                   ),
                 ],
               ),
-            ),
+            )
+            // Container(
+            //   height: 220,
+            //   width: 400,
+            //   child: Column(
+            //     mainAxisAlignment: MainAxisAlignment.start,
+            //     crossAxisAlignment: CrossAxisAlignment.center,
+            //     children: [
+            //       Container(
+            //         padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
+            //         height: 180,
+            //         width: 400,
+            //         decoration: BoxDecoration(
+            //           borderRadius: BorderRadius.circular(10.0),
+            //           color: Colors.white,
+            //         ),
+            //         child: ClipRRect(
+            //           borderRadius: BorderRadius.circular(14),
+            //           child: Container(
+            //             child: Row(
+            //               children: [
+            //                 Container(
+            //                   height: 50,
+            //                   width: 140,
+            //                   child: Image.asset(
+            //                     "assets/mobile/images/icon-bus.png",
+            //                     height: 10,
+            //                     width: 20,
+            //                   ),
+            //                 ),
+            //                 SizedBox(width: 10),
+            //                 Container(
+            //                   height: 100,
+            //                   width: 220,
+            //                   child: Column(
+            //                     children: [
+            //                       SizedBox(height: 7),
+            //                       Align(
+            //
+            //                         alignment: Alignment.centerLeft,
+            //                         child: Container(
+            //                           child: Text(
+            //                             "ZS4141 - Euro4",
+            //                             style: TextStyle(
+            //                               fontWeight: FontWeight.bold,
+            //                               fontSize: 18,
+            //                             ),
+            //                           ),
+            //                         ),
+            //                       ),
+            //                       SizedBox(height: 15),
+            //                       Align(
+            //                         alignment: Alignment.centerLeft,
+            //                         child: Container(
+            //                           child: Text(
+            //                             "Profia",
+            //                             style: TextStyle(
+            //                               fontSize: 14,
+            //                             ),
+            //                           ),
+            //                         ),
+            //                       ),
+            //                       SizedBox(height: 25),
+            //                       Container(
+            //                         height: 30,
+            //                         width: 220,
+            //                         child: Row(
+            //                           mainAxisAlignment: MainAxisAlignment.end,
+            //                           children: [
+            //                             GestureDetector(
+            //                               onTap: () {},
+            //                               child: Container(
+            //                                 height: 25,
+            //                                 width: 25,
+            //                                 child: Icon(
+            //                                   Icons.share,
+            //                                   color: Colors.black,
+            //                                   size: 13,
+            //                                 ),
+            //                               ),
+            //                             ),
+            //                             SizedBox(width: 10),
+            //                             GestureDetector(
+            //                               onTap: () {},
+            //                               child: Container(
+            //                                 height: 25,
+            //                                 width: 25,
+            //                                 child: Icon(
+            //                                   Icons.download,
+            //                                   color: Colors.black,
+            //                                   size: 13,
+            //                                 ),
+            //                               ),
+            //                             ),
+            //                           ],
+            //                         ),
+            //                       ),
+            //                       SizedBox(height: 10),
+            //                       GestureDetector(
+            //                         onTap: () {
+            //                           //SpesifikasiHinoProfiaPage
+            //                         },
+            //                         child: Align(
+            //                           alignment: Alignment.bottomRight,
+            //                           child: Container(
+            //                             child: Text(
+            //                               "Lihat Spesifikasi",
+            //                               style: TextStyle(
+            //                                   fontSize: 15,
+            //                                   color: Colors.red,
+            //                                   fontWeight: FontWeight.bold),
+            //                             ),
+            //                           ),
+            //                         ),
+            //                       ),
+            //                     ],
+            //                   ),
+            //                 ),
+            //                 SizedBox(width: 10),
+            //               ],
+            //             ),
+            //           ),
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             //End:: Content
           ],
         ),

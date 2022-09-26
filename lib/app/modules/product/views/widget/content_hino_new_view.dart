@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 
+import '../hino_profile_view.dart';
+
 class ContentHinoNewView extends GetView {
   @override
   Widget build(BuildContext context) {
@@ -18,10 +20,9 @@ class ContentHinoNewView extends GetView {
                   children: [
                     GestureDetector(
                       onTap: () {
-                        // Navigator.push(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //         builder: (context) => HinoProfiaPage()));
+
+                        Get.to(HinoProfileView());
+
                       },
                       child: Container(
                         height: 180,
