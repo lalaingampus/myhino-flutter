@@ -25,14 +25,7 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
           icon: Icon(Icons.arrow_back_rounded, color: Colors.white, size: 25),
         ),
         backgroundColor: Colors.red,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.history),
-            onPressed: () {
-              Get.back();
-            },
-          ),
-        ],
+
       ),
       resizeToAvoidBottomInset: true,
       body: SingleChildScrollView(
@@ -40,345 +33,560 @@ class SimulasiKreditView extends GetView<SimulasiKreditController> {
           key: simulai_kredit_controller.key,
           child: Column(
             children: <Widget>[
-              Text(
-                "model*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                ),
-              ),
-              // Add TextFormFields and ElevatedButton here.
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 8),
-                child: SearchDropDown(
-                    items: ["Brazil", "France", "Tunisia", "Canada"],
-                    defaultSelect: "Tunisia"),
-              ),
-
-              Text(
-                "Variant*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field Models
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Models *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.variant,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
 
-              Text(
-                "Harga Unit*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field Variant
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Variant*',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.hargaUnit,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
 
-              Text(
-                "Harga Karoseri*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field Unit
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Record Unit *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.hargaKaroseri,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
-              Text(
-                "Jumlah Unit*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+
+              // Field Harga Karoeseri *
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Harga Karoeseri *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.jumlahUnit,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
 
-              Text(
-                "DP",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field Jumlah Unit *
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Jumlah Unit *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.dp,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
 
-              Text(
-                "Insurance Type",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                ),
-              ),
-              Container(
-                margin: EdgeInsets.symmetric(horizontal: 8),
-                child: SearchDropDown(
-                    items: ["All Risk", "Tlo"], defaultSelect: "All Risk"),
-              ),
-
-              Text(
-                "Biaya Asuransi",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field DP
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'DP *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.dp,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
-              Text(
-                "Biaya Provisi",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+
+              // Field Insurance Type
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Insurance Type *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
-
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.dp,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
 
-              Text(
-                "Tenor(Bulan)*",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
-                ),
-              ),
-
-              Text(
-                "Bunga",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+              // Field Biaya Asuransi
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Biaya Asuransi *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.dp,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
-              Text(
-                "Metode Angsuran",
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 18,
+
+              // Field Biaya Provisi
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Biaya Provisi *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ),
               ),
               Container(
                 padding: const EdgeInsets.all(10),
                 child: TextField(
-                  controller: simulai_kredit_controller.dp,
+                  style: TextStyle(color: Colors.black),
+
                   decoration: const InputDecoration(
                     prefixIcon: Align(
                       widthFactor: 1.0,
                       heightFactor: 1.0,
                       child: FaIcon(
                         FontAwesomeIcons.user,
-                        color: Colors.grey,
+                        color: Colors.white,
                       ),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.red, width: 2.0),
                     ),
                     enabledBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.grey, width: 2.0),
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
                       borderRadius: BorderRadius.all(
                         Radius.circular(20),
                       ),
                     ),
+                    labelText: 'User Name',
                     labelStyle: TextStyle(color: Colors.white),
                   ),
                 ),
               ),
+
+              // Field Tenor(Bulan)
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Tenor(Bulan) *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  style: TextStyle(color: Colors.black),
+
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.white,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelText: 'User Name',
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              // Field Bunga
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Bunga *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  style: TextStyle(color: Colors.black),
+
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.white,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelText: 'User Name',
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+              // Field Metode Angsuran
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Container(
+                  child: Padding(
+                    padding: EdgeInsets.only(
+                        left: 15,
+                        bottom: 0,
+                        right: 0,
+                        top: 10), //apply padding to some sides only
+                    child: Text(
+                      'Metode Angsuran *',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.all(10),
+                child: TextField(
+                  style: TextStyle(color: Colors.black),
+
+                  decoration: const InputDecoration(
+                    prefixIcon: Align(
+                      widthFactor: 1.0,
+                      heightFactor: 1.0,
+                      child: FaIcon(
+                        FontAwesomeIcons.user,
+                        color: Colors.white,
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.red, width: 2.0),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.black, width: 2.0),
+                      borderRadius: BorderRadius.all(
+                        Radius.circular(20),
+                      ),
+                    ),
+                    labelText: 'User Name',
+                    labelStyle: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+
+
+              // Button Hitung
               Container(
                 height: 50,
                 width: 410,

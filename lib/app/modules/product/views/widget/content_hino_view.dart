@@ -18,9 +18,7 @@ class ContentHinoView extends GetView {
                   children: [
                     GestureDetector(
                       onTap: () {
-
-                          Get.to("HinoProfileView");
-
+                        Get.to("HinoProfileView");
                       },
                       child: Container(
                         height: 180,
