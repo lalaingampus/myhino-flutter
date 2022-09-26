@@ -33,8 +33,8 @@ class HeaderHinoNewView extends GetView {
                             padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
                             child: Image.asset(
                               'assets/mobile/images/info-euro.png',
-                              height: 80,
-                              width: 80,
+                              height: 40,
+                              width: 60,
                             ),
                           ),
 
