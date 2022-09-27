@@ -34,6 +34,8 @@ dependencies:
   smart_select: ^4.3.2
   file_picker: ^5.0.1
 
+  fa_stepper: ^0.0.2
+
   
 
   flutter: 

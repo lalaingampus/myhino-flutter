@@ -24,64 +24,110 @@ class SignupView extends GetView<SignupController> {
         ),
       ),
       resizeToAvoidBottomInset: true,
-      body: Obx(() => Stepper(
-        type: StepperType.horizontal,
-        steps: buildStep(),
-        currentStep: controller.currentStep.value,
-        onStepContinue: (){
-          if(controller.currentStep.value == buildStep().length-1)
-          {
-            print("send data to server");
-          } else {
-            controller.currentStep.value++;
-          }
+      body: Container(
+        child: Obx(() => Stepper(
+          type: StepperType.horizontal,
+          steps: buildStep(),
+          elevation: 0,
+          currentStep: controller.currentStep.value,
+          onStepContinue: (){
+            if(controller.currentStep.value == buildStep().length-1)
+            {
+              print("send data to server");
+            } else {
+              controller.currentStep.value++;
+            }
 
-        },
-        onStepCancel: (){
-          controller.currentStep.value==0 ? null : controller.currentStep.value--;
-        },
-        onStepTapped: (index) {
-          controller.currentStep.value = index;
-        },
-        controlsBuilder: (BuildContext context, ControlsDetails controls) {
-          return Container(
-            child: Row(
-              children: [
-                Expanded(
-                  child: ElevatedButton(
-                    child: Text(controller.currentStep.value == buildStep().length-1 ? "Submit" : "Next"),
-                    onPressed: controls.onStepContinue,
+          },
+          onStepCancel: (){
+            controller.currentStep.value==0 ? null : controller.currentStep.value--;
+          },
+          onStepTapped: (index) {
+            controller.currentStep.value = index;
+          },
+          controlsBuilder: (BuildContext context, ControlsDetails controls) {
+            return Container(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  SizedBox(
+                    height: 55,
+                    width: 78,
+                    child: ElevatedButton.icon(
+
+                      onPressed: controls.onStepCancel,
+                      icon: Icon(Icons.navigate_before_rounded,
+                          size: 40),
+                      style: ElevatedButton.styleFrom(
+                          primary: Colors
+                              .black, //elevated btton background color
+                          shape: RoundedRectangleBorder(
+                            //to set border radius to button
+                              borderRadius: BorderRadius.circular(20)),
+                          padding: EdgeInsets.fromLTRB(10, 0, 0, 0)
+                      ), label: Text(""),
+                    ),
                   ),
-                ),
-                SizedBox(width: 16),
-                if (controller.currentStep.value != 0)
-                Expanded(
-                  child: ElevatedButton(
-                    child: Text("Previous"),
-                    onPressed: controls.onStepCancel,
+                  SizedBox(width: 16),
+                  if (controller.currentStep.value == 2)
+                    SizedBox(
+                      height:55,
+                      width: 175,
+                      child: ElevatedButton(
+                          child: Text("Submit", style: TextStyle(fontSize: 15)),
+                          onPressed: controls.onStepContinue,
+                          style: ElevatedButton.styleFrom(
+                            primary: Colors
+                                .red, //elevated btton background color
+                            shape: RoundedRectangleBorder(
+                              //to set border radius to button
+                                borderRadius: BorderRadius.circular(20)),
+
+                          )
+                      ),
+                    ),
+                  SizedBox(width: 16),
+                  SizedBox(
+                    height: 55,
+                    width: 78,
+
+                    child: ElevatedButton.icon(
+                      icon: Icon(Icons.navigate_next_rounded,
+                          size: 40),
+                      style: ElevatedButton.styleFrom(
+                          primary: Colors
+                              .black, //elevated btton background color
+                          shape: RoundedRectangleBorder(
+                            //to set border radius to button
+                              borderRadius: BorderRadius.circular(20)),
+                          padding: EdgeInsets.fromLTRB(10, 0, 0, 0)
+                      ), label: Text(""),
+                      onPressed: controls.onStepContinue,
+                    ),
                   ),
-                ),
-              ],
-            ),
-          );
-        },
-      )),
+                ],
+              ),
+            );
+          },
+        )),
+
+      )
     );
   }
 
   List<Step> buildStep() {
     return [
       Step(
-          title: Text('Personal'),
+          title: Text('Kontak'),
           content: Container(
             child: Column(
               children: [
                 Align(
-                alignment: Alignment.centerLeft,
+                alignment: Alignment.topLeft,
                 child: Container(
                 child: Padding(
                 padding: EdgeInsets.only(
-                left: 15,
+                left: 0,
                 bottom: 10,
                 right: 20,
                 top: 0), //apply padding to some sides only
@@ -95,6 +141,7 @@ class SignupView extends GetView<SignupController> {
                 ),
                 ),
                 ),
+                SizedBox(height: 20),
                 Align(
                 alignment: Alignment.centerLeft,
                 child: Container(
@@ -212,7 +259,9 @@ class SignupView extends GetView<SignupController> {
                 labelStyle: TextStyle(color: Colors.white)),
                 ),
                 ),
+                SizedBox(height: 30)
               ],
+
             ),
           ),
           isActive: controller.currentStep.value >= 0,
@@ -220,16 +269,16 @@ class SignupView extends GetView<SignupController> {
       ),
 
       Step(
-          title: Text('Business'),
+          title: Text('Address'),
           content: Container(
             child: Column(
               children: [
                 Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.topLeft,
                   child: Container(
                     child: Padding(
                       padding: EdgeInsets.only(
-                          left: 15,
+                          left: 0,
                           bottom: 10,
                           right: 20,
                           top: 0), //apply padding to some sides only
@@ -243,6 +292,7 @@ class SignupView extends GetView<SignupController> {
                     ),
                   ),
                 ),
+
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Container(
@@ -360,6 +410,7 @@ class SignupView extends GetView<SignupController> {
                         labelStyle: TextStyle(color: Colors.white)),
                   ),
                 ),
+                SizedBox(height: 30)
               ],
             ),
           ),
@@ -369,16 +420,16 @@ class SignupView extends GetView<SignupController> {
               : StepState.indexed),
 
       Step(
-          title: Text('Confirm'),
+          title: Text('Password'),
           content: Container(
             child: Column(
               children: [
                 Align(
-                  alignment: Alignment.centerLeft,
+                  alignment: Alignment.topLeft,
                   child: Container(
                     child: Padding(
                       padding: EdgeInsets.only(
-                          left: 15,
+                          left: 0,
                           bottom: 10,
                           right: 20,
                           top: 0), //apply padding to some sides only
@@ -392,6 +443,7 @@ class SignupView extends GetView<SignupController> {
                     ),
                   ),
                 ),
+                SizedBox(height: 20),
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Container(
@@ -509,6 +561,7 @@ class SignupView extends GetView<SignupController> {
                         labelStyle: TextStyle(color: Colors.white)),
                   ),
                 ),
+                SizedBox(height: 30)
               ],
             ),
           ),
